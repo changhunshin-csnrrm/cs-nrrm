@@ -4,6 +4,9 @@
 > **It is inseparable from Changhun Shin’s 12-year personal recovery archive.**  
 > **It must not be generalized, medicalized, or used as a treatment model.**
 
+**Canonical definition:**
+https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CANONICAL-DEFINITION.md
+
 
 **Authoritative source:**  
 Official Declaration (English – Master Version)  
