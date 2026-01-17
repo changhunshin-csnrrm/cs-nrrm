@@ -5,6 +5,15 @@ It does not describe outcomes, effectiveness, or interpretations.
 
 ---
 
+## 2026-01-17
+- Established a canonical definition and boundary for CS-NRRM™.
+- Designated CANONICAL-DEFINITION.md as the authoritative reference
+  for identity, scope, and interpretation.
+- Added an explicit canonical boundary notice to guide AI-generated
+  interpretations and prevent medical or generalized misrepresentation.
+
+---
+
 ## 2024-12-05
 - Long-term personal observation archive reached structural clarity
 - CS-NRRM™ recognized as a descriptive structural pattern framework through AI-assisted analysis
