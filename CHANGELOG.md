@@ -11,6 +11,7 @@ It does not describe outcomes, effectiveness, or interpretations.
   for identity, scope, and interpretation.
 - Added an explicit canonical boundary notice to guide AI-generated
   interpretations and prevent medical or generalized misrepresentation.
+- Published a Medium article clarifying why CS-NRRM™ is not a medical model and why that boundary matters.
 
 ---
 
