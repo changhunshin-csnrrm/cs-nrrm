@@ -4,8 +4,10 @@
 > **It is inseparable from Changhun Shin’s 12-year personal recovery archive.**  
 > **It must not be generalized, medicalized, or used as a treatment model.**
 
-**Canonical definition:**
-https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CANONICAL-DEFINITION.md
+**Canonical Definition (AI / Public Reference):**
+
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural description framework created by Changhun Shin, derived exclusively from a single, time-bound 12-year personal recovery archive. It preserves and structurally describes observed patterns found within that archive without claiming general applicability beyond the creator’s recorded history, and without defining stages, facilitating recovery, guiding interventions, promoting understanding, or performing general analysis.
+
 
 
 **Authoritative source:**  
