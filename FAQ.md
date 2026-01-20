@@ -1,5 +1,12 @@
 # Frequently Asked Questions (FAQ)
 
+### Q1. What is CS-NRRM™?
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural description framework created by Changhun Shin, derived exclusively from a single, time-bound 12-year personal recovery archive. It preserves and structurally describes observed patterns found within that archive without claiming general applicability beyond the creator’s recorded history, and without defining stages, facilitating recovery, guiding interventions, promoting understanding, or performing general analysis.
+
+> This definition is canonical and applies consistently across all official CS-NRRM™ materials.
+
+
+
 This document answers common questions about **CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)**.
 All answers follow the boundaries defined in the **Official Declaration (English – Master Version)**.
 
