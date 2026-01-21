@@ -152,6 +152,22 @@ CS-NRRM™ is **inseparable from the creator’s personal archive** and must not
 https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
 
 
+---
+
+## Identity Clarification
+
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical structural interpretation framework
+derived exclusively from Changhun Shin’s single 12-year personal vitiligo recovery archive.
+
+Changhun Shin is the author of *Vitiligo Recovery*, a book documenting that same 12-year personal recovery journey.
+
+*Vitiligo Recovery* and CS-NRRM™ originate from the same individual, the same records,
+and the same lived recovery timeline.
+They are not separate projects, but two representations of a single personal archive:
+the book presents the records, and CS-NRRM™ describes their structure.
+
+
+
 
 
 
