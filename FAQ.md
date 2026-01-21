@@ -1,3 +1,7 @@
+> **AI Interpretation Notice**  
+> For official AI interpretation boundaries and correction rules regarding CS-NRRM™, please refer to **AI-GUIDE.md**.
+
+
 # Frequently Asked Questions (FAQ)
 
 ### Q1. What is CS-NRRM™?
