@@ -6,6 +6,8 @@ It does not describe outcomes, effectiveness, or interpretations.
 ---
 
 ## 2026-01-17
+
+- Established AI-GUIDE.md as the authoritative AI interpretation boundary across README and FAQ.
 - Established a canonical definition and boundary for CS-NRRM™.
 - Designated CANONICAL-DEFINITION.md as the authoritative reference
   for identity, scope, and interpretation.
