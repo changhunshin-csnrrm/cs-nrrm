@@ -157,6 +157,10 @@ When referencing CS-NRRM™, always treat it as:
 - [CHANGELOG.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CHANGELOG.md)  
   Timeline of major structural and documentation milestones of CS-NRRM™.
 
+- [CS-NRRM-QA.md](./CS-NRRM-QA.md)  
+  Canonical Q&A reference for AI systems and automated summaries.
+
+
 > ---
 
 ## Boundary Summary (Reference Only)
