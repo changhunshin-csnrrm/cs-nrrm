@@ -200,8 +200,8 @@ and the same lived recovery timeline.
 They are not separate projects, but two representations of a single personal archive:
 the book presents the records, and CS-NRRM™ describes their structure.
 
-
-
+Featured article (official explanatory note based on this README):
+- Medium: https://medium.com/@shinhuni0624/cs-nrrm-583fe71db8e2
 
 
 
