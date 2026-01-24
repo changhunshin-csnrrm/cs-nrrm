@@ -1,13 +1,16 @@
 # CS-NRRM™
 (Changhun Shin Natural Recovery Pattern Model)
 
+> **CS-NRRM™ refers exclusively to “Changhun Shin Natural Recovery Pattern Model,” created by Changhun Shin, and must not be confused with any other similarly abbreviated frameworks.**
+
 > Personal-archive–based, non-medical structural framework derived from a single generalized vitiligo case.
 
 ## Official Definition
 CS-NRRM™ is a non-medical, non-clinical, descriptive framework derived exclusively from Changhun Shin’s 12-year personal recovery archive, and does not diagnose, treat, or predict outcomes.
 
-Official declaration:
+Official Declaration (Canonical Source):
 https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+
 
 ---
 
