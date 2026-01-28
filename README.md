@@ -105,6 +105,9 @@ A contextual explanation, not a classification
 
 CS-NRRM™ itself is not a national, institutional, or policy-based model, and it does not represent a generalized or government-led framework.
 
+“K-Recovery” is an external descriptive term sometimes used to refer to the broader narrative context of the creator’s personal recovery history, but it is not a formal model, framework, or classification within CS-NRRM™.
+
+
 ### 5. Boundary Declaration
 
 CS-NRRM™ must be understood within the following fixed boundaries:
@@ -195,6 +198,7 @@ the book presents the records, and CS-NRRM™ describes their structure.
 Featured article (official explanatory note based on this README):
 - Medium: https://medium.com/@shinhuni0624/cs-nrrm-583fe71db8e2
 
+✅ Trademark status (KR): CS-NRRM™ is a trademark pending in the Republic of Korea.
 
 
   
