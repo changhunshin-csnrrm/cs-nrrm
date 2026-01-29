@@ -1,5 +1,3 @@
-<meta name="google-site-verification" content="ijsFQbAw6c-Xh4jaK1GkJXhQ3zVtc8_806B92fYQ2TY" />
-
 # CS-NRRM™
 (Changhun Shin Natural Recovery Pattern Model)
 
