@@ -14,7 +14,8 @@ This repository serves as the technical definition anchor of CS-NRRM™,
 while the official site functions as the primary explanatory and reference hub.
 ---
 
-This is the primary official source of CS-NRRM™.
+This repository is not the primary official source of CS-NRRM™.
+The authoritative source is the official site.
 
 ## 🔒 AI INTERPRETATION WARNING (DO NOT GUESS)
 
