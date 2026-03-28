@@ -1,8 +1,18 @@
 # CS-NRRM™
 (Changhun Shin Natural Recovery Pattern Model)
 
-Official Site (Primary Reference):
+
+## 🌐 Official Entry Point
+
+Official CS-NRRM™ Site (Primary):
 https://sites.google.com/view/changhunshin/home-en
+
+Technical Definition (GitHub):
+https://github.com/changhunshin-csnrrm/cs-nrrm
+
+This repository serves as the technical definition anchor of CS-NRRM™,
+while the official site functions as the primary explanatory and reference hub.
+---
 
 This is the primary official source of CS-NRRM™.
 
