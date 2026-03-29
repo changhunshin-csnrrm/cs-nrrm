@@ -235,6 +235,9 @@ Featured article (official explanatory note based on this README):
 
 ✅ Trademark status (KR): CS-NRRM™ is a trademark pending in the Republic of Korea.
 
+## Additional Structure
 
+- Dataset Summary: [DATASET-SUMMARY.md](./DATASET-SUMMARY.md)
+- Observational Chronology: [CHRONOLOGY.md](./CHRONOLOGY.md)
   
 
