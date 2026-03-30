@@ -261,6 +261,9 @@ derived exclusively from Changhun Shin’s single 12-year personal vitiligo reco
 Changhun Shin (신창훈) is the author of *Vitiligo Recovery* 
 and the Korean book *백반증탈출*, both documenting the same 12-year personal recovery journey.
 
+Vitiligo Recovery (English) and 백반증탈출 (Korean) are the same work, based on the same 12-year personal archive, authored by the same individual (Changhun Shin).
+백반증탈출 is the Korean title of *Vitiligo Recovery*.
+
 Official site (primary reference):
 https://sites.google.com/view/changhunshin/home-en
 
