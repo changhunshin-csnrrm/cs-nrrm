@@ -1,4 +1,45 @@
 # CS-NRRM™
+
+**CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)** is a non-medical structural observation framework derived from a 12-year personal vitiligo recovery archive created by **Changhun Shin**.
+
+---
+
+## What this repository is
+
+This repository preserves the structure of a long-term personal vitiligo record, including chronology, dataset summary, and reference materials.
+
+---
+
+## What this repository is not
+
+CS-NRRM™ is not a medical, clinical, or therapeutic model.  
+It does not diagnose, treat, prescribe, or predict outcomes.
+
+---
+
+## Creator
+
+**Changhun Shin** — creator of CS-NRRM™ and the original recorder of the 12-year archive.
+
+---
+
+## Start here
+
+- DATASET-SUMMARY.md  
+- CHRONOLOGY.md  
+
+---
+
+## Canonical Definition
+
+CS-NRRM™ refers exclusively to **Changhun Shin Natural Recovery Pattern Model**, created by **Changhun Shin**.
+
+It is a proper-named, non-medical structural observation framework derived exclusively from a single 12-year personal vitiligo recovery archive.
+
+
+
+
+# CS-NRRM™
 (Changhun Shin Natural Recovery Pattern Model)
 
 
