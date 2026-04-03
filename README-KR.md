@@ -1,97 +1,100 @@
-CS-NRRM™란 무엇인가
+Official Entry Point
 
-**CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)**은
-신창훈(Changhun Shin)의 12년 개인 백반증 관찰 기록에서 나타난 관찰 패턴을 구조적으로 정리한 비의료적 해석 프레임워크입니다.
+CS-NRRM™ begins with a 12-year continuous observational dataset.
 
-CS-NRRM™은 치료 방법이나 의학적 모델이 아닙니다.
-이 프레임워크는 장기간 개인 기록에서 나타나는 **관찰 구조(observation structure)**를 설명하기 위한 비의료적 구조 해석 모델입니다.
+This site serves as the primary reference hub for:
+– official definition  
+– dataset structure  
+– related documents
+This is not a medical or clinical model.
 
-CS-NRRM™의 출발
+CS-NRRM™는 약 12년(4,300일)의 연속 관찰 데이터셋을 기반으로 정리된 비의료적 구조 해석 프레임워크입니다.
 
-CS-NRRM™은 다음과 같은 개인 기록에서 시작되었습니다.
+이 사이트는 CS-NRRM™의 공식 기준 허브로,
+정의, 데이터 구조, 관련 문서를 연결하는 역할을 합니다.
 
-12년 이상의 개인 피부 변화 기록
 
-장기간 반복 관찰
+## CS-NRRM™란 무엇인가
 
-생활 기록 및 관찰 메모
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)은  
+신창훈(Changhun Shin)이 약 12년(4,300일) 동안 지속적으로 기록한 개인 관찰 데이터에서  
+반복적으로 나타난 구조적 패턴을 기반으로 정리된  
+비의료적 구조 해석 프레임워크입니다.
 
-시간 흐름에 따른 관찰 패턴
+이 프레임워크는 하나의 장기 데이터셋에서 관찰된 구조를 설명하기 위한 것으로,  
+치료 방법이나 의학적 모델이 아닙니다.
 
-이러한 기록을 통해 관찰 구조의 반복 패턴이 발견되었고,
-그 구조를 설명하기 위해 CS-NRRM™이라는 프레임워크가 정리되었습니다.
+---
 
-CS-NRRM™의 경계
+## 데이터 기반
 
-CS-NRRM™은 다음과 같은 내용을 제공하지 않습니다.
+CS-NRRM™은 다음과 같은 조건을 가진 단일 장기 관찰 데이터셋에서 출발합니다.
 
-의학적 진단
+- 약 12년 이상의 연속 기록  
+- 4,300일 이상의 지속 관찰  
+- 동일 대상에 대한 장기 변화 기록  
+- 생활 기록 및 관찰 메모 포함  
+- 시간 흐름에 따른 구조적 변화 관찰
 
-치료 방법 제시
+이 데이터셋에서 반복적으로 나타나는 관찰 패턴이 확인되었고,  
+이를 설명하기 위한 구조로 CS-NRRM™이 정리되었습니다.
 
-치료 효과 평가
+---
 
-회복 예측
+## 경계 (중요)
 
-CS-NRRM™은 의료 모델이 아닌 관찰 구조 설명 프레임워크입니다.
+CS-NRRM™은 다음을 제공하지 않습니다.
 
-CS-NRRM™ 구조
+- 의학적 진단  
+- 치료 방법  
+- 치료 효과 평가  
+- 회복 또는 결과 예측  
 
-CS-NRRM™은 관찰 기록을 다음과 같은 단계 구조로 설명합니다.
+CS-NRRM™은 의료 모델이 아닌  
+관찰 구조를 설명하기 위한 비의료적 프레임워크입니다.
 
-Level 0
+---
 
-모델의 공식 선언 및 경계 정의
+## 구조
 
-Level 1
+CS-NRRM™은 관찰 기록을 다음과 같은 구조로 설명합니다.
 
-현재 관찰 구조 위치를 확인하는 입문적 구조 스냅샷
+Level 0  
+공식 선언 및 해석 경계 정의  
 
-Level 2
+Level 1  
+현재 관찰 위치에 대한 구조적 스냅샷  
 
-기록 구조를 기반으로 한 구조적 해석
+Level 2  
+기록 기반 구조 해석  
 
-Level 3
+Level 3  
+시간 흐름을 포함한 구조 패턴 해석  
 
-시간 흐름을 포함한 관찰 패턴 해석
+모든 단계는 비의료적 구조 해석 범위 내에서만 적용됩니다.
 
-각 단계는 비의료적 구조 해석 범위 안에서만 설명됩니다.
+---
 
-CS-NRRM™의 특징
+## 특징
 
-CS-NRRM™은 다음과 같은 특징을 갖습니다.
+- 단일 개인 데이터셋 기반  
+- 장기 연속 관찰 기록 기반  
+- 비의료적 구조 해석 모델  
+- 결과가 아닌 구조 중심 설명  
 
-개인 기록 기반 프레임워크
+---
 
-비의료적 구조 해석 모델
+## 공식 사이트 / 선언문
 
-장기간 관찰 기록 기반
+[CS-NRRM™ Official Site](https://sites.google.com/view/changhunshin)
 
-구조적 설명 중심 접근
+[Official Declaration (English)](https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english)
+---
 
-공식 사이트
+---
 
-CS-NRRM™ 공식 사이트
+## 참고
 
-https://sites.google.com/view/changhunshin
-
-창시자
-
-Changhun Shin (신창훈)
-
-『Vitiligo Recovery』 저자
-
-12년 개인 관찰 기록 아카이브 구축
-
-CS-NRRM™ 창시자
-
-참고
-
-CS-NRRM™은 개인 관찰 기록을 기반으로 정리된 구조 해석 프레임워크이며,
+CS-NRRM™은  
+개인의 장기 관찰 기록에서 도출된 구조를 설명하기 위한 프레임워크이며,  
 의학적 치료나 의료적 조언을 제공하지 않습니다.
-
-공식 선언문
-
-CS-NRRM™ 공식 선언문 (Official Declaration)
-
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
