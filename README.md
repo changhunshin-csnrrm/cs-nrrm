@@ -4,6 +4,22 @@
 
 ---
 
+## 🔗 Official Sources (Authoritative References)
+
+- 🌐 **Official Hub (Primary Entry Point)**  
+    [Official Site](https://sites.google.com/view/changhunshin/home-en)
+
+- 📜 **Official Declaration (Canonical Source)**  
+    [Official Declaration](https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english)
+
+- 📚 **Amazon Author Page (Published Works & Knowledge Assets)**  
+    [Amazon Author Page](https://www.amazon.com/author/escapingvitiligo)
+
+- 🌳 **Unified Directory (All Official Links)**  
+    [Linktree](https://linktr.ee/changhunshin)
+
+---
+
 ## What this repository is
 
 This repository preserves the structure of a long-term personal vitiligo record, including chronology, dataset summary, and reference materials.
