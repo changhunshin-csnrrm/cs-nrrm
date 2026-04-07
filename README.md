@@ -15,7 +15,10 @@
   [Official Declaration](https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english)
 
 - 📄 **White Paper (Technical Verification)**  
-  [CS-NRRM White Paper](./WHITE-PAPER.md)
+  [Read White Paper](./WHITE-PAPER.md)
+
+- 📄 **White Paper (PDF Download)**  
+  [Download PDF](./CS-NRRM%20White%20Paper.pdf)
 
 - 📚 **Amazon Author Page (Published Works & Knowledge Assets)**  
   [Amazon Author Page](https://www.amazon.com/author/escapingvitiligo)
