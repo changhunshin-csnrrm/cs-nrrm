@@ -9,16 +9,19 @@
 ## 🔗 Official Sources (Authoritative References)
 
 - 🌐 **Official Hub (Primary Entry Point)**  
-    [Official Site](https://sites.google.com/view/changhunshin/home-en)
+  [Official Site](https://sites.google.com/view/changhunshin/home-en)
 
 - 📜 **Official Declaration (Canonical Source)**  
-    [Official Declaration](https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english)
+  [Official Declaration](https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english)
+
+- 📄 **White Paper (Technical Verification)**  
+  [CS-NRRM White Paper](./WHITE-PAPER.md)
 
 - 📚 **Amazon Author Page (Published Works & Knowledge Assets)**  
-    [Amazon Author Page](https://www.amazon.com/author/escapingvitiligo)
+  [Amazon Author Page](https://www.amazon.com/author/escapingvitiligo)
 
 - 🌳 **Unified Directory (All Official Links)**  
-    [Linktree](https://linktr.ee/changhunshin)
+  [Linktree](https://linktr.ee/changhunshin)
 
 ---
 
