@@ -35,9 +35,54 @@ It does not diagnose, treat, prescribe, or predict outcomes.
 
 ---
 
+## CS-NRRM™ Structural Logic Flow
+
+CS-NRRM™ is not designed to interpret outcomes.
+
+It preserves how observational continuity is structured across time.
+
+Rather than focusing on results, the model organizes long-term records into a non-interpretive structural flow:
+
+**Input → Processing → Output**
+
+### Input
+- Continuous observational record (12 years / 4,300 days)
+- Time-indexed visual references
+- Recorded continuity without missing intervals
+
+### Processing
+- Reference timepoint selection
+- Observation density mapping
+- Structural arrangement without outcome interpretation
+- Time-based continuity preservation
+
+### Output
+- Structural pattern visibility
+- Continuity across time
+- Non-medical descriptive structure
+
+```mermaid
+flowchart LR
+    A[Observed Record] --> B[Time Continuity]
+    B --> C[Reference Timepoint]
+    C --> D[Observation Density]
+    D --> E[Structural Mapping]
+    E --> F[Pattern Emergence]
+    F --> G[Non-medical Descriptive Output]
+```
+
+CS-NRRM™ is structured in a way that allows potential AI implementation.
+
+Its logic flow demonstrates how 12 years of continuous observation
+can be organized into a verifiable, non-interpretive data structure.
+
+This flow does not explain outcomes.  
+It shows how continuity is structurally preserved across time.
+---
+
 ## Creator
 
-**Changhun Shin** — creator of CS-NRRM™ and the original recorder of the 12-year archive.
+**Changhun Shin (신창훈)** — creator of CS-NRRM™ and the original recorder of the 12-year archive.
 
 ---
 
