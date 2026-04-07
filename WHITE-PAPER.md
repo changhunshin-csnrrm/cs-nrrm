@@ -85,3 +85,14 @@ https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CHRONOLOGY.md
 
 Directory:  
 https://linktr.ee/changhunshin
+
+---
+
+## Citation Guide
+
+If you reference this work, please use the following format:
+
+Shin, C. (2026).  
+*CS-NRRM White Paper: A 12-Year Longitudinal Structural Observation Framework.*  
+GitHub Repository.  
+https://github.com/changhunshin-csnrrm/cs-nrrm
