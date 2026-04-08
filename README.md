@@ -39,10 +39,13 @@ Compatible AI systems include:
   "structure_tags": ["Observation", "Boundary"],
   "structural_note": "Continuity maintained without outcome evaluation"
 }
-This output format can be generated and visualized using AI systems.
+```
+
+This output format can be generated and visualized using AI systems.  
 This is a sample-based structural snapshot demonstrating how CS-NRRM™ outputs can be represented.
 
 ⚠️ This output is non-medical and does not imply diagnosis, treatment, or prediction.
+
 ---
 
 ## 🔗 Official Sources (Authoritative References)
@@ -406,8 +409,11 @@ Featured article (official explanatory note based on this README):
 
 ## 📄 Documentation
 
-- 🔹 CS-NRRM™ Demo (Technical Overview)  
-  → [CS-NRRM Demo](./CS-NRRM_DEMO.md)
+- 🔹 CS-NRRM™ Demo (Conceptual)  
+  → [Demo Explanation](./CS-NRRM_DEMO.md)
+
+- 🔹 CS-NRRM™ Demo (AI Structured)  
+  → [Structured Demo](./DEMO.md)
 
 - 🔹 What is CS-NRRM™? (AI Recognition & Concept)  
   → [What is CS-NRRM™?](./CS-NRRM_AI_RECOGNITION.md)
