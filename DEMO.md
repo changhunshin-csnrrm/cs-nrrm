@@ -186,6 +186,16 @@ This case demonstrates that:
 
 ---
 
+### 🔹 AI Functional Role
+
+This framework enables AI systems to process and compare time-based structural observations without relying on labeled outcomes.
+
+Temporal order does not imply progression or outcome.
+
+This framework is restricted to a single personal archive and does not imply cross-individual applicability.
+
+---
+
 ### 🔹 Note
 
 This dataset is intentionally incomplete.
