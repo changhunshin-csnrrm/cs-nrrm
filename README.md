@@ -1,5 +1,8 @@
 # CS-NRRM™
 
+![Status](https://img.shields.io/badge/status-finalized-brightgreen)
+![License](https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-blue)
+
 AI-powered longitudinal dataset (12 years, 4,300 days) for structural pattern observation, based on a non-medical framework.
 
 **CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)** is a non-medical structural observation framework derived from a 12-year (4,300-day) longitudinal personal vitiligo dataset created by its founder, **Changhun Shin (신창훈)**.
@@ -15,7 +18,14 @@ This framework is AI-agnostic and designed to be processed by AI systems as a ti
 ### 🔹 AI Functional Role
 
 CS-NRRM™ enables AI systems to process, compare, and structurally analyze time-based observations without relying on labeled outcomes.
+
 Temporal order does not imply progression or outcome.
+
+## 📊 Structural Overview (Visual)
+
+A simplified representation of how CS-NRRM™ transforms long-term observational data into structured outputs.
+
+![CS-NRRM Overview](./structure-overview.png)
 
 ## 🔗 Demonstration
 
