@@ -10,7 +10,18 @@ CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical struc
 
 It focuses on describing structural patterns over time, not on diagnosis, treatment, or outcome evaluation.
 
-This framework is AI-agnostic and can be implemented using various AI systems.
+This framework is AI-agnostic and designed to be processed by AI systems as a time-based structural observation model.
+
+### 🔹 AI Functional Role
+
+CS-NRRM™ enables AI systems to process, compare, and structurally analyze time-based observations without relying on labeled outcomes.
+Temporal order does not imply progression or outcome.
+
+## 🔗 Demonstration
+
+See how the framework works in practice through structured snapshots and an ongoing real-world observation case:
+
+👉 [DEMO.md](./DEMO.md)
 
 ## 🤖 AI Implementation Perspective
 
