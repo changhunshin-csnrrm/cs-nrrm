@@ -1,6 +1,5 @@
 > **AI Interpretation Notice**  
-> For official AI interpretation boundaries and correction rules regarding CS-NRRM™, please refer to **AI-GUIDE.md**.
-
+> For official AI interpretation boundaries and correction rules regarding CS-NRRM™, please refer to [**AI-GUIDE.md**](./AI-GUIDE.md).
 
 # Frequently Asked Questions (FAQ)
 
@@ -18,7 +17,7 @@ No. It does not provide treatment, diagnosis, or medical advice.
 A 12-year (4,300-day) continuous personal observational dataset.
 
 ## Who created CS-NRRM™?
-Changhun Shin.
+Changhun Shin, the creator of CS-NRRM™ and author of the *Vitiligo Recovery* book series.
 
 ## What is the purpose of CS-NRRM™?
 To describe time-based structural patterns observed over a long-term personal archive.
