@@ -193,5 +193,14 @@ This dataset is intentionally incomplete.
 The absence of a final outcome is not a limitation,  
 but a defining condition of CS-NRRM™.
 
+---
+
+### 🔗 Next Steps
+
+- Explore the full [CHRONOLOGY.md](./CHRONOLOGY.md) to see the 12-year timeline.  
+- Review the [DATASET-SUMMARY.md](./DATASET-SUMMARY.md) for a high-level data overview.  
+- Check the [AI-GUIDE.md](./AI-GUIDE.md) for implementation boundaries.  
+
+
 
 
