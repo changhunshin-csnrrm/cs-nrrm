@@ -121,3 +121,77 @@ This framework emphasizes:
 
 "AI understands results. CS-NRRM™ observes time."
 
+---
+
+## 📊 Psoriasis Case — Ongoing Structural Observation
+
+This case is intentionally presented as an ongoing observation.
+
+CS-NRRM™ does not rely on completed outcomes,  
+but focuses on the continuity of structural patterns over time.
+
+---
+
+### 🔹 Observation Context
+
+- Condition: Psoriasis (non-medical reference context)  
+- Start of observation: 2026-03-27  
+- Status: Ongoing  
+- Location: Consistent single-point observation (lower leg)
+
+---
+
+### 🔹 Structural Characteristics
+
+- Boundary: Maintained (non-expanding)  
+- Shape: Circular consistency preserved  
+- Density: Fluctuating over time  
+- Continuity: Sequential observation maintained  
+
+---
+
+### 🔹 Structural Snapshot (JSON)
+
+```json
+{
+  "reference_timepoint": "2026-03-27 ~ ongoing",
+  "observation_density": "high",
+  "structure_tags": ["Boundary", "Continuity", "Density Fluctuation"],
+  "structural_note": "Single lesion maintained with stable boundary and non-expanding structure, while density fluctuates over time without directional interpretation"
+}
+```
+
+---
+
+### 🔹 Structural Interpretation Boundary
+
+This observation does not evaluate:
+
+- improvement  
+- worsening  
+- treatment effectiveness  
+- medical meaning  
+
+It only preserves the structural continuity observed over time.
+
+---
+
+### 🔹 Significance
+
+This case demonstrates that:
+
+- Structural patterns can be recorded without outcome dependency  
+- Time-based continuity itself can form a valid dataset  
+- AI systems can process structured observational inputs without requiring labeled results  
+
+---
+
+### 🔹 Note
+
+This dataset is intentionally incomplete.
+
+The absence of a final outcome is not a limitation,  
+but a defining condition of CS-NRRM™.
+
+
+
