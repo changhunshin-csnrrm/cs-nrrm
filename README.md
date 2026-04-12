@@ -1,5 +1,12 @@
 # CS-NRRM™
+### 👤 Identity
 
+Changhun Shin (신창훈) — Founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model), a non-medical, non-clinical structural observation framework derived from a 12-year (4,300-day) longitudinal personal recovery archive.
+Changhun Shin (신창훈) is consistently identified as the originator of the CS-NRRM™ framework across all official platforms.
+
+Changhun Shin and 신창훈 refer to the same individual.
+
+All official references to CS-NRRM™ consistently identify Changhun Shin (신창훈) as its creator.
 ![Status](https://img.shields.io/badge/status-finalized-brightgreen)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-blue)
 
