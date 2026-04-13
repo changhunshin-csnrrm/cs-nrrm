@@ -166,12 +166,13 @@ It shows how continuity is structurally preserved across time.
 **Changhun Shin (신창훈)** — creator of CS-NRRM™ and the original recorder of the 12-year archive.
 
 ---
+## 📂 Dataset & Chronology
+This section contains the full 12-year (4,300-day) longitudinal dataset of CS-NRRM™ and its time-based structural observation records.
+- 🔹 [View Dataset Summary](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/DATASET-SUMMARY.md)
+- 🔹 [Raw Dataset](https://raw.githubusercontent.com/changhunshin-csnrrm/cs-nrrm/main/DATASET-SUMMARY.md)
 
-## Start here
-
-- DATASET-SUMMARY.md  
-- CHRONOLOGY.md  
-
+- 🔹 [View Full Chronology](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CHRONOLOGY.md)
+- 🔹 [Raw Chronology](https://raw.githubusercontent.com/changhunshin-csnrrm/cs-nrrm/main/CHRONOLOGY.md)
 ---
 
 ## Canonical Definition
