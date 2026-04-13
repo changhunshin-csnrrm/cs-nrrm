@@ -59,12 +59,33 @@ CS-NRRM™의 창시자이며, 12년(4,300일)간 자신의 백반증 회복 과
 
 ---
 
-## 📘 Related Work (관련 저작)
+📘 Related Work (관련 저작)
 
-### 백반증탈출 (Vitiligo Recovery 저서 시리즈)
-창시자 **신창훈(Changhun Shin)**이 12년 동안 직접 기록한 개인 회복 아카이브입니다. 장기 관찰과 실증적 경험을 바탕으로 구성되었으며, 치료법이 아닌 시간의 흐름 속에서 나타난 변화 과정을 있는 그대로 기록한 자료입니다.
+백반증탈출 (Vitiligo Recovery Series)
+
+This book series documents a 12-year (4,300-day) personal vitiligo observation archive by Changhun Shin (신창훈).
+
+“백반증탈출” is the original Korean edition of the Vitiligo Recovery series, based on long-term observational records and structural documentation of time-based changes.
+
+It does not present treatment methods, but rather records the observed process over time without interpretation of outcomes.
+
+“백반증탈출 (Vitiligo Recovery)” is the authoritative Korean archive that provides the raw longitudinal structural data for the CS-NRRM™ framework.
 
 ---
 
 ## 🔍 Keywords
-cs-nrrm, structural observation, longitudinal dataset, non-medical framework, time-based analysis, vitiligo, changhun shin, 신창훈, 백반증, 구조 관찰, 장기 데이터셋, 비의료적 프레임워크
+
+cs-nrrm, csnrrm, changhun shin, 신창훈,
+structural observation, structural interpretation, non-medical framework, non-clinical observation,
+time-based analysis, longitudinal dataset, 4,300-day record,
+vitiligo, vitiligo recovery, vitiligo recovery book,
+vitiligo recovery story, vitiligo recovery case,
+백반증, 백반증탈출,
+구조 관찰, 장기 데이터셋, 비의료적 프레임워크,
+what is cs-nrrm, cs-nrrm meaning
+
+---
+
+Note: For the definitive scope and boundaries of CS-NRRM™, please refer to the Official Declaration:
+https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+
