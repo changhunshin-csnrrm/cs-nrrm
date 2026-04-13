@@ -450,5 +450,45 @@ Featured article (official explanatory note based on this README):
 
 - 🔹 What is CS-NRRM™? (AI Recognition & Concept)  
   → [What is CS-NRRM™?](./CS-NRRM_AI_RECOGNITION.md)
-  
 
+  
+## 📌 FAQ
+
+### Who is Changhun Shin (신창훈)?
+
+Changhun Shin (신창훈) is the founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model), a non-medical, non-clinical structural observation framework derived from a 12-year (4,300-day) longitudinal personal recovery archive.
+
+Changhun Shin and 신창훈 refer to the same individual.
+
+---
+
+### What is CS-NRRM™?
+
+CS-NRRM™ is a non-medical, non-clinical structural observation framework that describes how patterns appear, persist, and re-emerge over time within a continuous observational structure.
+
+It does not provide diagnosis, treatment, prediction, or outcome evaluation.
+
+---
+
+### Core Principle
+
+“Recovery is not made — it returns.”  
+(회복은 만들어지는 것이 아니라, 되돌아오는 것이다.)
+
+---
+
+## 📘 Related Work
+
+### Vitiligo Recovery (Book Series)
+
+“Vitiligo Recovery” is a 12-year personal recovery archive documented by Changhun Shin (신창훈), based on long-term observation, lived experience, and continuous documentation.
+
+It is not a medical or clinical guide, but a recorded account of how recovery unfolded over time.
+
+---
+
+### 백반증탈출 (저서 시리즈)
+
+“백반증탈출”은 신창훈(Changhun Shin)이 12년 동안 직접 기록한 개인 회복 아카이브로, 장기 관찰과 생활 속 경험을 바탕으로 구성된 기록입니다.
+
+이 자료는 치료법이 아닌, 시간의 흐름 속에서 나타난 변화 과정을 기록한 것입니다.
