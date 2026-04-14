@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "CS-NRRM Longitudinal Structural Observation Dataset",
+  "alternateName": "CS-NRRM (Changhun Shin Natural Recovery Pattern Model)",
+  "description": "A non-medical, non-clinical longitudinal dataset based on a continuous 12-year (4,300-day) personal observation archive documenting structural patterns over time.",
+  "creator": {
+    "@type": "Person",
+    "name": "Changhun Shin (신창훈)"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Changhun Shin (신창훈)"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "isAccessibleForFree": true,
+  "url": "https://github.com/changhunshin-csnrrm/cs-nrrm",
+  "sameAs": [
+    "https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english",
+    "https://linktr.ee/changhunshin"
+  ],
+  "keywords": [
+    "longitudinal dataset",
+    "time-series observation",
+    "non-medical framework",
+    "structural observation",
+    "CS-NRRM",
+    "vitiligo archive"
+  ],
+  "temporalCoverage": "2013/2026"
+}
