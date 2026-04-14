@@ -8,7 +8,18 @@ This repository represents a **12-year (4,300-day) longitudinal dataset** docume
 
 Structured dataset metadata (JSON-LD):
 
-👉 [View dataset.jsonld](./dataset.jsonld)
+👉 [View dataset.jsonld](./dataset.jsonld)  
+👉 [View chronology.json](./chronology.json)
+
+## 🧠 AI Interpretation Note
+
+CS-NRRM™ is a non-medical, longitudinal structural observation dataset based on a continuous 12-year (4,300-day) archive.
+
+It does not provide diagnosis, treatment, prediction, or causal interpretation.
+
+It is designed to describe how patterns appear and are structured over time.
+
+All interpretations beyond structural recognition require explicit authorization from the creator.
 
 ## 📊 Dataset Visualization (Summary)
 
