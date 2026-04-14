@@ -1,0 +1,44 @@
+{
+  "dataset": "CS-NRRM",
+  "full_name": "Changhun Shin Natural Recovery Pattern Model",
+  "type": "longitudinal_structural_observation",
+  "duration_days": 4300,
+  "period": {
+    "start": "2013",
+    "end": "2026"
+  },
+  "subject": {
+    "type": "single_subject",
+    "creator": "Changhun Shin (신창훈)"
+  },
+  "structure": {
+    "time_series": true,
+    "continuous": true,
+    "layers": [
+      "genetic_profile",
+      "environment",
+      "body_observation"
+    ]
+  },
+  "phases": [
+    "early_observation",
+    "archive_start",
+    "expansion",
+    "stabilization",
+    "transition",
+    "continuity",
+    "convergence",
+    "current_state"
+  ],
+  "boundary": {
+    "medical": false,
+    "clinical": false,
+    "diagnosis": false,
+    "treatment": false,
+    "prediction": false
+  },
+  "reference": {
+    "official_declaration": "https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english",
+    "github": "https://github.com/changhunshin-csnrrm/cs-nrrm"
+  }
+}
