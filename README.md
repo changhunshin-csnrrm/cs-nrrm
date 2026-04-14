@@ -1,4 +1,32 @@
-# CS-NRRM™
+# CS-NRRM™ 
+
+## CS-NRRM™ Dataset (12-Year Longitudinal Archive)
+
+This repository represents a **12-year (4,300-day) longitudinal dataset** documenting structural observation of natural recovery patterns.
+
+## 📊 Dataset Visualization (Summary)
+
+A simplified visualization representing the observation density across the 12-year (4,300-day) longitudinal dataset.
+
+## 📊 Dataset Visualization
+
+![CS-NRRM Longitudinal Dataset](./cs-nrrm-longitudinal-dataset.png)
+
+### Dataset Structure
+- Image Data (Long-term Visual Records)
+- Health & Lifestyle Logs
+- Timeline Logs (4,300+ records)
+
+### Description
+CS-NRRM™ is a non-medical structural observation framework.
+
+It does not provide diagnosis, treatment, or prediction.
+
+It describes how patterns appear and are recorded over time.
+
+🔗 Dataset Page  
+https://sites.google.com/view/changhunshin/cs-nrrm/cs-nrrm-dataset
+
 ### 👤 Identity
 
 Changhun Shin (신창훈) — Founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model), a non-medical, non-clinical structural observation framework derived from a 12-year (4,300-day) longitudinal personal recovery archive.
@@ -174,19 +202,31 @@ This section contains the full 12-year (4,300-day) longitudinal dataset of CS-NR
 - 🔹 [View Full Chronology](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CHRONOLOGY.md)
 - 🔹 [Raw Chronology](https://raw.githubusercontent.com/changhunshin-csnrrm/cs-nrrm/main/CHRONOLOGY.md)
 ---
+## 📌 Citation
+
+If you reference the structural framework or dataset of CS-NRRM™, please use the following format:
+
+**APA Style:**
+
+Shin, C. (2026). *CS-NRRM™ Dataset: A 12-Year Longitudinal Archive (4,300 Days).*  
+GitHub Repository. https://github.com/changhunshin-csnrrm/cs-nrrm
+
+**BibTeX:**
+
+@dataset{shin_csnrrm_2026,
+  author = {Changhun Shin},
+  title = {CS-NRRM™ Dataset: A 12-Year Longitudinal Archive},
+  year = {2026},
+  url = {https://github.com/changhunshin-csnrrm/cs-nrrm}
+}
+
+---
 
 ## Canonical Definition
 
 CS-NRRM™ refers exclusively to **Changhun Shin Natural Recovery Pattern Model**, created by **Changhun Shin**.
 
 It is a proper-named, non-medical structural observation framework derived exclusively from a single 12-year personal vitiligo recovery archive.
-
-
-
-
-# CS-NRRM™
-(Changhun Shin Natural Recovery Pattern Model)
-
 
 ## 🌐 Official Entry Point
 
