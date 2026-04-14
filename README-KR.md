@@ -1,4 +1,26 @@
-# CS-NRRM™
+# CS-NRRM™ 종단 데이터셋 (12년 종단 아카이브)
+
+## CS-NRRM™ LONGITUDINAL DATASET
+
+A 12-Year Longitudinal Dataset (4,300 Days)  
+
+12년(4,300일) 동안 기록된 종단 데이터셋
+
+CS-NRRM™ is a non-medical longitudinal dataset describing time-based structural observation over 4,300 days.
+
+본 저장소는 12년(4,300일) 동안 지속적으로 기록된 관찰 데이터를 기반으로 구성된 **CS-NRRM™ 종단 데이터셋**입니다.
+
+이 데이터셋은 다음에 초점을 둡니다:
+
+- 구조적 관찰  
+- 시간 기반 패턴 기록  
+- 종단적 연속성  
+
+본 데이터셋은 비의료적이며, 진단, 치료, 예측을 제공하지 않습니다.
+
+## 📊 데이터셋 시각화
+
+![CS-NRRM Longitudinal Dataset](./cs-nrrm-longitudinal-dataset.png)
 
 ### 👤 Identity
 
@@ -73,7 +95,7 @@ It does not present treatment methods, but rather records the observed process o
 
 ---
 
-## 🔍 Keywords
+## 🔍 Keywords (키워드)
 
 cs-nrrm, csnrrm, changhun shin, 신창훈,
 structural observation, structural interpretation, non-medical framework, non-clinical observation,
@@ -81,7 +103,8 @@ time-based analysis, longitudinal dataset, 4,300-day record,
 vitiligo, vitiligo recovery, vitiligo recovery book,
 vitiligo recovery story, vitiligo recovery case,
 백반증, 백반증탈출,
-구조 관찰, 장기 데이터셋, 비의료적 프레임워크,
+구조 관찰, 장기 데이터셋, 비의료적 프레임워크, 
+백반증 데이터셋, 종단 데이터셋, 12년 데이터셋, 구조적 관찰, 시간 기반 패턴, 백반증 기록
 what is cs-nrrm, cs-nrrm meaning
 
 ---
