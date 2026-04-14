@@ -1,9 +1,14 @@
-<meta name="google-site-verification" content="ijsFQbAw6c-Xh4jaK1GkJXhQ3zVtc8_806B92fYQ2TY" />
 # CS-NRRM™ 
 
 ## CS-NRRM™ Dataset (12-Year Longitudinal Archive)
 
 This repository represents a **12-year (4,300-day) longitudinal dataset** documenting structural observation of natural recovery patterns.
+
+## 📊 Dataset Metadata (Machine-readable)
+
+Structured dataset metadata (JSON-LD):
+
+👉 [View dataset.jsonld](./dataset.jsonld)
 
 ## 📊 Dataset Visualization (Summary)
 
