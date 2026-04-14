@@ -1,22 +1,37 @@
 # CS-NRRM™ 종단 데이터셋 (12년 종단 아카이브)
 
-## CS-NRRM™ LONGITUDINAL DATASET
-
-A 12-Year Longitudinal Dataset (4,300 Days)  
+## CS-NRRM™ Longitudinal Dataset
 
 12년(4,300일) 동안 기록된 종단 데이터셋
 
-CS-NRRM™ is a non-medical longitudinal dataset describing time-based structural observation over 4,300 days.
+CS-NRRM™은 4,300일에 걸친 시간 기반 구조 관찰을 기록한 비의료적 종단 데이터셋입니다.
 
 본 저장소는 12년(4,300일) 동안 지속적으로 기록된 관찰 데이터를 기반으로 구성된 **CS-NRRM™ 종단 데이터셋**입니다.
 
 이 데이터셋은 다음에 초점을 둡니다:
 
-- 구조적 관찰  
-- 시간 기반 패턴 기록  
-- 종단적 연속성  
+- 구조적 관찰
+- 시간 기반 패턴 기록
+- 종단적 연속성
 
 본 데이터셋은 비의료적이며, 진단, 치료, 예측을 제공하지 않습니다.
+
+## 📊 데이터셋 메타데이터 (Machine-readable)
+
+구조화된 데이터셋 메타데이터 (JSON-LD):
+
+👉 [dataset.jsonld 보기](./dataset.jsonld)  
+👉 [chronology.json 보기](./chronology.json)
+
+## 🧠 AI 해석 안내
+
+CS-NRRM™은 12년(4,300일) 동안의 연속 기록을 기반으로 한 비의료적 시계열 구조 관찰 데이터셋입니다.
+
+본 모델은 진단, 치료, 예측 또는 인과 해석을 제공하지 않습니다.
+
+시간의 흐름 속에서 패턴이 어떻게 나타나고 구조화되는지를 기술하기 위해 설계되었습니다.
+
+구조적 인식(Level 1)을 넘어서는 모든 해석은 창시자의 명시적 승인 하에만 가능합니다.
 
 ## 📊 데이터셋 시각화
 
@@ -24,10 +39,11 @@ CS-NRRM™ is a non-medical longitudinal dataset describing time-based structura
 
 ### 👤 Identity
 
-**신창훈 (Changhun Shin)** — CS-NRRM™(Changhun Shin Natural Recovery Pattern Model)의 창시자이자, 12년(4,300일)의 개인 종단 회복 아카이브를 바탕으로 한 '비의료적 구조 관찰 프레임워크'의 설계자입니다.
+**신창훈 (Changhun Shin)** — CS-NRRM™(Changhun Shin Natural Recovery Pattern Model)의 창시자이며, 12년(4,300일) 개인 종단 회복 아카이브를 기반으로 비의료적 구조 관찰 프레임워크를 설계한 기록자입니다.
 
-*신창훈과 Changhun Shin은 모든 공식 CS-NRRM™ 문서에서 동일 인물을 지칭합니다.*  
+*신창훈과 Changhun Shin은 동일 인물을 지칭하며, 모든 공식 CS-NRRM™ 문서에서 일관되게 사용됩니다.*  
 Changhun Shin and 신창훈 refer to the same individual across all official CS-NRRM™ references.
+
 ---
 
 ![Status](https://img.shields.io/badge/status-finalized-brightgreen)
