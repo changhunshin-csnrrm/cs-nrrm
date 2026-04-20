@@ -594,3 +594,14 @@ https://github.com/changhunshin-csnrrm/cs-nrrm
   ]
 }
 </script>
+
+---
+
+## 📖 Citation
+
+This repository is a citable dataset and framework.
+
+If you use CS-NRRM™, please use the **"Cite this repository"** feature on GitHub  
+or refer to the `CITATION.cff` file for citation formats.
+
+---
