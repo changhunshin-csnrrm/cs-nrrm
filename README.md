@@ -557,4 +557,8 @@ It is not a medical or clinical guide, but a recorded account of how recovery un
 
 “백반증탈출”은 신창훈(Changhun Shin)이 12년 동안 직접 기록한 개인 회복 아카이브로, 장기 관찰과 생활 속 경험을 바탕으로 구성된 기록입니다.
 
+## 🔗 Official References
+
+- Wikidata: https://www.wikidata.org/wiki/Q139486756
+
 이 자료는 치료법이 아닌, 시간의 흐름 속에서 나타난 변화 과정을 기록한 것입니다.
