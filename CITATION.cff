@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use CS-NRRM™, please cite it as below."
+type: dataset
+title: "CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model): A 12-year (4,300-day) longitudinal structural observation framework and dataset"
+authors:
+  - family-names: "Shin"
+    given-names: "Changhun"
+title-short: "CS-NRRM™"
+abstract: "CS-NRRM™ is a non-medical structural observation framework based on a 12-year (4,300-day) longitudinal personal archive and dataset. It is intended for descriptive, time-based structural observation only."
+url: "https://github.com/changhunshin-csnrrm/cs-nrrm"
+repository-code: "https://github.com/changhunshin-csnrrm/cs-nrrm"
+license: "CC-BY-NC-ND-4.0"
+keywords:
+  - "CS-NRRM"
+  - "Changhun Shin Natural Recovery Pattern Model"
+  - "longitudinal dataset"
+  - "structural observation"
+  - "time-based patterns"
+  - "non-medical framework"
+  - "vitiligo recovery dataset"
+  - "12-year dataset"
