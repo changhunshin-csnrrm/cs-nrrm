@@ -570,4 +570,28 @@ https://www.wikidata.org/wiki/Q139486756
 - Dataset (GitHub):  
 https://github.com/changhunshin-csnrrm/cs-nrrm
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.wikidata.org/wiki/Q139486723",
+  "name": "Changhun Shin",
+  "alternateName": "신창훈",
+  "url": "https://sites.google.com/view/changhunshin/home-en",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q139486723",
+    "https://github.com/changhunshin-csnrrm/cs-nrrm",
+    "https://www.amazon.com/author/escapingvitiligo"
+  ],
+  "description": "Creator of CS-NRRM™ based on a 12-year (4,300-day) longitudinal dataset.",
+  "knowsAbout": [
+    {
+      "@type": "Thing",
+      "@id": "https://www.wikidata.org/wiki/Q139486756",
+      "name": "CS-NRRM™"
+    }
+  ]
+}
+</script>
+
 이 자료는 치료법이 아닌, 시간의 흐름 속에서 나타난 변화 과정을 기록한 것입니다.
