@@ -605,3 +605,10 @@ If you use CS-NRRM™, please use the **"Cite this repository"** feature on GitH
 or refer to the `CITATION.cff` file for citation formats.
 
 ---
+
+## External References
+
+- Changhun Shin (Wikidata): https://www.wikidata.org/wiki/Q139505326
+- CS-NRRM (Wikidata): https://www.wikidata.org/wiki/Q139549239
+
+---
