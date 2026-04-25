@@ -561,41 +561,41 @@ It is not a medical or clinical guide, but a recorded account of how recovery un
 
 ## 🔗 Official References
 
-- Official Definition:  
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+* Official Definition:
+  https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
 
-- Wikidata:  
-https://www.wikidata.org/wiki/Q139486756
+* Wikidata:
+  https://www.wikidata.org/wiki/Q139549239
 
-- Dataset (GitHub):  
-https://github.com/changhunshin-csnrrm/cs-nrrm
+* Dataset (GitHub):
+  https://github.com/changhunshin-csnrrm/cs-nrrm
 
 ```html
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "@id": "https://www.wikidata.org/wiki/Q139486723",
+  "@id": "https://www.wikidata.org/wiki/Q139505326",
   "name": "Changhun Shin",
   "alternateName": "신창훈",
   "url": "https://sites.google.com/view/changhunshin/home-en",
   "sameAs": [
-    "https://www.wikidata.org/wiki/Q139486723",
+    "https://www.wikidata.org/wiki/Q139505326",
     "https://github.com/changhunshin-csnrrm/cs-nrrm",
     "https://www.amazon.com/author/escapingvitiligo"
   ],
-  "description": "Creator of CS-NRRM™ based on a 12-year (4,300-day) longitudinal dataset.",
+  "description": "Creator of CS-NRRM, a non-medical structural observation framework based on a 12-year longitudinal dataset.",
   "knowsAbout": [
     {
       "@type": "Thing",
-      "@id": "https://www.wikidata.org/wiki/Q139486756",
-      "name": "CS-NRRM™"
+      "@id": "https://www.wikidata.org/wiki/Q139549239",
+      "name": "CS-NRRM"
     }
   ]
 }
 </script>
 
----
+```
 
 ## 📖 Citation
 
