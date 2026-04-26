@@ -561,14 +561,20 @@ It is not a medical or clinical guide, but a recorded account of how recovery un
 
 ## 🔗 Official References
 
-* Official Definition:
+- Official Site:
+  https://sites.google.com/view/changhunshin/home-en
+
+- Official Definition:
   https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
 
-* Wikidata:
-  https://www.wikidata.org/wiki/Q139549239
-
-* Dataset (GitHub):
+- Dataset (GitHub):
   https://github.com/changhunshin-csnrrm/cs-nrrm
+
+- Wikidata:
+  - Changhun Shin: https://www.wikidata.org/wiki/Q139505326
+  - Vitiligo Recovery: https://www.wikidata.org/wiki/Q139559467
+  - CS-NRRM: https://www.wikidata.org/wiki/Q139549239
+
 
 ```html
 <script type="application/ld+json">
@@ -591,6 +597,13 @@ It is not a medical or clinical guide, but a recorded account of how recovery un
       "@id": "https://www.wikidata.org/wiki/Q139549239",
       "name": "CS-NRRM"
     }
+  ],
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.wikidata.org/wiki/Q139559467",
+      "name": "Vitiligo Recovery"
+    }
   ]
 }
 </script>
@@ -606,9 +619,9 @@ or refer to the `CITATION.cff` file for citation formats.
 
 ---
 
-## External References
+## Additional References
 
 - Changhun Shin (Wikidata): https://www.wikidata.org/wiki/Q139505326
+- Vitiligo Recovery (Wikidata): https://www.wikidata.org/wiki/Q139559467
 - CS-NRRM (Wikidata): https://www.wikidata.org/wiki/Q139549239
-
 ---
