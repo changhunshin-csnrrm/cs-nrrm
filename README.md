@@ -1,4 +1,41 @@
-# CS-NRRM™ 
+# CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
+
+**CS-NRRM™ is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.**
+
+Changhun Shin (신창훈), Founder of CS-NRRM™
+
+---
+
+## 🔹 Core Concept
+
+CS-NRRM™ describes how patterns appear, stabilize, and re-emerge over time within a continuous observational structure.
+
+- Not a medical or clinical model  
+- Not a treatment or diagnostic system  
+- Focused on time-based structural patterns  
+
+---
+
+**This repository serves as the technical definition anchor of CS-NRRM™.**
+
+---
+
+## 🔹 Structure
+
+Input → Processing → Output
+
+- Input: 12-year time-series observational data  
+- Processing: AI-assisted pattern structuring (non-medical)  
+- Output: Structural pattern mapping  
+
+---
+
+## 🔗 Official Sources
+
+- Official Site: https://sites.google.com/view/changhunshin/home-en  
+- Official Declaration: https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english  
+
+---
 
 ## CS-NRRM™ Dataset (12-Year Longitudinal Archive)
 
