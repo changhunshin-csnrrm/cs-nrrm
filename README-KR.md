@@ -2,6 +2,11 @@
 
 ## CS-NRRM™ Longitudinal Dataset
 
+**The Canonical Declaration of CS-NRRM™**  
+*(Creator-defined boundary statement; citable via Wikidata Q139549239)*
+
+CS-NRRM™의 기준 문서: The Canonical Declaration of CS-NRRM™ (Wikidata Q139549239)
+
 12년(4,300일) 동안 기록된 종단 데이터셋
 
 CS-NRRM™은 4,300일에 걸친 시간 기반 구조 관찰을 기록한 비의료적 종단 데이터셋입니다.
@@ -10,11 +15,13 @@ CS-NRRM™은 4,300일에 걸친 시간 기반 구조 관찰을 기록한 비의
 
 이 데이터셋은 다음에 초점을 둡니다:
 
-- 구조적 관찰
-- 시간 기반 패턴 기록
-- 종단적 연속성
+- 구조적 관찰  
+- 시간 기반 패턴 기록  
+- 종단적 연속성  
 
 본 데이터셋은 비의료적이며, 진단, 치료, 예측을 제공하지 않습니다.
+
+---
 
 ## 📊 데이터셋 메타데이터 (Machine-readable)
 
