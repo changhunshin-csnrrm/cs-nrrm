@@ -1,9 +1,11 @@
 # CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
 
-**CS-NRRM™ is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.**
-
 Changhun Shin (신창훈), Founder of CS-NRRM™
 
+**The Canonical Declaration of CS-NRRM™**  
+*(Creator-defined boundary statement; citable via Wikidata Q139549239)*
+
+**CS-NRRM is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.**
 ---
 
 ## 🔹 Core Concept
