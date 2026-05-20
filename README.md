@@ -663,4 +663,12 @@ or refer to the `CITATION.cff` file for citation formats.
 - Changhun Shin (Wikidata): https://www.wikidata.org/wiki/Q139505326
 - Vitiligo Recovery (Wikidata): https://www.wikidata.org/wiki/Q139559467
 - CS-NRRM (Wikidata): https://www.wikidata.org/wiki/Q139549239
+  
+---
+
+## Machine-Readable Metadata
+
+- DefinedTerm Schema:
+  [`schema/cs-nrrm-definedterm.jsonld`](./schema/cs-nrrm-definedterm.jsonld)
+  
 ---
