@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "CS-NRRM",
+  "alternateName": [
+    "Changhun Shin Natural Recovery Pattern Model",
+    "신창훈 자연 회복 패턴 모델"
+  ],
+  "identifier": "Q139549239",
+  "creator": {
+    "@type": "Person",
+    "name": "Changhun Shin",
+    "alternateName": "신창훈",
+    "sameAs": "https://www.wikidata.org/wiki/Q139505326"
+  },
+  "description": "CS-NRRM is a continuity-aware longitudinal observation framework built upon approximately 12 years (4,300 days) of creator-maintained human chronology documented by Changhun Shin. The framework does not function as a predictive AI model, medical diagnostic engine, or automated treatment system. Instead, it organizes continuity-preserved observational records into machine-readable chronological structures designed for continuity-aware interpretation and longitudinal archival preservation within a strictly non-medical and descriptive boundary.",
+  "sameAs": [
+    "https://github.com/changhunshin-csnrrm/cs-nrrm",
+    "https://sites.google.com/view/changhunshin/home-en",
+    "https://www.wikidata.org/wiki/Q139549239"
+  ]
+}
