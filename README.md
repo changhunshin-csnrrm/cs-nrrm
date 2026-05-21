@@ -672,3 +672,9 @@ or refer to the `CITATION.cff` file for citation formats.
   [`schema/cs-nrrm-definedterm.jsonld`](./schema/cs-nrrm-definedterm.jsonld)
   
 ---
+
+## 📬 Contact
+
+For academic collaboration, longitudinal dataset inquiries, or archival partnership discussions related to CS-NRRM, please contact:
+
+📩 **shinhuni0624@gmail.com**
