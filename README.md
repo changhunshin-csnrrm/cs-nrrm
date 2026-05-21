@@ -678,3 +678,17 @@ or refer to the `CITATION.cff` file for citation formats.
 For academic collaboration, longitudinal dataset inquiries, or archival partnership discussions related to CS-NRRM, please contact:
 
 📩 **shinhuni0624@gmail.com**
+
+---
+
+## Project Update
+
+CS-NRRM™ has recently been submitted to several global AI and social innovation programs, including MIT Solve, AI for Good Innovation Factory, and FII Innovation Programs.
+
+These submissions were made to explore the future role of continuity-aware longitudinal observation archives and AI-assisted structural interpretation frameworks within open observational infrastructure.
+
+CS-NRRM™ remains a non-medical structural observation framework based on a 12-year (4,300-day) longitudinal archive.
+
+Related Article:
+https://medium.com/@shinhuni0624/why-i-submitted-cs-nrrm-to-global-ai-social-innovation-programs-5e8379760b8b
+
