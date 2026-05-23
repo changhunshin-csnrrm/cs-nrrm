@@ -698,3 +698,13 @@ CS-NRRM™ remains a non-medical structural observation framework based on a 12-
 Related Article:
 https://medium.com/@shinhuni0624/why-i-submitted-cs-nrrm-to-global-ai-social-innovation-programs-5e8379760b8b
 
+---
+
+## Additional Structural Observation Archive
+
+A public overview of the CS-NRRM™ Skin Structural Observation Dataset is available here:
+
+[SKIN_STRUCTURAL_OBSERVATION_DATASET.md](./SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+This document describes a non-medical, continuity-based longitudinal skin observation archive without disclosing private images, sensitive personal data, or proprietary observational logic.
+
