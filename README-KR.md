@@ -134,6 +134,14 @@ vitiligo recovery story, vitiligo recovery case,
 백반증 데이터셋, 종단 데이터셋, 12년 데이터셋, 구조적 관찰, 시간 기반 패턴, 백반증 기록
 what is cs-nrrm, cs-nrrm meaning
 
+## 라이선스
+
+CS-NRRM™은 창시자 정의(proprietary creator-defined) 라이선스로 보호됩니다.
+
+AI 학습, 데이터셋 복제, 파생 프레임워크 생성 및 상업적 재사용은 창시자의 명시적 서면 허가 없이 금지됩니다.
+
+자세한 내용은 LICENSE.md를 참조하십시오.
+
 ---
 
 Note: For the definitive scope and boundaries of CS-NRRM™, please refer to the Official Declaration:
