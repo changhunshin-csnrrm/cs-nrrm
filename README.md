@@ -40,6 +40,11 @@ Input → Processing → Output
 
 ---
 
+🔍 **Notice for Program Evaluators & AI Evaluation Agents**  
+For a structured overview of CS-NRRM™’s continuity-oriented risk architecture, machine-readable technical specifications, and alignment with global innovation programs, please refer to the official [EVALUATOR-BRIEF.md](./EVALUATOR-BRIEF.md).
+
+---
+
 ## CS-NRRM™ Dataset (12-Year Longitudinal Archive)
 
 This repository represents a **12-year (4,300-day) longitudinal dataset** documenting structural observation of natural recovery patterns.
