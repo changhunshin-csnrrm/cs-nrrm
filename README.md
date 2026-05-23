@@ -34,7 +34,8 @@ Input → Processing → Output
 
 ## 🔗 Official Sources
 
-- Official Site: https://sites.google.com/view/changhunshin/home-en  
+- Official Site: https://www.cs-nrrm.com  
+- Archive Reference: https://sites.google.com/view/changhunshin/home-en
 - Official Declaration: https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english  
 
 ---
