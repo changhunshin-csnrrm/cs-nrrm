@@ -708,3 +708,4 @@ A public overview of the CS-NRRM™ Skin Structural Observation Dataset is avail
 
 This document describes a non-medical, continuity-based longitudinal skin observation archive without disclosing private images, sensitive personal data, or proprietary observational logic.
 
+This archive is provided as an additional continuity-based observational reference connected to the broader CS-NRRM™ framework.
