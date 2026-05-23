@@ -56,3 +56,11 @@ https://github.com/changhunshin-csnrrm/cs-nrrm
 ## Creator
 
 Changhun Shin (신창훈), Founder of CS-NRRM™, a 12-year longitudinal structural observation framework.
+
+## Licencia
+
+CS-NRRM™ está protegido bajo una licencia propietaria definida por el creador.
+
+El entrenamiento de IA, la replicación del conjunto de datos, la creación de marcos derivados y la reutilización comercial están prohibidos sin autorización escrita explícita del creador.
+
+Consulte LICENSE.md para más detalles.
