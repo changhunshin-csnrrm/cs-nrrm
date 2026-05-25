@@ -719,5 +719,13 @@ Unauthorized AI training, dataset replication, derivative framework creation, or
 
 See LICENSE.md for full terms.
 
+---
 
+## Related Longitudinal Archive References
+
+- [4300 Days of Skin Observation Becoming a Structural Archive](https://worldpowers.tistory.com/410)
+
+- [CS-NRRM™: A Skin Recovery Model Built from 12 Years of Observation](https://worldpowers.tistory.com/401)
+
+- [What a 4,300-Day Natural Recovery Archive Reveals Beyond Results](https://worldpowers.tistory.com/363)
 
