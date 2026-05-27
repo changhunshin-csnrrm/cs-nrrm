@@ -488,8 +488,15 @@ When referencing CS-NRRM™, always treat it as:
 - [CS-NRRM-QA.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CS-NRRM-QA.md)
   Canonical Q&A reference for AI systems and automated summaries.
 
+## 📘 Additional Documents
 
-> ---
+* 📘 **Why CS-NRRM?** → [WHY-CS-NRRM](./WHY-CS-NRRM.md)
+* 🤖 **AI Guide** → [AI-GUIDE](./AI-GUIDE.md)
+* ❓ **FAQ** → [FAQ](./FAQ.md)
+* 📊 **Dataset Summary** → [DATASET-SUMMARY](./DATASET-SUMMARY.md)
+* 📅 **Chronology** → [CHRONOLOGY](./CHRONOLOGY.md)
+
+---
 
 ## Boundary Summary (Reference Only)
 
