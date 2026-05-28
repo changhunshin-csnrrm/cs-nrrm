@@ -1,4 +1,3 @@
-````markdown
 # CS-NRRM™ White Paper
 
 ## 1. Abstract
@@ -25,14 +24,24 @@ the model fundamentally focuses on how structural patterns emerge, persist, and 
 
 ## 3. Structural Framework (Core Pipeline)
 
-CS-NRRM™ systematically organizes observational data into a non-interpretative, multi-layered processing pipeline:
+CS-NRRM™ systematically organizes observational data into a non-interpretative, multi-layered processing pipeline.
 
-```text
-[ Input ] ───────────────> [ Processing ] ───────────────> [ Output ]
+```mermaid
+flowchart LR
+    A[Input] --> B[Processing]
+    B --> C[Output]
 
-Time-indexed Data          Reference Selection            Pattern Visibility
-Visual Archives            Density Mapping                Continuity Mapping
-````
+    A1[Time-indexed Data] --> A
+    A2[Visual Archives] --> A
+    A3[Observation Logs] --> A
+
+    B --> B1[Reference Selection]
+    B --> B2[Density Mapping]
+    B --> B3[Structural Arrangement]
+
+    C --> C1[Pattern Visibility]
+    C --> C2[Continuity Mapping]
+```
 
 ### 3.1 Input Layer
 
@@ -133,7 +142,7 @@ https://www.wikidata.org/wiki/Q139505326
 If you reference this framework, please use the following standard academic format:
 
 ```text
-Shin, C. (2026).
+Shin, Changhun. (2026).
 
 CS-NRRM™ White Paper:
 A 12-Year Longitudinal Structural Observation Framework.
@@ -174,11 +183,3 @@ created by:
 
 The framework is inseparable from a single 12-year (4,300-day) personal longitudinal archive and must not be generalized into population-level medical or clinical interpretation.
 
-```
-```
-
-
-Shin, C. (2026).  
-*CS-NRRM White Paper: A 12-Year Longitudinal Structural Observation Framework.*  
-GitHub Repository.  
-https://github.com/changhunshin-csnrrm/cs-nrrm
