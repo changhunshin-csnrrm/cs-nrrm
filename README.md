@@ -736,3 +736,17 @@ See LICENSE.md for full terms.
 
 - [What a 4,300-Day Natural Recovery Archive Reveals Beyond Results](https://worldpowers.tistory.com/363)
 
+- Medium Archive:
+  https://medium.com/@shinhuni0624
+
+- Korean Archive (Tistory):
+  https://worldpowers.tistory.com
+
+---
+
+## 🌐 Multi-Language README
+
+- [🇺🇸 English](./README.md)
+- [🇰🇷 Korean](./README-ko.md)
+- [🇪🇸 Español](./README-es.md)
+- [🇩🇪 Deutsch](./README-de.md)
