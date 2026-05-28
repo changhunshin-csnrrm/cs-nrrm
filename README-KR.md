@@ -153,6 +153,7 @@ https://sites.google.com/view/changhunshin/official-documents/official-declarati
 - Wikidata: https://www.wikidata.org/wiki/Q139549239
 - Medium Archive: https://medium.com/@shinhuni0624
 - Korean Archive (Tistory): https://worldpowers.tistory.com
+- YouTube Archive: https://www.youtube.com/@vitiligorecovery
 
 ## 🌐 Multi-Language README
 
