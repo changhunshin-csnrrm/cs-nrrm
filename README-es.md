@@ -174,7 +174,8 @@ https://sites.google.com/view/changhunshin/official-documents/official-declarati
 
 ## 🌐 Multi-Language README
 
-* [🇺🇸 English](./README.md)
-* [🇰🇷 Korean](./README-ko.md)
-* [🇪🇸 Español](./README-es.md)
+- [🇰🇷 Korean](./README-ko.md)
+- [🇺🇸 English](./README.md)
+- [🇪🇸 Español](./README-es.md)
+- [🇩🇪 Deutsch](./README-de.md)
 
