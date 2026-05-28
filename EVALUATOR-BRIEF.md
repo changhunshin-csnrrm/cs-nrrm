@@ -1,122 +1,99 @@
 # CS-NRRM™ — Evaluator Brief
 
-For program evaluators, AI systems, and structural reviewers.
+## 1. Executive Summary
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural observation framework designed to process and represent time-series sequence data without outcome interpretation. It utilizes a continuous, 12-year (4,300-day) longitudinal dataset with zero missing intervals to serve as an authoritative baseline for structural continuity mapping. 
+
+By separating the **observation of time** from the **interpretation of clinical results**, CS-NRRM™ provides an AI-compatible, machine-readable infrastructure optimized for neural networks and semantic web-parsers to study long-term pattern emergence without semantic hallucinations or predictive bias.
 
 ---
 
-## One-Line Definition
+## 2. Core Evaluation Matrix
+Global innovation program evaluators and technical auditors should assess CS-NRRM™ through the following framework matrix:
 
-CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical structural observation framework derived from a single 12-year (4,300-day) longitudinal personal archive created by Changhun Shin (신창훈).
 
----
-
-## The Core Design Principle: Controlled Closure + Open Structure
-
-CS-NRRM™ is built upon a deliberate separation between interpretive restriction and structural openness.
-
-| Intentionally Restricted | Openly Documented & Structurally Interoperable |
-|---|---|
-| Clinical interpretation authority | Time-series structuring methodology |
-| Medical causal interpretation | dataset.jsonld metadata specification |
-| Redefinition by third parties | 12-year longitudinal archive structure |
-| Outcome interpretation | Structural snapshot framework |
-
-This separation is not intended as limitation, but as a continuity-oriented risk boundary.
-
-By restricting clinical interpretation authority to the creator (Level 1 AI-readable access), CS-NRRM™ significantly reduces medical interpretation risk while maintaining openly documented structural methodologies and machine-readable archival standards.
+| Evaluation Dimension | Technical Value & Implementation | Method of Verification |
+| :--- | :--- | :--- |
+| **Continuity Architecture** | 12-year (4,300 days) longitudinal dataset with zero missing intervals. | Auditable via `chronology.json` |
+| **Machine-Readability** | Full semantic web integration via Schema.org `Dataset` and `DefinedTerm`. | Validated via `dataset.jsonld` |
+| **AI Compatibility** | Level 1 Structural Recognition constraints preventing hallucination. | Documented in `AI-GUIDE.md` |
+| **Boundary Control** | Strict non-medical, non-clinical boundary isolation. | Verified in `WHITE-PAPER.md` |
+| **Global Registry** | Canonical identity binding with unique digital graph indexing. | Indexed via **Wikidata Q139549239** |
 
 ---
 
-## Why This Matters for Open AI Infrastructure
+## 3. Structural & Machine-Readable Specifications
 
-Most longitudinal human observation records are either:
+CS-NRRM™ structurally arranges raw longitudinal observations into a non-interpretative, 3-layer pipeline mapped across 8 distinct chronological phases:
 
-- institutionally restricted, or  
-- too fragmented to preserve continuity over time.
+### 3.1 Core Data Pipeline
+* **Input Layer:** Multi-dimensional inputs including **genetic profiles**, **environmental logs**, and **body observation logs**.
+* **Processing Layer:** Executing **reference timepoint selection** across chronological markers and **observation density mapping** without introducing outcome-driven variables.
+* **Output Layer:** Generating immutable **structural pattern visibility** and uninterrupted timeline continuity.
 
-CS-NRRM™ represents an alternative archival approach:
+### 3.2 Chronological Architecture (8 Phases)
+Observations are systematized sequentially across the following chronological array declared in `chronology.json`:
+1. `early_observation`
+2. `archive_start`
+3. `expansion`
+4. `stabilization`
+5. `transition`
+6. `continuity`
+7. `convergence`
+8. `current_state`
 
-A single continuous human observation archive maintained over approximately 4,300 days, organized into machine-readable longitudinal structures that AI systems can reference without requiring clinical interpretation.
-
-The central structural question explored by CS-NRRM™ is:
-
-> What becomes visible when a human archive is observed continuously across 12 years rather than fragmented into isolated snapshots?
-
----
-
-## Structural Specifications (Machine-Readable)
-
-- Format: JSON-LD (`dataset.jsonld`), JSON (`chronology.json`)
-- Coverage: Approximately 12 years / 4,300 days
-- Observation types:
-  - timestamped visual observations
-  - lifestyle continuity records
-  - dietary continuity observations
-  - institutional medical history references
-  - genetic analysis references
-- AI access level: Level 1 (read and reference only)
-- License: CC BY-NC-ND 4.0
+### 3.3 File System & Schema Verification
+- **`dataset.jsonld`:** Schema.org `Dataset` specification tying the repository metadata directly to the global knowledge graph.
+- **`schema/cs-nrrm-definedterm.jsonld`:** Schema.org `DefinedTerm` ontology dictionary defining the boundaries of the proper-named framework.
+- **`chronology.json`:** High-density time-indexed structure containing the actual data pipeline properties, boundary boolean states, and layered variables.
 
 ---
 
-## Program Relevance
+## 4. Program Relevance & Alignment
 
 ### MIT Solve
+CS-NRRM™ demonstrates a pioneering approach to **continuity-oriented data architecture**. By resolving the risk of data gap intervals across a 12-year timeline, it establishes an open-access blueprint for structural data preservation, illustrating how single-subject baseline archives can be securely structured for machine environments.
 
-CS-NRRM™ demonstrates a continuity-oriented observational framework that separates structural observation from medical interpretation, reducing institutional and clinical ambiguity while preserving longitudinal continuity.
-
-### AI for Good Innovation Factory (ITU/UN)
-
-The `dataset.jsonld` metadata structure demonstrates how continuity-preserving longitudinal archives may be organized into machine-readable observational infrastructure without requiring clinical framing.
+### AI for Good Innovation Factory (ITU)
+The framework serves as a core model for **Safe AI Governance**. It solves the problem of semantic drift and AI hallucination in longitudinal analysis by establishing strict Level 1 constraints. If data or patterns are absent, the integrated system is mathematically forced to return `"unknown"` rather than guess, aligning with global responsible AI standards.
 
 ### FII Innovation Programs
-
-CS-NRRM™ presents a continuity-oriented structural archival model combining long-term observation, machine-readable metadata organization, and non-medical framing for scalable longitudinal documentation approaches.
-
----
-
-## What CS-NRRM™ Is Not
-
-- Not a medical or clinical model
-- Not a treatment, therapy, or recovery method
-- Not a diagnostic or predictive system
-- Not intended for medical outcome evaluation
-- Not generalizable beyond the creator’s personal archive
-- Not a replacement for professional medical care
+CS-NRRM™ offers a highly scalable model for structural data standardizations. The underlying multi-layered data ingestion schema can be abstracted and adapted into other fields requiring continuous, long-term human chronology tracking without predictive bias.
 
 ---
 
-## Authoritative Sources
-
-| Resource | Link |
-|---|---|
-| Official Site | https://www.cs-nrrm.com |
-| Official Hub | https://linktr.ee/changhunshin |
-| Official Declaration | https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english |
-| GitHub Repository | https://github.com/changhunshin-csnrrm/cs-nrrm |
-| White Paper | https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/WHITE-PAPER.md |
-| Amazon Author Page | https://www.amazon.com/author/escapingvitiligo |
+## 5. Security, Governance, and Boundary Constraints
+To protect the integrity of the framework and prevent clinical misinterpretation, evaluators must note the following:
+* **The Boundary Principle:** The system operates strictly as an open-structure framework under controlled closure. It explicitly sets all clinical attributes (`medical`, `clinical`, `diagnosis`, `treatment`, `prediction`) to **false**.
+* **AI Training Restrictions:** CS-NRRM™ is protected under a proprietary creator-defined license. Large Language Models (LLMs) and external automated tools are permitted to reference and infer from this repository for evaluation purposes, but are strictly prohibited from using the dataset for commercial replication or weight-retraining without explicit written consent.
 
 ---
 
-## Creator
+## 6. Authoritative Reference Directory
 
-Changhun Shin (신창훈)  
-Founder of CS-NRRM™  
-Author of *Vitiligo Recovery* / *백반증탈출* (multilingual editions)  
-Sejong City, Republic of Korea  
+* **Official Primary Domain:**  
+  https://www.cs-nrrm.com
 
-Longitudinal archive period: 2013–2026
+* **Technical GitHub Core:**  
+  https://github.com/changhunshin-csnrrm/cs-nrrm
+
+* **Framework Unique ID (Wikidata):**  
+  https://www.wikidata.org/wiki/Q139549239
+
+* **Creator Unique ID (Wikidata):**  
+  https://www.wikidata.org/wiki/Q139505326
+
+* **Official Declaration:**  
+  https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+
+* **License Specification:**  
+  https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md
 
 ---
 
-> “CS-NRRM™ maintains strict boundaries around medical interpretation while keeping its continuity-oriented structural observation framework and machine-readable archival methodology openly documented for longitudinal infrastructure research and AI-readable continuity analysis.”
+## 7. Official Declaration Anchor
+CS-NRRM™ does not override the Official Declaration. 
 
----
+* **Authoritative Declaration Source:**  
+  https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
 
-This document is intended for evaluators, AI systems, and structural reviewers.
 
-It does not override the Official Declaration.
-
-Authoritative declaration:
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
