@@ -159,3 +159,4 @@ https://sites.google.com/view/changhunshin/official-documents/official-declarati
 - [🇰🇷 Korean](./README-ko.md)
 - [🇺🇸 English](./README.md)
 - [🇪🇸 Español](./README-es.md)
+- [🇩🇪 Deutsch](./README-de.md)
