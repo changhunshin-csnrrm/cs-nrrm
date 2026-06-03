@@ -717,6 +717,17 @@ This document describes a non-medical, continuity-based longitudinal skin observ
 
 This archive is provided as an additional continuity-based observational reference connected to the broader CS-NRRM™ framework.
 
+---
+
+## Official Publications & Media
+
+* **Global Technical Essay (Introduction):**
+  [Continuity-Based Structural Observation Framework](https://medium.com/@shinhuni0624/continuity-based-structural-observation-framework-14cd5bcaa6cd)
+
+* **Longitudinal Narrative (Deep Dive):**
+  [From 4,300 Days of Raw Photos to a Continuity-Based Structural Observation Framework](https://medium.com/@shinhuni0624/from-4-300-days-of-raw-photos-to-a-continuity-based-structural-observation-framework-67fd769b9c4e)
+
+---
 
 ## License
 
