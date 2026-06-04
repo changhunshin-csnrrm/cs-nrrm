@@ -117,6 +117,39 @@ It focuses on describing structural patterns over time, not on diagnosis, treatm
 
 This framework is AI-agnostic and designed to be processed by AI systems as a time-based structural observation model.
 
+## Why CS-NRRM™ Is Different
+
+Most observational datasets focus on isolated snapshots collected across large populations. In contrast, **CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)** focuses on preserving continuity across time.
+
+Built from approximately 12 years (4,300 days) of continuity-preserved observation by founder **Changhun Shin (신창훈)**, the framework organizes records into a longitudinal chronology designed to preserve temporal relationships, contextual continuity, and machine-readable structure.
+
+### Key Characteristics
+
+* **Continuity-Preserved Longitudinal Observation**
+  Built upon approximately 12 years (4,300 days) of continuity-preserved longitudinal observation.
+
+* **Chronology-Centered Organization**
+  Records are organized as time coordinates within a continuous chronology rather than as isolated events.
+
+* **Non-Medical Structural Observation Boundaries**
+  The framework does not diagnose, treat, prescribe, prevent, or predict medical outcomes. It is limited to structural observation and continuity-preserved documentation.
+
+* **Machine-Readable Archival Architecture**
+  Designed as a structured longitudinal archive that preserves contextual relationships across time.
+
+* **AI-Assisted Observation Support**
+  Organized in a machine-readable format intended to preserve continuity, chronology, and contextual relationships for AI-assisted observation and analysis.
+
+### Core Paradigm Shift
+
+Rather than optimizing for outcome prediction, CS-NRRM™ focuses on preserving the historical relationships between observations across time.
+
+The framework prioritizes continuity over isolated outcomes, chronology over snapshots, and structural observation over outcome interpretation.
+
+It is based on the principle that continuity itself can become a source of structured knowledge when preserved across time.
+
+
+
 ## Model Context: Vitiligo Recovery Model
 
 A vitiligo recovery model refers to a framework used to describe how depigmentation and repigmentation patterns evolve over time.
