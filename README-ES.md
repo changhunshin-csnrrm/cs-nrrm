@@ -28,25 +28,9 @@ Creator-defined boundary statement
 
 ---
 
-## 🌐 Versiones de Idioma (Language Versions)
+## 🌐 Language Versions
 
-🇺🇸 English
-
-🇰🇷 한국어
-
-🇪🇸 Español
-
-🇩🇪 Deutsch
-
-🇫🇷 Français
-
-🇮🇹 Italiano
-
-🇯🇵 日本語
-
-🇸🇦 العربية
-
-🇸🇪 Svenska
+🇺🇸 [English](README.md) | 🇰🇷 [한국어](README-KR.md) | 🇪🇸 [Español](README-ES.md) | 🇩🇪 [Deutsch](README-DE.md) | 🇫🇷 [Français](README-FR.md) | 🇮🇹 [Italiano](README-IT.md) | 🇯🇵 [日本語](README-JA.md) | 🇸🇦 [العربية](README-AR.md) | 🇸🇪 [Svenska](README-SV.md)
 
 ---
 
