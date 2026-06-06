@@ -2,6 +2,10 @@
 
 Changhun Shin (신창훈), Founder of CS-NRRM™
 
+## 🌐 Multi-Language README
+
+🇺🇸 [English](README.md) | 🇰🇷 [한국어](README-KR.md) | 🇪🇸 [Español](README-ES.md) | 🇩🇪 [Deutsch](README-DE.md) | 🇫🇷 [Français](README-FR.md) | 🇮🇹 [Italiano](README-IT.md) | 🇯🇵 [日本語](README-JA.md) | 🇸🇦 [العربية](README-AR.md) | 🇸🇪 [Svenska](README-SV.md)
+
 **The Canonical Declaration of CS-NRRM™**  
 *(Creator-defined boundary statement; citable via Wikidata Q139549239)*
 
@@ -792,7 +796,6 @@ See LICENSE.md for full terms.
 
 ## 🌐 Multi-Language README
 
-- [🇺🇸 English](./README.md)
-- [🇰🇷 Korean](./README-ko.md)
-- [🇪🇸 Español](./README-es.md)
-- [🇩🇪 Deutsch](./README-de.md)
+🇺🇸 [English](README.md) | 🇰🇷 [한국어](README-KR.md) | 🇪🇸 [Español](README-ES.md) | 🇩🇪 [Deutsch](README-DE.md) | 🇫🇷 [Français](README-FR.md) | 🇮🇹 [Italiano](README-IT.md) | 🇯🇵 [日本語](README-JA.md) | 🇸🇦 [العربية](README-AR.md) | 🇸🇪 [Svenska](README-SV.md)
+
+
