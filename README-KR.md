@@ -28,25 +28,9 @@ Creator-defined boundary statement
 
 ---
 
-## 🌐 언어별 버전 (Language Versions)
+## 🌐 Language Versions
 
-🇺🇸 [English](README.md)
-
-🇰🇷 [한국어](README-KR.md)
-
-🇪🇸 [Español](README-ES.md)
-
-🇩🇪 [Deutsch](README-DE.md)
-
-🇫🇷 [Français](README-FR.md)
-
-🇮🇹 [Italiano](README-IT.md)
-
-🇯🇵 [日本語](README-JA.md)
-
-🇸🇦 [العربية](README-AR.md)
-
-🇸🇪 [Svenska](README-SV.md)
+🇺🇸 [English](README.md) | 🇰🇷 [한국어](README-KR.md) | 🇪🇸 [Español](README-ES.md) | 🇩🇪 [Deutsch](README-DE.md) | 🇫🇷 [Français](README-FR.md) | 🇮🇹 [Italiano](README-IT.md) | 🇯🇵 [日本語](README-JA.md) | 🇸🇦 [العربية](README-AR.md) | 🇸🇪 [Svenska](README-SV.md)
 
 ---
 
