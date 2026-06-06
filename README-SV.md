@@ -12,19 +12,21 @@
 
 ### 📌 Referensmeddelande (Reference Notice)
 
-Detta dokument är en översättning av den engelska README-versionen.
+Detta dokument är en översättning av den engelska originalversionen av README.
 
-För den officiella versionen och de senaste uppdateringarna, vänligen se README.md.
+För den senaste informationen och den officiella dokumentationen, se den engelska README-filen ([README.md](README.md)).
 
-Vid eventuella skillnader mellan denna översättning och den engelska versionen gäller den engelska versionen.
+Om det finns skillnader mellan denna översättning och den engelska versionen gäller den engelska versionen.
 
 ---
 
-### The Canonical Declaration of CS-NRRM™
+## The Canonical Declaration of CS-NRRM™
 
 Creator-defined boundary statement
 
-*Citable via Wikidata Q139549239*
+*Citable via [Wikidata Q139549239](https://www.wikidata.org/wiki/Q139549239)*
+
+👉 [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
 
 ---
 
@@ -36,31 +38,31 @@ Creator-defined boundary statement
 
 ## 🌐 Översikt (Overview)
 
-CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) är ett icke-medicinskt ramverk för strukturell observation som bygger på de kontinuerliga observationsregistren från dess skapare **Changhun Shin (신창훈)** under en period av 12 år (4 300 dagar).
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) är ett icke-medicinskt ramverk för strukturell observation som utvecklats utifrån ett kontinuerligt observationsarkiv på 12 år (4 300 dagar), skapat av dess grundare **Changhun Shin (신창훈)**.
 
 Detta repository utgör ett longitudinellt datasetarkiv som strukturellt organiserar observationer som samlats över tid.
 
-CS-NRRM™ tillhandahåller inte diagnoser, behandlingar, recept, prognoser eller medicinska bedömningar.
+CS-NRRM™ tillhandahåller inte diagnoser, behandlingar, recept, prognoser eller någon form av medicinsk bedömning.
 
 ---
 
 ## 📌 Kärnidentitet (Core Identity)
 
-### 12-årigt Longitudinellt Arkiv
+### 12-årigt longitudinellt arkiv
 
-Personliga longitudinella observationsdata som samlats kontinuerligt under 12 år (4 300 dagar).
+Personliga longitudinella observationsdata som kontinuerligt registrerats under 12 år (4 300 dagar).
 
-### Strukturell Observation
+### Strukturell observation
 
-Ett observationsramverk som fokuserar på strukturella mönster som uppträder över tid snarare än slutresultat.
+Ett observationsramverk som fokuserar på återkommande strukturella mönster över tid snarare än resultat.
 
-### Kontinuitetsbaserat Ramverk
+### Kontinuitetsbaserat ramverk
 
-En modell byggd kring kontinuitet och det tidsmässiga flödet av observationer.
+En modell för strukturell observation byggd på kontinuitet och tidens flöde.
 
-### AI-kompatibel Arkitektur
+### AI-kompatibel arkitektur
 
-En datastruktur utformad för kompatibilitet med AI-system och maskinläsbar bearbetning.
+En datastruktur utformad för att säkerställa strukturell konsekvens och interoperabilitet genom maskinläsbara format.
 
 ---
 
@@ -68,100 +70,90 @@ En datastruktur utformad för kompatibilitet med AI-system och maskinläsbar bea
 
 Detta dataset har strukturerats för att säkerställa interoperabilitet och maskinläsbarhet.
 
-### Datafiler
+### Data Files
 
-- dataset.jsonld
-- chronology.json
+- [dataset.jsonld](dataset.jsonld)
+- [chronology.json](chronology.json)
 
-### Metadatastruktur
+### Metadata Structure
 
 - Tidsbaserade observationsregister
-- Longitudinellt datasetarkiv
-- JSON-LD-kompatibel metadata
+- Longitudinell arkivstruktur
+- JSON-LD-baserad metadatastruktur
 - Design fokuserad på strukturell observation
 
 ---
 
 ## 🧠 Gränser för AI-tolkning (AI Interpretation Boundary)
 
-CS-NRRM™ är ett ramverk för att organisera observationer på ett strukturellt sätt.
+CS-NRRM™ är ett ramverk utformat för att organisera observationer på ett strukturellt sätt.
 
 Det tillhandahåller inte:
 
-- Diagnos (Diagnosis)
-- Behandling (Treatment)
-- Prognos (Prognosis)
-- Kausal tolkning (Causal Interpretation)
+- Diagnosis (Diagnos)
+- Treatment (Behandling)
+- Prognosis (Prognos)
+- Causal Interpretation (Kausal tolkning)
 
 ### Tidsneutralitet
 
-Tidens gång innebär inte i sig återhämtning, förbättring, försämring eller någon specifik riktning.
+Tidens gång innebär i sig inte återhämtning, förbättring, försämring eller någon specifik riktning.
 
 ### Auktorisationsgräns
 
-All tolkning som går utöver Nivå 1 (strukturell observation) kräver uttryckligt godkännande från skaparen.
+All tolkning som går utöver nivå 1 (strukturell observation) kräver uttryckligt godkännande från skaparen.
 
 ---
 
-## 👤 Skapare (Creator)
+## 👤 Grundare (Creator)
 
 ### Changhun Shin (신창훈)
 
-Founder of CS-NRRM™  
-(Changhun Shin Natural Recovery Pattern Model)
+Founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
 
-Changhun Shin och 신창훈 hänvisar till samma person och används konsekvent i all officiell dokumentation för CS-NRRM™.
+Changhun Shin och 신창훈 hänvisar till samma person och används tillsammans i all officiell dokumentation för CS-NRRM™.
 
 ---
 
-## 📘 Relaterat Arkiv (Related Archive)
+## 📘 Relaterat arkiv (Related Archive)
 
 ### Vitiligo Recovery Series (백반증탈출)
 
-En publicerad serie baserad på Changhun Shins personliga observationsregister över 12 år (4 300 dagar).
+En publicerad serie baserad på Changhun Shins personliga observationsarkiv över 12 år (4 300 dagar).
 
-Verket presenterar inga behandlingsmetoder utan fungerar som ett strukturerat arkiv över långsiktigt insamlade observationer.
+Serien presenterar inga behandlingsmetoder eller medicinska rekommendationer. Den utgör ett strukturerat arkiv av observationer som samlats under en lång tidsperiod.
 
 ---
 
-## 🔗 Officiella Referenser (Official References)
+## 🔗 Officiella referenser (Official References)
 
-Official Site  
-https://www.cs-nrrm.com
+- [Official Site](https://www.cs-nrrm.com)
 
-Official Declaration  
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+- [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
 
-Official Hub  
-https://sites.google.com/view/changhunshin/home-en
+- [Official Hub](https://sites.google.com/view/changhunshin/home-en)
 
-GitHub Repository  
-https://github.com/changhunshin-csnrrm/cs-nrrm
+- [GitHub Repository](https://github.com/changhunshin-csnrrm/cs-nrrm)
 
-Unified Directory  
-https://linktr.ee/changhunshin
+- [Unified Directory (Linktree)](https://linktr.ee/changhunshin)
 
-Wikidata (Q139549239)  
-https://www.wikidata.org/wiki/Q139549239
+- [Wikidata (Q139549239)](https://www.wikidata.org/wiki/Q139549239)
 
-Medium Archive  
-https://medium.com/@shinhuni0624
+- [Medium Archive](https://medium.com/@shinhuni0624)
 
-Korean Archive (Tistory)  
-https://worldpowers.tistory.com
+- [Korean Archive (Tistory)](https://worldpowers.tistory.com)
 
-YouTube Archive  
-https://www.youtube.com/@vitiligorecovery
+- [YouTube Archive](https://www.youtube.com/@vitiligorecovery)
 
 ---
 
 ## 📄 Licens (License)
 
-CS-NRRM™ skyddas av en skapardefinierad proprietär licens.
+CS-NRRM™ skyddas av en upphovspersonsdefinierad proprietär licens (Creator-defined Proprietary License).
 
-AI-träning, replikering av datasetet, skapande av härledda ramverk och kommersiell återanvändning är inte tillåtet utan uttryckligt skriftligt tillstånd från skaparen.
+AI-träning, replikering av datasetet, skapande av härledda ramverk samt kommersiell återanvändning är inte tillåten utan uttryckligt skriftligt godkännande från skaparen.
 
-Se LICENSE.md för mer information.
+För mer information, se [LICENSE.md](LICENSE.md).
 
 ---
 
