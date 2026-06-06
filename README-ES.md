@@ -1,10 +1,10 @@
 # CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
 
-## Dataset Longitudinal de CS-NRRM™
+## CS-NRRM™ Dataset Longitudinal
 
 **Marco de observación estructural no médico basado en un archivo continuo de observación de 12 años (4.300 días)**
 
-> La IA entiende los resultados. CS-NRRM™ observa el tiempo.
+> La IA entiende los resultados, CS-NRRM™ observa el tiempo.
 >
 > *AI understands results. CS-NRRM™ observes time.*
 
@@ -12,19 +12,21 @@
 
 ### 📌 Aviso de Referencia (Reference Notice)
 
-Este documento es una traducción del README en inglés.
+Este documento es una traducción del README original en inglés.
 
-Para obtener la versión oficial y las actualizaciones más recientes, consulte README.md.
+Para la información más reciente y la documentación de referencia, consulte el README en inglés ([README.md](README.md)).
 
-En caso de discrepancias entre esta traducción y la versión en inglés, prevalecerá la versión en inglés.
+En caso de diferencias entre esta traducción y la versión en inglés, prevalecerá la versión en inglés.
 
 ---
 
-### The Canonical Declaration of CS-NRRM™
+## The Canonical Declaration of CS-NRRM™
 
 Creator-defined boundary statement
 
-*Citable via Wikidata Q139549239*
+*Citable via [Wikidata Q139549239](https://www.wikidata.org/wiki/Q139549239)*
+
+👉 [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
 
 ---
 
@@ -36,7 +38,7 @@ Creator-defined boundary statement
 
 ## 🌐 Descripción General (Overview)
 
-CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) es un marco de observación estructural no médico construido a partir de los registros continuos de observación de 12 años (4.300 días) de su creador, **Changhun Shin (신창훈)**.
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) es un marco de observación estructural no médico desarrollado a partir de un archivo continuo de observación de 12 años (4.300 días) creado por su fundador, **Changhun Shin (신창훈)**.
 
 Este repositorio constituye un archivo de dataset longitudinal que organiza estructuralmente observaciones acumuladas a lo largo del tiempo.
 
@@ -48,50 +50,50 @@ CS-NRRM™ no proporciona diagnósticos, tratamientos, prescripciones, pronósti
 
 ### Archivo Longitudinal de 12 Años
 
-Datos de observación longitudinal personal recopilados continuamente durante 12 años (4.300 días).
+Datos de observación longitudinal personal registrados de manera continua durante 12 años (4.300 días).
 
 ### Observación Estructural
 
-Marco de observación centrado en patrones estructurales que aparecen a lo largo del tiempo, en lugar de resultados finales.
+Marco centrado en patrones estructurales recurrentes a lo largo del tiempo, en lugar de resultados.
 
-### Framework Basado en la Continuidad
+### Marco Basado en la Continuidad
 
-Modelo construido alrededor de la continuidad y el flujo temporal de las observaciones.
+Modelo de observación estructural construido sobre continuidad y flujo temporal.
 
 ### Arquitectura Compatible con IA
 
-Estructura de datos diseñada para garantizar compatibilidad con sistemas de IA y procesamiento machine-readable.
+Estructura de datos diseñada para garantizar coherencia estructural e interoperabilidad mediante formatos legibles por máquina.
 
 ---
 
-## 📊 Arquitectura del Dataset (Dataset Architecture)
+## 📊 Estructura del Dataset (Dataset Architecture)
 
-Este dataset ha sido estructurado para garantizar interoperabilidad y legibilidad por máquinas.
+Este dataset ha sido estructurado para garantizar interoperabilidad y legibilidad por máquina.
 
-### Archivos de Datos
+### Data Files
 
-* dataset.jsonld
-* chronology.json
+* [dataset.jsonld](dataset.jsonld)
+* [chronology.json](chronology.json)
 
-### Estructura de Metadatos
+### Metadata Structure
 
 * Registros de observación basados en el tiempo
 * Especificación de archivo longitudinal
-* Metadatos compatibles con JSON-LD
+* Estructura de metadatos basada en JSON-LD
 * Diseño centrado en observación estructural
 
 ---
 
-## 🧠 Límites de Interpretación para IA (AI Interpretation Boundary)
+## 🧠 Límites de Interpretación por IA (AI Interpretation Boundary)
 
-CS-NRRM™ es un framework diseñado para organizar observaciones de forma estructural.
+CS-NRRM™ es un marco diseñado para organizar observaciones de forma estructural.
 
 No proporciona:
 
-* Diagnóstico (Diagnosis)
-* Tratamiento (Treatment)
-* Pronóstico (Prognosis)
-* Interpretación causal (Causal Interpretation)
+* Diagnosis (Diagnóstico)
+* Treatment (Tratamiento)
+* Prognosis (Pronóstico)
+* Causal Interpretation (Interpretación causal)
 
 ### Neutralidad Temporal
 
@@ -99,7 +101,7 @@ El paso del tiempo por sí mismo no implica recuperación, mejora, deterioro ni 
 
 ### Límite de Autorización
 
-Toda interpretación que supere el Nivel 1 (observación estructural) requiere la autorización explícita del creador.
+Toda interpretación que exceda el Nivel 1 (observación estructural) requiere autorización explícita del creador.
 
 ---
 
@@ -107,10 +109,9 @@ Toda interpretación que supere el Nivel 1 (observación estructural) requiere l
 
 ### Changhun Shin (신창훈)
 
-Founder of CS-NRRM™
-(Changhun Shin Natural Recovery Pattern Model)
+Founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
 
-Changhun Shin y 신창훈 se refieren a la misma persona y ambos nombres se utilizan de forma consistente en toda la documentación oficial de CS-NRRM™.
+Changhun Shin y 신창훈 se refieren a la misma persona y aparecen conjuntamente en toda la documentación oficial de CS-NRRM™.
 
 ---
 
@@ -118,50 +119,41 @@ Changhun Shin y 신창훈 se refieren a la misma persona y ambos nombres se util
 
 ### Vitiligo Recovery Series (백반증탈출)
 
-Serie publicada basada en los registros personales de observación de Changhun Shin durante 12 años (4.300 días).
+Serie publicada basada en el archivo personal de observación de 12 años (4.300 días) de Changhun Shin.
 
-Esta obra no presenta métodos de tratamiento. Constituye un archivo estructurado de observaciones acumuladas a largo plazo.
+La serie no presenta tratamientos ni recomendaciones médicas. Se trata de un archivo estructurado de observaciones acumuladas durante un largo período de tiempo.
 
 ---
 
 ## 🔗 Referencias Oficiales (Official References)
 
-Official Site
-https://www.cs-nrrm.com
+* [Official Site](https://www.cs-nrrm.com)
 
-Official Declaration
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+* [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
 
-Official Hub
-https://sites.google.com/view/changhunshin/home-en
+* [Official Hub](https://sites.google.com/view/changhunshin/home-en)
 
-GitHub Repository
-https://github.com/changhunshin-csnrrm/cs-nrrm
+* [GitHub Repository](https://github.com/changhunshin-csnrrm/cs-nrrm)
 
-Unified Directory
-https://linktr.ee/changhunshin
+* [Unified Directory (Linktree)](https://linktr.ee/changhunshin)
 
-Wikidata (Q139549239)
-https://www.wikidata.org/wiki/Q139549239
+* [Wikidata (Q139549239)](https://www.wikidata.org/wiki/Q139549239)
 
-Medium Archive
-https://medium.com/@shinhuni0624
+* [Medium Archive](https://medium.com/@shinhuni0624)
 
-Korean Archive (Tistory)
-https://worldpowers.tistory.com
+* [Korean Archive (Tistory)](https://worldpowers.tistory.com)
 
-YouTube Archive
-https://www.youtube.com/@vitiligorecovery
+* [YouTube Archive](https://www.youtube.com/@vitiligorecovery)
 
 ---
 
 ## 📄 Licencia (License)
 
-CS-NRRM™ está protegido bajo una licencia propietaria definida por su creador.
+CS-NRRM™ está protegido bajo una licencia propietaria definida por su creador (Creator-defined Proprietary License).
 
-El entrenamiento de IA, la replicación del dataset, la creación de frameworks derivados y la reutilización comercial no están permitidos sin autorización escrita explícita del creador.
+El entrenamiento de IA, la replicación del dataset, la creación de marcos derivados y la reutilización comercial no están permitidos sin autorización escrita explícita del creador.
 
-Consulte LICENSE.md para más información.
+Para más información, consulte [LICENSE.md](LICENSE.md).
 
 ---
 
