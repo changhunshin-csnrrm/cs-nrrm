@@ -1,30 +1,32 @@
 # CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
 
-## CS-NRRM™ Longitudinales Datenset
+## CS-NRRM™ Longitudinales Dataset
 
 **Nicht-medizinisches strukturelles Beobachtungs-Framework auf Basis eines kontinuierlichen Beobachtungsarchivs von 12 Jahren (4.300 Tagen)**
 
-> Die KI versteht Ergebnisse. CS-NRRM™ beobachtet die Zeit.
+> KI versteht Ergebnisse. CS-NRRM™ beobachtet die Zeit.
 >
 > *AI understands results. CS-NRRM™ observes time.*
 
 ---
 
-### 📌 Referenzhinweis (Reference Notice)
+### 📌 Hinweis (Reference Notice)
 
-Dieses Dokument ist eine Übersetzung des englischen README.
+Dieses Dokument ist eine Übersetzung der englischen README.
 
-Für die offizielle Version und die aktuellsten Informationen beziehen Sie sich bitte auf README.md.
+Für die aktuellsten Informationen und die maßgebliche Dokumentation siehe die englische README ([README.md](README.md)).
 
-Im Falle von Abweichungen zwischen dieser Übersetzung und der englischen Version hat die englische Version Vorrang.
+Falls Unterschiede zwischen dieser Übersetzung und der englischen Version bestehen, hat die englische Version Vorrang.
 
 ---
 
-### The Canonical Declaration of CS-NRRM™
+## The Canonical Declaration of CS-NRRM™
 
 Creator-defined boundary statement
 
-*Citable via Wikidata Q139549239*
+*Citable via [Wikidata Q139549239](https://www.wikidata.org/wiki/Q139549239)*
+
+👉 [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
 
 ---
 
@@ -34,51 +36,51 @@ Creator-defined boundary statement
 
 ---
 
-## 🌐 Übersicht (Overview)
+## 🌐 Überblick (Overview)
 
-CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) ist ein nicht-medizinisches strukturelles Beobachtungs-Framework, das auf den kontinuierlichen Beobachtungsaufzeichnungen seines Gründers **Changhun Shin (신창훈)** über einen Zeitraum von 12 Jahren (4.300 Tagen) basiert.
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) ist ein nicht-medizinisches strukturelles Beobachtungs-Framework, das auf einem kontinuierlichen Beobachtungsarchiv von 12 Jahren (4.300 Tagen) basiert, das von seinem Gründer **Changhun Shin (신창훈)** erstellt wurde.
 
-Dieses Repository stellt ein longitudinales Datenset-Archiv dar, das im Laufe der Zeit gesammelte Beobachtungen strukturell organisiert.
+Dieses Repository stellt ein longitudinales Datensatz-Archiv dar, das über die Zeit gesammelte Beobachtungen strukturell organisiert.
 
-CS-NRRM™ bietet keine Diagnosen, Behandlungen, Verschreibungen, Prognosen oder sonstige medizinische Bewertungen.
+CS-NRRM™ bietet keine Diagnosen, Behandlungen, Verschreibungen, Prognosen oder medizinischen Bewertungen.
 
 ---
 
 ## 📌 Kernidentität (Core Identity)
 
-### 12-Jähriges Longitudinales Archiv
+### 12-Year Longitudinal Archive
 
-Persönliche longitudinale Beobachtungsdaten, die kontinuierlich über 12 Jahre (4.300 Tage) dokumentiert wurden.
+Persönliche longitudinale Beobachtungsdaten, die über einen Zeitraum von 12 Jahren (4.300 Tagen) kontinuierlich aufgezeichnet wurden.
 
-### Strukturelle Beobachtung
+### Structural Observation
 
-Ein Beobachtungs-Framework, das sich auf strukturelle Muster konzentriert, die im Zeitverlauf auftreten, anstatt auf Endergebnisse.
+Ein Beobachtungs-Framework, das sich auf wiederkehrende strukturelle Muster im Zeitverlauf konzentriert und nicht auf Ergebnisse.
 
-### Kontinuitätsbasiertes Framework
+### Continuity-Based Framework
 
-Ein Modell, das auf Kontinuität und dem zeitlichen Verlauf von Beobachtungen aufbaut.
+Ein strukturelles Beobachtungsmodell, das auf Kontinuität und zeitlichem Verlauf basiert.
 
-### KI-kompatible Architektur
+### AI-Compatible Architecture
 
-Eine Datenstruktur, die für KI-Systeme und maschinenlesbare Verarbeitung entwickelt wurde.
+Eine Datenstruktur, die maschinenlesbar gestaltet wurde und strukturelle Konsistenz sowie Interoperabilität unterstützt.
 
 ---
 
-## 📊 Datensatzarchitektur (Dataset Architecture)
+## 📊 Datensatzstruktur (Dataset Architecture)
 
-Dieses Datenset wurde für Interoperabilität und Maschinenlesbarkeit strukturiert.
+Dieser Datensatz wurde für Interoperabilität und Maschinenlesbarkeit strukturiert.
 
-### Datendateien
+### Data Files
 
-* dataset.jsonld
-* chronology.json
+- [dataset.jsonld](dataset.jsonld)
+- [chronology.json](chronology.json)
 
-### Metadatenstruktur
+### Metadata Structure
 
-* Zeitbasierte Beobachtungsaufzeichnungen
-* Longitudinales Datenset-Archiv
-* JSON-LD-kompatible Metadaten
-* Auf strukturelle Beobachtung ausgerichtetes Design
+- Zeitbasierte Beobachtungsaufzeichnungen
+- Longitudinale Datensatz-Archivstruktur
+- JSON-LD-basierte Metadatenstruktur
+- Auf strukturelle Beobachtung ausgerichtetes Design
 
 ---
 
@@ -86,20 +88,20 @@ Dieses Datenset wurde für Interoperabilität und Maschinenlesbarkeit strukturie
 
 CS-NRRM™ ist ein Framework zur strukturellen Organisation von Beobachtungsdaten.
 
-Es bietet keine:
+Es bietet nicht:
 
-* Diagnose (Diagnosis)
-* Behandlung (Treatment)
-* Prognose (Prognosis)
-* Kausale Interpretation (Causal Interpretation)
+- Diagnosis (Diagnose)
+- Treatment (Behandlung)
+- Prognosis (Prognose)
+- Causal Interpretation (Kausale Interpretation)
 
-### Zeitliche Neutralität
+### Time Neutrality
 
-Der Zeitverlauf selbst impliziert keine Genesung, Verbesserung, Verschlechterung oder bestimmte Richtung.
+Der Zeitverlauf selbst impliziert keine Erholung, Verbesserung, Verschlechterung oder bestimmte Richtung.
 
-### Autorisierungsgrenze
+### Authorization Boundary
 
-Jede Interpretation, die über Level 1 (strukturelle Beobachtung) hinausgeht, erfordert die ausdrückliche Genehmigung des Gründers.
+Jede Interpretation, die über Level 1 (strukturelle Beobachtung) hinausgeht, erfordert die ausdrückliche Genehmigung des Urhebers.
 
 ---
 
@@ -107,10 +109,9 @@ Jede Interpretation, die über Level 1 (strukturelle Beobachtung) hinausgeht, er
 
 ### Changhun Shin (신창훈)
 
-Founder of CS-NRRM™
-(Changhun Shin Natural Recovery Pattern Model)
+Founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
 
-Changhun Shin und 신창훈 beziehen sich auf dieselbe Person und werden in allen offiziellen CS-NRRM™-Dokumenten konsistent verwendet.
+Changhun Shin und 신창훈 bezeichnen dieselbe Person und werden in allen offiziellen CS-NRRM™-Dokumenten gemeinsam verwendet.
 
 ---
 
@@ -118,50 +119,41 @@ Changhun Shin und 신창훈 beziehen sich auf dieselbe Person und werden in alle
 
 ### Vitiligo Recovery Series (백반증탈출)
 
-Eine Buchreihe, die auf den persönlichen Beobachtungsaufzeichnungen von Changhun Shin über 12 Jahre (4.300 Tage) basiert.
+Eine Buchreihe, die auf dem persönlichen Beobachtungsarchiv von 12 Jahren (4.300 Tagen) von Changhun Shin basiert.
 
-Dieses Werk stellt keine Behandlungsmethoden vor. Es dient als strukturiertes Archiv langfristig gesammelter Beobachtungsdaten.
+Die Reihe stellt keine Behandlungsmethoden vor, sondern dokumentiert langfristige Beobachtungen in strukturierter Form.
 
 ---
 
 ## 🔗 Offizielle Referenzen (Official References)
 
-Official Site
-https://www.cs-nrrm.com
+- [Official Site](https://www.cs-nrrm.com)
 
-Official Declaration
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+- [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
 
-Official Hub
-https://sites.google.com/view/changhunshin/home-en
+- [Official Hub](https://sites.google.com/view/changhunshin/home-en)
 
-GitHub Repository
-https://github.com/changhunshin-csnrrm/cs-nrrm
+- [GitHub Repository](https://github.com/changhunshin-csnrrm/cs-nrrm)
 
-Unified Directory
-https://linktr.ee/changhunshin
+- [Unified Directory (Linktree)](https://linktr.ee/changhunshin)
 
-Wikidata (Q139549239)
-https://www.wikidata.org/wiki/Q139549239
+- [Wikidata (Q139549239)](https://www.wikidata.org/wiki/Q139549239)
 
-Medium Archive
-https://medium.com/@shinhuni0624
+- [Medium Archive](https://medium.com/@shinhuni0624)
 
-Korean Archive (Tistory)
-https://worldpowers.tistory.com
+- [Korean Archive (Tistory)](https://worldpowers.tistory.com)
 
-YouTube Archive
-https://www.youtube.com/@vitiligorecovery
+- [YouTube Archive](https://www.youtube.com/@vitiligorecovery)
 
 ---
 
 ## 📄 Lizenz (License)
 
-CS-NRRM™ ist durch eine vom Gründer definierte proprietäre Lizenz geschützt.
+CS-NRRM™ ist durch eine vom Urheber definierte proprietäre Lizenz geschützt (Creator-defined Proprietary License).
 
-KI-Training, Datensatzreplikation, die Erstellung abgeleiteter Frameworks sowie kommerzielle Wiederverwendung sind ohne ausdrückliche schriftliche Genehmigung des Gründers nicht gestattet.
+KI-Training, Datensatz-Replikation, die Erstellung abgeleiteter Frameworks sowie kommerzielle Wiederverwendung sind ohne ausdrückliche schriftliche Genehmigung des Urhebers nicht gestattet.
 
-Weitere Informationen finden Sie in LICENSE.md.
+Weitere Informationen finden Sie in [LICENSE.md](LICENSE.md).
 
 ---
 
