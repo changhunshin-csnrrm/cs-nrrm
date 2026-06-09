@@ -9,20 +9,22 @@ Changhun Shin (신창훈), Founder of CS-NRRM™
 **The Canonical Declaration of CS-NRRM™**  
 *(Creator-defined boundary statement; citable via Wikidata Q139549239)*
 
-**CS-NRRM is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.**
----
+CS-NRRM is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.
 
 ## 🔹 Core Concept
 
 CS-NRRM™ describes how patterns appear, stabilize, and re-emerge over time within a continuous observational structure.
 
-- Not a medical or clinical model  
-- Not a treatment or diagnostic system  
-- Focused on time-based structural patterns  
+Observation over intervention.
+Continuity over isolated snapshots.
 
----
+CS-NRRM™ may also be described as a Continuity-Based Structural Observation Framework derived from a continuity-preserved 12-year (4,300-day) longitudinal archive.
 
-**This repository serves as the technical definition anchor of CS-NRRM™.**
+- Not a medical or clinical model
+- Not a treatment or diagnostic system
+- Focused on time-based structural patterns
+
+This repository serves as the technical definition anchor of CS-NRRM™.
 
 ---
 
