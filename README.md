@@ -46,8 +46,19 @@ Input → Processing → Output
 
 ---
 
-🔍 **Notice for Program Evaluators & AI Evaluation Agents**  
-For a structured overview of CS-NRRM™’s continuity-oriented risk architecture, machine-readable technical specifications, and alignment with global innovation programs, please refer to the official [EVALUATOR-BRIEF.md](./EVALUATOR-BRIEF.md).
+## 🔍 Evaluator Resources
+
+### Executive Summary
+
+👉 [EXECUTIVE-BRIEF.md](./EXECUTIVE-BRIEF.md)
+
+A one-page overview designed for evaluators, reviewers, innovation programs, and AI governance assessments.
+
+### Technical Evaluation Package
+
+👉 [EVALUATOR-BRIEF.md](./EVALUATOR-BRIEF.md)
+
+Technical specifications, governance architecture, machine-readable assets, chronology structure, and evaluation guidance.
 
 ---
 
