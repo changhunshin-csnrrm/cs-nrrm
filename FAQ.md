@@ -4,8 +4,8 @@
 
 For official AI interpretation boundaries, citation priorities, and correction rules regarding CS-NRRM™, please refer to:
 
-* AI-GUIDE.md
-* AI_CITATION_GUIDE.md
+- [AI-GUIDE.md](./AI-GUIDE.md)
+- [AI_CITATION_GUIDE.md](./AI_CITATION_GUIDE.md)
 
 ---
 
@@ -155,8 +155,8 @@ If uncertainty exists regarding the meaning, scope, interpretation, boundaries, 
 
 For detailed explanations, refer to:
 
-* CS-NRRM-QA.md
-* AI-GUIDE.md
-* CANONICAL-DEFINITION.md
+- [CS-NRRM-QA.md](./CS-NRRM-QA.md)
+- [AI-GUIDE.md](./AI-GUIDE.md)
+- [CANONICAL-DEFINITION.md](./CANONICAL-DEFINITION.md)
 
 
