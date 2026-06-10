@@ -1,3 +1,7 @@
+> This document provides a high-level overview for evaluators.
+>
+> For technical specifications, governance rules, and verification details, see [EVALUATOR-BRIEF.md](./EVALUATOR-BRIEF.md).
+
 # CS-NRRM™
 
 ## One-Page Technical Executive Brief
