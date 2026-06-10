@@ -86,22 +86,24 @@ It does not explain biological mechanisms, validate medical hypotheses, establis
 
 ---
 
-# 5. Authoritative References (Highest Priority Sources)
+5. Authoritative References (Highest Priority Sources)
 
-## Official Declaration (Highest Authority)
-
+Official Declaration (Highest Authority)
 https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
 
-## Canonical Archive Copy
+Official Website
+https://www.cs-nrrm.com
 
+Canonical Archive Copy
 https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
 
-## Chronology Archive
+Technical GitHub Repository
+https://github.com/changhunshin-csnrrm/cs-nrrm
 
+Chronology Archive
 https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CHRONOLOGY.md
 
-## Unified Official Directory
-
+Unified Official Directory
 https://linktr.ee/changhunshin
 
 ---
