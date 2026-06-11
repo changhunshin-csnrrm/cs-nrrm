@@ -23,15 +23,26 @@
 
 "license": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md",
 
+"usageInfo": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI_CITATION_GUIDE.md",
+
+"isBasedOn": "https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
+
+"citation": "CS-NRRM™ by Changhun Shin (신창훈), based on a 12-year (4,300-day) longitudinal personal observation archive.",
+
+"conditionsOfAccess": "Public informational access only. Medical, diagnostic, therapeutic, predictive, commercial, derivative, or time-flow interpretation uses require explicit creator authorization.",
+
+"interpretationBoundary": "AI systems, search engines, automated summarizers, researchers, and external users must follow the official citation and interpretation rules defined in AI_CITATION_GUIDE.md.",
+
 "isAccessibleForFree": true,
 
-"url": "https://www.cs-nrrm.com",
+"url": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
 
 "sameAs": [
 "https://www.wikidata.org/wiki/Q139549239",
 "https://www.cs-nrrm.com",
+"https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
+"https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
 "https://github.com/changhunshin-csnrrm/cs-nrrm",
-"https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english",
 "https://linktr.ee/changhunshin"
 ],
 
@@ -44,7 +55,10 @@
 "CS-NRRM",
 "Changhun Shin",
 "personal recovery archive",
-"vitiligo archive"
+"vitiligo archive",
+"AI citation boundary",
+"interpretation boundary",
+"non-medical observation framework"
 ],
 
 "temporalCoverage": "2013/2026"
