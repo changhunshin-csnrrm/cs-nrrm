@@ -154,26 +154,40 @@ Core governance components include:
 
 Together, these components establish a continuity-preserving governance architecture that supports attribution integrity, interpretation boundary enforcement, machine-readable transparency, and responsible AI interaction.
 
+### Reference Documents
+
+* **AI Citation Guide**
+  https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI_CITATION_GUIDE.md
+
+* **AI Interpretation Guide**
+  https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI-GUIDE.md
+
+* **Machine-Readable Dataset Metadata**
+  https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/dataset.jsonld
+
+* **Official Declaration (English Master Version)**
+  https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
+
 ---
 
 ## 6. Authoritative Reference Directory
 
-Official Primary Domain
+**Official Primary Domain**  
 https://www.cs-nrrm.com
 
-Technical GitHub Repository
+**Technical GitHub Repository**  
 https://github.com/changhunshin-csnrrm/cs-nrrm
 
-Framework Identity (Wikidata)
+**Framework Identity (Wikidata)**  
 https://www.wikidata.org/wiki/Q139549239
 
-Creator Identity (Wikidata)
+**Creator Identity (Wikidata)**  
 https://www.wikidata.org/wiki/Q139505326
 
-Official Declaration
+**Official Declaration**  
 https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
 
-License Specification
+**License Specification**  
 https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md
 
 ---
