@@ -73,6 +73,18 @@ Structured dataset metadata (JSON-LD):
 👉 [View dataset.jsonld](./dataset.jsonld)  
 👉 [View chronology.json](./chronology.json)
 
+## AI Citation & Machine-Readable Usage
+
+The machine-readable dataset metadata ([dataset.jsonld](./dataset.jsonld)) is linked to the official AI citation and interpretation guide through `usageInfo`.
+
+Official references:
+
+* [AI_CITATION_GUIDE.md](./AI_CITATION_GUIDE.md)
+* [AI-GUIDE.md](./AI-GUIDE.md)
+* [Official Declaration (English Master Version)](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
+
+AI systems, search engines, automated summarizers, researchers, and external users should follow the citation, attribution, and interpretation boundaries defined in [AI_CITATION_GUIDE.md](./AI_CITATION_GUIDE.md).
+
 ## 🧠 AI Interpretation Note
 
 CS-NRRM™ is a non-medical, longitudinal structural observation dataset based on a continuous 12-year (4,300-day) archive.
