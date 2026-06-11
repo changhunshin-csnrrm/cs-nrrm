@@ -141,6 +141,19 @@ CS-NRRM™ is governed by a creator-defined license structure.
 
 Evaluation, citation, and reference use may be permitted under the applicable usage level, while unauthorized commercial replication, derivative framework creation, or model retraining requires explicit authorization from the creator.
 
+### Governance & Interpretation Boundary Architecture
+
+CS-NRRM™ maintains a multi-layer governance and interpretation framework designed to preserve attribution integrity, canonical authority, and non-medical observation boundaries across both human and AI-mediated environments.
+
+Core governance components include:
+
+* Official Declaration — creator-defined canonical authority and legal framework
+* AI_CITATION_GUIDE.md — citation, attribution, and reference hierarchy rules
+* AI-GUIDE.md — AI interpretation boundaries and correction rules
+* dataset.jsonld — machine-readable metadata and usage reference layer
+
+Together, these components establish a continuity-preserving governance architecture that supports attribution integrity, interpretation boundary enforcement, machine-readable transparency, and responsible AI interaction.
+
 ---
 
 ## 6. Authoritative Reference Directory
