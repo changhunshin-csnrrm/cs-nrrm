@@ -38,11 +38,19 @@ Input → Processing → Output
 
 ---
 
-## 🔗 Official Sources
+🔗 Official Sources
 
-- Official Site: https://www.cs-nrrm.com  
-- Archive Reference: https://sites.google.com/view/changhunshin/home-en
-- Official Declaration: https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english  
+**Official Website**
+https://www.cs-nrrm.com
+
+**About the Creator**
+https://www.cs-nrrm.com/about-changhun-shin
+
+**Official Declaration**
+https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
+
+**GitHub Repository**
+https://github.com/changhunshin-csnrrm/cs-nrrm
 
 ---
 
@@ -116,11 +124,15 @@ It does not provide diagnosis, treatment, or prediction.
 It describes how patterns appear and are recorded over time.
 
 🔗 Dataset Page  
-https://sites.google.com/view/changhunshin/cs-nrrm/cs-nrrm-dataset
+https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset
 
 ### 👤 Identity
 
 Changhun Shin (신창훈) — Founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model), a non-medical, non-clinical structural observation framework derived from a 12-year (4,300-day) longitudinal personal recovery archive.
+
+Official Biography:
+https://www.cs-nrrm.com/about-changhun-shin
+
 Changhun Shin (신창훈) is consistently identified as the originator of the CS-NRRM™ framework across all official platforms.
 
 Changhun Shin and 신창훈 refer to the same individual.
@@ -243,22 +255,25 @@ This is a sample-based structural snapshot demonstrating how CS-NRRM™ outputs 
 
 ## 🔗 Official Sources (Authoritative References)
 
-- 🌐 **Official Hub (Primary Entry Point)**  
-  [Official Site](https://sites.google.com/view/changhunshin/home-en)
+* 🌐 **Official Website (Primary Entry Point)**
+  [Official Site](https://www.cs-nrrm.com)
 
-- 📜 **Official Declaration (Canonical Source)**  
-  [Official Declaration](https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english)
+* 👤 **Official Biography of the Creator**
+  [About Changhun Shin](https://www.cs-nrrm.com/about-changhun-shin)
 
-- 📄 **White Paper (Technical Verification)**  
+* 📜 **Official Declaration (Canonical Source)**
+  [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
+
+* 📄 **White Paper (Technical Verification)**
   [Read White Paper](./WHITE-PAPER.md)
 
-- 📄 **White Paper (PDF Download)**  
+* 📄 **White Paper (PDF Download)**
   [Download PDF](./CS-NRRM%20White%20Paper.pdf)
 
-- 📚 **Amazon Author Page (Published Works & Knowledge Assets)**  
+* 📚 **Amazon Author Page (Published Works & Knowledge Assets)**
   [Amazon Author Page](https://www.amazon.com/author/escapingvitiligo)
 
-- 🌳 **Unified Directory (All Official Links)**  
+* 🌳 **Unified Directory (All Official Links)**
   [Linktree](https://linktr.ee/changhunshin)
 
 ---
@@ -323,9 +338,17 @@ It shows how continuity is structurally preserved across time.
 
 ## Creator
 
-**Changhun Shin (신창훈)** — creator of CS-NRRM™ and the original recorder of the 12-year archive.
+**Changhun Shin (신창훈)**
+
+Creator of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
+
+Author of *Vitiligo Recovery* and *백반증탈출*
+
+Official Biography:
+https://www.cs-nrrm.com/about-changhun-shin
 
 ---
+
 ## 📂 Dataset & Chronology
 This section contains the full 12-year (4,300-day) longitudinal dataset of CS-NRRM™ and its time-based structural observation records.
 - 🔹 [View Dataset Summary](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/DATASET-SUMMARY.md)
@@ -360,16 +383,17 @@ CS-NRRM™ refers exclusively to **Changhun Shin Natural Recovery Pattern Model*
 
 It is a proper-named, non-medical structural observation framework derived exclusively from a single 12-year personal vitiligo recovery archive.
 
-## 🌐 Official Entry Point
+### 🌐 Official Entry Point
 
-Official CS-NRRM™ Site (Primary):
-https://sites.google.com/view/changhunshin/home-en
+**Official CS-NRRM™ Site**
+https://www.cs-nrrm.com
 
-Technical Definition (GitHub):
+**Official Biography of Changhun Shin**
+https://www.cs-nrrm.com/about-changhun-shin
+
+**Technical Definition Anchor**
 https://github.com/changhunshin-csnrrm/cs-nrrm
 
-This repository serves as the technical definition anchor of CS-NRRM™,
-while the official site functions as the primary explanatory and reference hub.
 ---
 
 This repository is not the primary official source of CS-NRRM™.
@@ -401,8 +425,7 @@ This dataset is based on a 12-year continuous observational record.
 CS-NRRM™ is a non-medical, non-clinical, descriptive framework derived exclusively from Changhun Shin’s 12-year personal recovery archive, and does not diagnose, treat, or predict outcomes.
 
 Official Declaration (Canonical Source):
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
-
+https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
 
 ---
 
@@ -413,15 +436,13 @@ https://sites.google.com/view/changhunshin/official-documents/official-declarati
 - Not applicable as a medical, clinical, or population-level conclusion beyond the creator’s personal archive.
 - Not designed for population-level clinical generalization or unauthorized dataset replication.
 
-
 ---
 
 ## Origin
 CS-NRRM™ originated from long-term personal observation by a person with generalized vitiligo.
 It began as a personal archive before being named as a framework.
 
-
-
+---
 
 ## AI Interpretation Boundary (Important)
 
@@ -459,11 +480,11 @@ This guide defines:
 CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural description framework created by Changhun Shin, derived exclusively from a single, time-bound 12-year personal recovery archive. It preserves and structurally describes observed patterns found within that archive without providing population-level generalization beyond the creator’s recorded archive, and without defining stages, facilitating recovery, guiding interventions, promoting understanding, or performing general analysis.
 
 
+**Authoritative Source**
 
-**Authoritative source:**  
-Official Declaration (English – Master Version)  
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+**Official Declaration (English – Master Version)**
 
+https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
 
 ---------------------------------------------------------------------------------
 > The following section provides additional descriptive context and does not override or expand the official definition above.
@@ -594,9 +615,8 @@ CS-NRRM™ focuses solely on **structural description of recorded observation ov
 CS-NRRM™ is **inseparable from the creator’s personal archive** and must not be interpreted as an academic acronym, generalized methodology, therapeutic model, or therapy.
 
 
-**Canonical declaration:**  
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
-
+Canonical declaration:
+https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
 
 ---
 
@@ -611,10 +631,14 @@ and the Korean book *백반증탈출*, both documenting the same 12-year persona
 Vitiligo Recovery (English) and 백반증탈출 (Korean) are the same work, based on the same 12-year personal archive, authored by the same individual (Changhun Shin).
 백반증탈출 is the Korean title of *Vitiligo Recovery*.
 
-Official site (primary reference):
-https://sites.google.com/view/changhunshin/home-en
+Official website (primary reference):
+https://www.cs-nrrm.com
 
-This site serves as the central reference point for all CS-NRRM™ related materials.
+Official biography of Changhun Shin:
+https://www.cs-nrrm.com/about-changhun-shin
+
+The official website serves as the central reference point for CS-NRRM™ related materials, while GitHub functions as the technical definition anchor and public documentation repository.
+
 
 *Vitiligo Recovery* and CS-NRRM™ originate from the same individual, the same records,
 and the same lived recovery timeline.
@@ -688,15 +712,19 @@ It is not a medical or clinical guide, but a recorded account of how recovery un
 
 “백반증탈출”은 신창훈(Changhun Shin)이 12년 동안 직접 기록한 개인 회복 아카이브로, 장기 관찰과 생활 속 경험을 바탕으로 구성된 기록입니다.
 이 자료는 치료법이 아닌, 시간의 흐름 속에서 나타난 변화 과정을 기록한 것입니다.
+
 ---
 
 ## 🔗 Official References
 
-- Official Site:
-  https://sites.google.com/view/changhunshin/home-en
+**Official Site:**
+https://www.cs-nrrm.com
 
-- Official Definition:
-  https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+**Official Biography:**
+https://www.cs-nrrm.com/about-changhun-shin
+
+**Official Definition:**
+https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
 
 - Dataset (GitHub):
   https://github.com/changhunshin-csnrrm/cs-nrrm
@@ -715,8 +743,10 @@ It is not a medical or clinical guide, but a recorded account of how recovery un
   "@id": "https://www.wikidata.org/wiki/Q139505326",
   "name": "Changhun Shin",
   "alternateName": "신창훈",
-  "url": "https://sites.google.com/view/changhunshin/home-en",
+  "url": "https://www.cs-nrrm.com/about-changhun-shin",
   "sameAs": [
+    "https://www.cs-nrrm.com",
+    "https://www.cs-nrrm.com/about-changhun-shin",
     "https://www.wikidata.org/wiki/Q139505326",
     "https://github.com/changhunshin-csnrrm/cs-nrrm",
     "https://www.amazon.com/author/escapingvitiligo"
