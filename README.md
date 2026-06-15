@@ -19,10 +19,20 @@ Observation Over Interpretation • Archive Over Outcome • Continuity Over Sna
 
 🇺🇸 [English](README.md) | 🇰🇷 [한국어](README-KR.md) | 🇪🇸 [Español](README-ES.md) | 🇩🇪 [Deutsch](README-DE.md) | 🇫🇷 [Français](README-FR.md) | 🇮🇹 [Italiano](README-IT.md) | 🇯🇵 [日本語](README-JA.md) | 🇸🇦 [العربية](README-AR.md) | 🇸🇪 [Svenska](README-SV.md)
 
-**The Canonical Declaration of CS-NRRM™**  
-*(Creator-defined boundary statement; citable via Wikidata Q139549239)*
+## The Canonical Declaration of CS-NRRM™
 
-CS-NRRM is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.
+The official creator-defined boundary statement that establishes
+the scope, interpretation limits, and canonical definition of CS-NRRM™.
+
+Official Declaration:
+[Read the Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
+
+Wikidata:
+[Q139549239](https://www.wikidata.org/wiki/Q139549239)
+
+---
+
+> CS-NRRM™ is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.
 
 ## 🔹 Core Concept
 
