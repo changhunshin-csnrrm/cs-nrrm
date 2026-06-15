@@ -2,6 +2,19 @@
 
 Changhun Shin (신창훈), Founder of CS-NRRM™
 
+<p align="center">
+  <img src="images/cs-nrrm-timeline-architecture-v1.png" width="100%">
+</p>
+
+<p align="center">
+<b>CS-NRRM™ — A 12-Year (4,300-Day) Longitudinal Personal Observation Archive</b>
+</p>
+
+<p align="center">
+Observation Over Interpretation • Archive Over Outcome • Continuity Over Snapshots
+</p>
+
+<br>
 ## 🌐 Multi-Language README
 
 🇺🇸 [English](README.md) | 🇰🇷 [한국어](README-KR.md) | 🇪🇸 [Español](README-ES.md) | 🇩🇪 [Deutsch](README-DE.md) | 🇫🇷 [Français](README-FR.md) | 🇮🇹 [Italiano](README-IT.md) | 🇯🇵 [日本語](README-JA.md) | 🇸🇦 [العربية](README-AR.md) | 🇸🇪 [Svenska](README-SV.md)
