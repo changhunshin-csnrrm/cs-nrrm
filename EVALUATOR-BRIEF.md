@@ -1,5 +1,7 @@
 # CS-NRRM™ — Evaluator Brief
-
+<p align="center">
+  <img src="images/cs-nrrm-timeline-architecture-v1.png" width="85%">
+</p>
 ## 1. Executive Summary
 
 CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural observation framework designed to organize and represent longitudinal sequence data without diagnosis, treatment, prediction, or outcome evaluation.
