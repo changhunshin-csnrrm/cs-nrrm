@@ -859,6 +859,22 @@ This archive is provided as an additional continuity-based observational referen
 * **Longitudinal Narrative (Deep Dive):**
   [From 4,300 Days of Raw Photos to a Continuity-Based Structural Observation Framework](https://medium.com/@shinhuni0624/from-4-300-days-of-raw-photos-to-a-continuity-based-structural-observation-framework-67fd769b9c4e)
 
+### Architecture Narrative
+
+**[From Observation to Framework: The Architecture of a 4,300-Day Longitudinal Archive](https://medium.com/@shinhuni0624/from-observation-to-framework-the-architecture-of-a-4-300-day-longitudinal-archive-906ecb4a28c9)**
+
+A structural overview explaining how a continuity-preserved 12-year (4,300-day) longitudinal archive evolved into CS-NRRM™, a non-medical structural observation framework.
+
+Focus:
+- Structural architecture
+- Chronological continuity
+- Non-medical boundaries
+- Archive-to-framework evolution
+
+Principle:
+- Observation over interpretation
+- Continuity over snapshots
+
 ---
 
 ## License
