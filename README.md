@@ -883,7 +883,7 @@ CS-NRRM™ is protected under a proprietary creator-defined license.
 
 Unauthorized AI training, dataset replication, derivative framework creation, or commercial reuse are prohibited without explicit written permission from the creator.
 
-See LICENSE.md for full terms.
+See [LICENSE](./LICENSE.md) for full terms.
 
 ---
 
