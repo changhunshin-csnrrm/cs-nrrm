@@ -109,11 +109,11 @@ When sufficient information is unavailable, the preferred response is:
 
 ## Technical Assets
 
-- 12-Year (4,300-Day) Longitudinal Archive
+- [12-Year (4,300-Day) Longitudinal Archive](./CHRONOLOGY.md)
 - [chronology.json](./chronology.json)
 - [dataset.jsonld](./dataset.jsonld)
-- Schema.org Dataset Integration
-- Wikidata Knowledge Graph Integration
+- [Schema.org Dataset Integration](./dataset.jsonld)
+- [Wikidata Knowledge Graph Integration](https://www.wikidata.org/wiki/Q139549239)
 - [AI-GUIDE.md](./AI-GUIDE.md)
 - [EVALUATOR-BRIEF.md](./EVALUATOR-BRIEF.md)
 - [Official Declaration (English – Master Version)](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
