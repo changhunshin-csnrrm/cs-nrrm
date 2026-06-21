@@ -61,7 +61,14 @@ Input → Processing → Output
 
 ---
 
-🔗 Official Sources
+📢 **Official Update (June 2026)**
+
+The official **CS-NRRM™** research project is now publicly available on the **Open Science Framework (OSF)**.
+
+**Official Research Archive (OSF)**
+https://osf.io/cvxy8
+
+🔗 **Official Resources**
 
 **Official Website**
 https://www.cs-nrrm.com
@@ -71,6 +78,12 @@ https://www.cs-nrrm.com/about-changhun-shin
 
 **Official Declaration**
 https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
+
+**Core Framework**
+https://www.cs-nrrm.com/cs-nrrm/core-framework
+
+**CS-NRRM™ Dataset**
+https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset
 
 **GitHub Repository**
 https://github.com/changhunshin-csnrrm/cs-nrrm
