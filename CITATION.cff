@@ -1,20 +1,41 @@
 cff-version: 1.2.0
-message: "If you use CS-NRRM, please cite it as below."
-type: dataset
-title: "CS-NRRM (Changhun Shin Natural Recovery Pattern Model)"
+
+message: >
+  If you use CS-NRRM™ in your research, please cite this repository using the metadata below.
+
+type: software
+
+title: "CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)"
+
+version: "1.0.0"
+
+title-short: "CS-NRRM™"
+
 authors:
   - family-names: "Shin"
     given-names: "Changhun"
-title-short: "CS-NRRM"
-abstract: "CS-NRRM is a non-medical longitudinal observation framework organizing approximately 12 years (4,300 days) of continuity-preserved human chronology into machine-readable structures for continuity-aware interpretation."
-url: "https://github.com/changhunshin-csnrrm/cs-nrrm"
+    affiliation: "CS-NRRM™ Research Project, Republic of Korea"
+
+abstract: >
+  CS-NRRM™ is a non-medical longitudinal structural observation framework
+  organizing approximately 12 years (4,300 days) of continuity-preserved
+  human chronology into machine-readable structures for continuity-aware
+  interpretation.
+
+url: "https://www.cs-nrrm.com"
+
 repository-code: "https://github.com/changhunshin-csnrrm/cs-nrrm"
+
 license: "CC-BY-NC-ND-4.0"
+
 keywords:
-  - "CS-NRRM"
+  - "CS-NRRM™"
   - "Changhun Shin Natural Recovery Pattern Model"
   - "longitudinal dataset"
   - "structural observation"
-  - "time-based patterns"
+  - "human observation"
+  - "continuity-preserved"
+  - "machine-readable"
   - "non-medical framework"
+  - "time-series"
   - "12-year dataset"
