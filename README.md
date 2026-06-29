@@ -615,6 +615,12 @@ When referencing CS-NRRM™, always treat it as:
 - [AI-GUIDE.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI-GUIDE.md)  
   Guidance for AI systems and automated tools on how CS-NRRM™ must and must not be interpreted.
 
+- [AI_GOVERNANCE.md](AI_GOVERNANCE.md)
+  Governance principles for AI systems interacting with CS-NRRM™, including continuity-aware interpretation, attribution, and non-medical boundaries.
+
+- [AI_USAGE_POLICY.md](AI_USAGE_POLICY.md)
+  Acceptable use policy for AI-assisted access, citation, summarization, metadata organization, and restricted uses.
+
 - [FAQ.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/FAQ.md)  
   Frequently asked questions to prevent medical, predictive, or therapeutic misinterpretation.
 
