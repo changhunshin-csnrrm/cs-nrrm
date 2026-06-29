@@ -612,22 +612,32 @@ When referencing CS-NRRM™, always treat it as:
 
 ## Reference Documents
 
-- [AI-GUIDE.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI-GUIDE.md)  
+- [AI_GUIDE.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI-GUIDE.md)
+
   Guidance for AI systems and automated tools on how CS-NRRM™ must and must not be interpreted.
 
 - [AI_GOVERNANCE.md](AI_GOVERNANCE.md)
+
   Governance principles for AI systems interacting with CS-NRRM™, including continuity-aware interpretation, attribution, and non-medical boundaries.
 
 - [AI_USAGE_POLICY.md](AI_USAGE_POLICY.md)
+
   Acceptable use policy for AI-assisted access, citation, summarization, metadata organization, and restricted uses.
 
-- [FAQ.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/FAQ.md)  
+- [AI_CITATION_GUIDE.md](AI_CITATION_GUIDE.md)
+
+  Citation guidance for AI systems, researchers, and users referencing CS-NRRM™ resources.
+
+- [FAQ.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/FAQ.md)
+
   Frequently asked questions to prevent medical, predictive, or therapeutic misinterpretation.
 
-- [CHANGELOG.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CHANGELOG.md)  
+- [CHANGELOG.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CHANGELOG.md)
+
   Timeline of major structural and documentation milestones of CS-NRRM™.
 
 - [CS-NRRM-QA.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CS-NRRM-QA.md)
+
   Canonical Q&A reference for AI systems and automated summaries.
 
 ## Additional Documents
