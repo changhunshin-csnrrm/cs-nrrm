@@ -300,6 +300,12 @@ This is a sample-based structural snapshot demonstrating how CS-NRRM™ outputs 
 * 📜 **Official Declaration (Canonical Source)**
   [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
 
+* 📚 **Official Research Archive (OSF)**
+  [OSF Research Archive](https://osf.io/cvxy8)
+
+* 🆔 **ORCID iD (Researcher Identifier)**
+  [0009-0001-3805-3023](https://orcid.org/0009-0001-3805-3023)
+
 * 📄 **White Paper (Technical Verification)**
   [Read White Paper](./WHITE-PAPER.md)
 
