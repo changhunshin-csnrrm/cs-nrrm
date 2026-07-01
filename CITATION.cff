@@ -1,21 +1,25 @@
 cff-version: 1.2.0
+
 message: "If you use CS-NRRM™ in your research, please cite this repository using the metadata below."
+
 type: software
+
 title: "CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)"
+
 version: "1.0.0"
+
 title-short: "CS-NRRM™"
 
 authors:
-
-* family-names: "Shin"
-  given-names: "Changhun"
-  affiliation: "CS-NRRM™ Research Project, Republic of Korea"
+  - family-names: "Shin"
+    given-names: "Changhun"
+    affiliation: "CS-NRRM™ Research Project, Republic of Korea"
 
 abstract: >
-CS-NRRM™ is a non-medical longitudinal structural observation framework
-organizing approximately 12 years (4,300 days) of continuity-preserved
-human chronology into machine-readable structures for continuity-aware
-interpretation.
+  CS-NRRM™ is a non-medical longitudinal structural observation framework
+  organizing approximately 12 years (4,300 days) of continuity-preserved
+  human chronology into machine-readable structures for continuity-aware
+  interpretation.
 
 doi: "10.17605/OSF.IO/GUXM7"
 
@@ -24,32 +28,34 @@ url: "https://www.cs-nrrm.com"
 repository-code: "https://github.com/changhunshin-csnrrm/cs-nrrm"
 
 identifiers:
+  - type: doi
+    value: "10.17605/OSF.IO/GUXM7"
+    description: "Paper 1: CS-NRRM™: A Non-Medical Structural Observation Framework"
 
-* type: doi
-  value: "10.17605/OSF.IO/GUXM7"
+  - type: doi
+    value: "10.5281/zenodo.21088023"
+    description: "Paper 2: Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive"
 
 license: "CC-BY-NC-ND-4.0"
 
 keywords:
-
-* "CS-NRRM™"
-* "Changhun Shin Natural Recovery Pattern Model"
-* "longitudinal dataset"
-* "structural observation"
-* "human observation"
-* "continuity-preserved"
-* "machine-readable"
-* "non-medical framework"
-* "time-series"
-* "12-year dataset"
+  - "CS-NRRM™"
+  - "Changhun Shin Natural Recovery Pattern Model"
+  - "longitudinal dataset"
+  - "structural observation"
+  - "human observation"
+  - "continuity-preserved"
+  - "machine-readable"
+  - "non-medical framework"
+  - "time-series"
+  - "12-year dataset"
 
 preferred-citation:
-type: article
-title: "CS-NRRM™: A Non-Medical Structural Observation Framework"
-authors:
-- family-names: "Shin"
-given-names: "Changhun"
-year: 2026
-doi: "10.17605/OSF.IO/GUXM7"
-url: "https://doi.org/10.17605/OSF.IO/GUXM7"
-
+  type: article
+  title: "CS-NRRM™: A Non-Medical Structural Observation Framework"
+  authors:
+    - family-names: "Shin"
+      given-names: "Changhun"
+  year: 2026
+  doi: "10.17605/OSF.IO/GUXM7"
+  url: "https://doi.org/10.17605/OSF.IO/GUXM7"
