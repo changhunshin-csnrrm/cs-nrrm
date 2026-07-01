@@ -88,6 +88,32 @@ https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset
 **GitHub Repository**
 https://github.com/changhunshin-csnrrm/cs-nrrm
 
+## 📚 Official Publications
+
+### Paper 1
+
+**CS-NRRM™: A Non-Medical Structural Observation Framework**
+
+The foundational paper introducing the CS-NRRM™ framework as a non-medical structural observation framework for continuity-preserved longitudinal human observational data.
+
+**Official DOI (OSF Registration):**  
+https://doi.org/10.17605/OSF.IO/GUXM7
+
+---
+
+### Paper 2
+
+**Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive**
+
+This paper demonstrates the practical application of the CS-NRRM™ framework using a continuity-preserved longitudinal human observational archive spanning approximately twelve years.
+
+**Official DOI (Zenodo):**  
+https://doi.org/10.5281/zenodo.21088023
+
+---
+
+Future peer-reviewed papers, preprints, and official research publications related to the CS-NRRM™ project will be added here.
+
 ---
 
 ## 🔍 Evaluator Resources
