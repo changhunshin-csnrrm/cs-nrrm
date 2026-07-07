@@ -112,6 +112,17 @@ https://doi.org/10.5281/zenodo.21088023
 
 ---
 
+### Paper 3
+
+**Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework**
+
+This paper proposes an AI-readable continuity infrastructure for organizing continuity-preserved longitudinal human observational archives. Building upon the conceptual framework established in Paper 1 and the practical application demonstrated in Paper 2, it introduces an organizational infrastructure that preserves chronological continuity, contextual relationships, structured metadata, explicit observational boundaries, and machine-readable representation to support reliable AI-assisted interpretation.
+
+**Official DOI (Zenodo):**  
+https://doi.org/10.5281/zenodo.21231617
+
+---
+
 Future peer-reviewed papers, preprints, and official research publications related to the CS-NRRM™ project will be added here.
 
 ---
