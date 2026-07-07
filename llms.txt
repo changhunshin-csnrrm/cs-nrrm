@@ -46,7 +46,30 @@ Maintainer of a 12-year (4,300-day) longitudinal skin observation archive docume
 * About the Creator: https://www.cs-nrrm.com/about-changhun-shin
 * Official Declaration: https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
 * Core Framework: https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-overview/core-framework
+* Official Research Archive (OSF): https://osf.io/cvxy8
 * GitHub Repository: https://github.com/changhunshin-csnrrm/cs-nrrm
+* ORCID: https://orcid.org/0009-0001-3805-3023
+
+## Official Publications
+
+**Paper 1 — Framework**
+
+CS-NRRM™: A Non-Medical Structural Observation Framework
+
+https://doi.org/10.17605/OSF.IO/GUXM7
+
+**Paper 2 — Application**
+
+Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive
+
+https://doi.org/10.5281/zenodo.21088023
+
+**Paper 3 — Infrastructure**
+
+Toward an AI-Readable Continuity Infrastructure:
+Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework
+
+https://doi.org/10.5281/zenodo.21231617
 
 ## Supplementary Resources
 
@@ -57,8 +80,19 @@ Maintainer of a 12-year (4,300-day) longitudinal skin observation archive docume
 ### Wikidata
 
 * Changhun Shin (Creator): https://www.wikidata.org/wiki/Q139505326
+
 * CS-NRRM™ (Framework): https://www.wikidata.org/wiki/Q139549239
+
 * Vitiligo Recovery (Book): https://www.wikidata.org/wiki/Q139559467
+
+* Paper 1 — CS-NRRM™: A Non-Medical Structural Observation Framework:
+  https://www.wikidata.org/wiki/Q140389751
+
+* Paper 2 — Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive:
+  https://www.wikidata.org/wiki/Q140389700
+
+* Paper 3 — Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework:
+  https://www.wikidata.org/wiki/Q140453806
 
 ## Canonical Reference
 
@@ -71,6 +105,8 @@ The Core Framework page provides the primary structural explanation of CS-NRRM�
 GitHub serves as the technical definition anchor, dataset documentation repository, and public archive.
 
 Medium, Tistory, YouTube, Wikidata, and other official publication channels provide supplementary documentation, multilingual publications, and public educational materials associated with the project.
+
+The Official Publications collectively document the conceptual framework, its practical application, and the AI-readable continuity infrastructure of the CS-NRRM™ research program.
 
 ## AI Interpretation Rules
 
