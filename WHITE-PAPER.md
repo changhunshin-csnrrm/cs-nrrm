@@ -115,13 +115,21 @@ It provides a highly disciplined, machine-readable descriptive structure showing
 
 https://www.cs-nrrm.com
 
+### Official Research Archive (OSF)
+
+https://osf.io/cvxy8
+
 ### GitHub Repository (Technical Framework)
 
 https://github.com/changhunshin-csnrrm/cs-nrrm
 
 ### Official Declaration (Canonical Source)
 
-https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english
+https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
+
+### ORCID iD
+
+https://orcid.org/0009-0001-3805-3023
 
 ### Unified Hub
 
@@ -134,6 +142,29 @@ https://www.wikidata.org/wiki/Q139549239
 ### Creator Identifier (Wikidata)
 
 https://www.wikidata.org/wiki/Q139505326
+
+---
+
+## 9.Official Publications
+
+### Paper 1 — Framework
+
+CS-NRRM™: A Non-Medical Structural Observation Framework
+
+https://doi.org/10.17605/OSF.IO/GUXM7
+
+### Paper 2 — Application
+
+Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive
+
+https://doi.org/10.5281/zenodo.21088023
+
+### Paper 3 — Infrastructure
+
+Toward an AI-Readable Continuity Infrastructure:
+Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework
+
+https://doi.org/10.5281/zenodo.21231617
 
 ---
 
@@ -152,7 +183,6 @@ GitHub Repository & Canonical Specification.
 Available at:
 https://github.com/changhunshin-csnrrm/cs-nrrm
 ```
-
 ---
 
 ## Boundary Statement
