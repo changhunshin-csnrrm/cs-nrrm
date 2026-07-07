@@ -36,6 +36,10 @@ identifiers:
     value: "10.5281/zenodo.21088023"
     description: "Paper 2: Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive"
 
+  - type: doi
+    value: "10.5281/zenodo.21231617"
+    description: "Paper 3: Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework"
+
 license: "CC-BY-NC-ND-4.0"
 
 keywords:
