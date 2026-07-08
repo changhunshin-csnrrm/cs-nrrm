@@ -123,6 +123,26 @@ https://doi.org/10.5281/zenodo.21231617
 
 ---
 
+### 🌐 Structured Knowledge Records (Wikidata)
+
+The following Wikidata entities represent the official, persistent, machine-readable knowledge records for the CS-NRRM™ framework, its creator, and its research publications.
+
+- 👤 **Creator (Changhun Shin)** — [Q139505326](https://www.wikidata.org/wiki/Q139505326)
+
+- 🧩 **CS-NRRM™ Framework** — [Q139549239](https://www.wikidata.org/wiki/Q139549239)
+
+- 📄 **Paper 1** — [Q140389751](https://www.wikidata.org/wiki/Q140389751)
+
+- 📄 **Paper 2** — [Q140389700](https://www.wikidata.org/wiki/Q140389700)
+
+- 📄 **Paper 3** — [Q140453806](https://www.wikidata.org/wiki/Q140453806)
+
+- 📖 **Vitiligo Recovery** — [Q139559467](https://www.wikidata.org/wiki/Q139559467)
+
+These records support persistent identification, structured interoperability, and cross-platform knowledge integration across open scholarly ecosystems.
+
+---
+
 Future peer-reviewed papers, preprints, and official research publications related to the CS-NRRM™ project will be added here.
 
 ---
