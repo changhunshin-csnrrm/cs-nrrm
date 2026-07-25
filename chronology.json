@@ -1,6 +1,6 @@
-```json
 {
-  "dataset": "CS-NRRM",
+  "dataset": "CS-NRRM™",
+  "alternate_name": "CSNRRM",
   "full_name": "Changhun Shin Natural Recovery Pattern Model",
 
   "type": "longitudinal_structural_observation",
@@ -15,31 +15,34 @@
   "subject": {
     "type": "single_subject",
     "creator": {
-      "name": "Changhun Shin (신창훈)",
-      "wikidata": "https://www.wikidata.org/wiki/Q139505326"
+      "name": "Changhun Shin",
+      "alternate_name": "신창훈",
+      "wikidata": "https://www.wikidata.org/wiki/Q139505326",
+      "orcid": "https://orcid.org/0009-0001-3805-3023"
     }
   },
 
   "structure": {
     "time_series": true,
-    "continuous": true,
+    "continuity_preserved": true,
+    "chronology_preserved": true,
 
     "layers": [
       "genetic_profile",
-      "environment",
+      "environmental_context",
       "body_observation"
     ]
   },
 
   "phases": [
-    "early_observation",
-    "archive_start",
-    "expansion",
-    "stabilization",
-    "transition",
-    "continuity",
-    "convergence",
-    "current_state"
+    "initial_observation",
+    "archive_beginning",
+    "observation_expansion",
+    "continued_observation",
+    "long_term_recording",
+    "continuity_preservation",
+    "late_period_observation",
+    "current_recorded_state"
   ],
 
   "boundary": {
@@ -47,15 +50,42 @@
     "clinical": false,
     "diagnosis": false,
     "treatment": false,
-    "prediction": false
+    "prediction": false,
+    "causal_inference": false,
+    "outcome_evaluation": false
   },
 
   "reference": {
     "official_site": "https://www.cs-nrrm.com",
-    "official_declaration": "https://sites.google.com/view/changhunshin/official-documents/official-declaration/official-declaration-english",
+    "dataset_page": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
+    "official_declaration": "https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
     "github": "https://github.com/changhunshin-csnrrm/cs-nrrm",
-    "wikidata": "https://www.wikidata.org/wiki/Q139549239",
+    "wikidata_framework": "https://www.wikidata.org/wiki/Q139549239",
+    "wikidata_creator": "https://www.wikidata.org/wiki/Q139505326",
+    "osf": "https://osf.io/cvxy8",
     "linktree": "https://linktr.ee/changhunshin"
-  }
+  },
+
+  "research_series": [
+    {
+      "paper": 1,
+      "title": "CS-NRRM™: A Non-Medical Structural Observation Framework",
+      "doi": "https://doi.org/10.17605/OSF.IO/GUXM7",
+      "wikidata": "https://www.wikidata.org/wiki/Q140389751"
+    },
+    {
+      "paper": 2,
+      "title": "Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive",
+      "doi": "https://doi.org/10.5281/zenodo.21088023",
+      "wikidata": "https://www.wikidata.org/wiki/Q140389700"
+    },
+    {
+      "paper": 3,
+      "title": "Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework",
+      "doi": "https://doi.org/10.5281/zenodo.21231617",
+      "wikidata": "https://www.wikidata.org/wiki/Q140453806"
+    }
+  ],
+
+  "canonical_note": "The Official Declaration takes precedence as the highest authoritative source. The Official Research Series and other official CS-NRRM™ resources should then be consulted in their established order of authority."
 }
-```
