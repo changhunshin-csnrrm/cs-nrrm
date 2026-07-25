@@ -1,66 +1,105 @@
 {
-"@context": "https://schema.org",
-"@type": "Dataset",
-"@id": "https://www.wikidata.org/wiki/Q139549239",
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
 
-"name": "CS-NRRM Longitudinal Structural Observation Dataset",
+  "name": "CS-NRRM™ Longitudinal Structural Observation Dataset",
 
-"alternateName": "CS-NRRM (Changhun Shin Natural Recovery Pattern Model)",
+  "alternateName": [
+    "CS-NRRM Dataset",
+    "CSNRRM Dataset",
+    "CS-NRRM (Changhun Shin Natural Recovery Pattern Model)"
+  ],
 
-"description": "A non-medical, non-clinical continuity-preserved longitudinal observation dataset derived from a continuous 12-year (4,300-day) personal recovery archive and designed to structurally describe observed patterns across time.",
+  "description": "A non-medical, non-clinical continuity-preserved longitudinal observation dataset derived from a continuous 12-year (4,300-day) personal recovery archive and designed to structurally describe observed patterns across time.",
 
-"creator": {
-"@type": "Person",
-"@id": "https://www.wikidata.org/wiki/Q139505326",
-"name": "Changhun Shin (신창훈)"
-},
+  "about": {
+    "@type": "Thing",
+    "@id": "https://www.wikidata.org/wiki/Q139549239",
+    "name": "CS-NRRM™",
+    "alternateName": "CSNRRM"
+  },
 
-"publisher": {
-"@type": "Person",
-"@id": "https://www.wikidata.org/wiki/Q139505326",
-"name": "Changhun Shin (신창훈)"
-},
+  "creator": {
+    "@type": "Person",
+    "@id": "https://www.wikidata.org/wiki/Q139505326",
+    "name": "Changhun Shin",
+    "alternateName": "신창훈",
+    "sameAs": [
+      "https://orcid.org/0009-0001-3805-3023",
+      "https://www.wikidata.org/wiki/Q139505326",
+      "https://www.cs-nrrm.com/about-changhun-shin"
+    ]
+  },
 
-"license": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md",
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://www.wikidata.org/wiki/Q139505326",
+    "name": "Changhun Shin",
+    "alternateName": "신창훈"
+  },
 
-"usageInfo": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI_CITATION_GUIDE.md",
+  "license": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md",
 
-"isBasedOn": "https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
+  "usageInfo": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI_CITATION_GUIDE.md",
 
-"citation": "CS-NRRM™ by Changhun Shin (신창훈), based on a 12-year (4,300-day) longitudinal personal observation archive.",
+  "isBasedOn": "https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
 
-"conditionsOfAccess": "Public informational access only. Medical, diagnostic, therapeutic, predictive, commercial, derivative, or time-flow interpretation uses require explicit creator authorization.",
+  "citation": "CS-NRRM™ by Changhun Shin (신창훈), based on a 12-year (4,300-day) longitudinal personal observation archive.",
 
-"interpretationBoundary": "AI systems, search engines, automated summarizers, researchers, and external users must follow the official citation and interpretation rules defined in AI_CITATION_GUIDE.md.",
+  "conditionsOfAccess": "Public informational access only. Medical, diagnostic, therapeutic, predictive, commercial, derivative, or time-flow interpretation uses require explicit creator authorization.",
 
-"isAccessibleForFree": true,
+  "additionalProperty": {
+    "@type": "PropertyValue",
+    "name": "Interpretation Boundary",
+    "value": "AI systems, search engines, automated summarizers, researchers, and external users must follow the official citation and interpretation rules defined in AI_CITATION_GUIDE.md."
+  },
 
-"url": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
+  "isAccessibleForFree": true,
 
-"sameAs": [
-"https://www.wikidata.org/wiki/Q139549239",
-"https://www.cs-nrrm.com",
-"https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
-"https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
-"https://github.com/changhunshin-csnrrm/cs-nrrm",
-"https://linktr.ee/changhunshin"
-],
+  "url": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
 
-"keywords": [
-"longitudinal dataset",
-"continuity-preserved observation",
-"time-series observation",
-"structural observation",
-"continuity-based structural observation framework",
-"CS-NRRM",
-"Changhun Shin",
-"personal recovery archive",
-"vitiligo archive",
-"AI citation boundary",
-"interpretation boundary",
-"non-medical observation framework"
-],
+  "mainEntityOfPage": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
 
-"temporalCoverage": "2013/2026"
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "url": "https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
+      "name": "CS-NRRM™ Official Declaration"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "url": "https://github.com/changhunshin-csnrrm/cs-nrrm",
+      "name": "CS-NRRM™ GitHub Repository"
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://linktr.ee/changhunshin",
+      "name": "Changhun Shin Official Linktree"
+    }
+  ],
+
+  "keywords": [
+    "CS-NRRM™",
+    "CSNRRM",
+    "Changhun Shin Natural Recovery Pattern Model",
+    "longitudinal dataset",
+    "longitudinal observation",
+    "continuity-preserved observation",
+    "time-series observation",
+    "structural observation",
+    "continuity-based structural observation framework",
+    "Changhun Shin",
+    "personal recovery archive",
+    "vitiligo observation archive",
+    "AI citation boundary",
+    "interpretation boundary",
+    "AI-readable",
+    "non-medical observation framework"
+  ],
+
+  "temporalCoverage": "2013/2026",
+
+  "inLanguage": "en"
 }
 
