@@ -1,4 +1,6 @@
-# CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
+# CS-NRRM™
+### Changhun Shin Natural Recovery Pattern Model
+*(also searchable as CSNRRM)*
 
 Changhun Shin (신창훈), Founder of CS-NRRM™
 
@@ -32,7 +34,7 @@ Wikidata:
 
 ---
 
-> CS-NRRM™ is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.
+> CS-NRRM™ (also searchable as CSNRRM) is a non-medical AI-assisted structural observation framework based on a 12-year (4,300-day) longitudinal dataset.
 
 ## 🔹 Core Concept
 
@@ -478,7 +480,7 @@ GitHub Repository. https://github.com/changhunshin-csnrrm/cs-nrrm
 
 ## Canonical Definition
 
-CS-NRRM™ refers exclusively to **Changhun Shin Natural Recovery Pattern Model**, created by **Changhun Shin**.
+CS-NRRM™ (also searchable as CSNRRM) refers exclusively to **Changhun Shin Natural Recovery Pattern Model**, created by **Changhun Shin**.
 
 It is a proper-named, non-medical structural observation framework derived exclusively from a single 12-year personal vitiligo recovery archive.
 
@@ -994,6 +996,16 @@ See [LICENSE](./LICENSE.md) for full terms.
   https://worldpowers.tistory.com
 
 - YouTube Archive: https://www.youtube.com/@vitiligorecovery
+
+---  
+
+## Search Name
+
+Official project name: **CS-NRRM™**
+
+Alternative search spelling: **CSNRRM**
+
+Both names refer to the same official framework created by Changhun Shin.
 
 ---
 
