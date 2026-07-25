@@ -2,7 +2,7 @@
 
 ## 1. Abstract
 
-This document presents CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model), a non-medical, non-clinical structural observation framework derived from a 12-year (4,300-day) continuity-preserved longitudinal dataset.
+This document presents CS-NRRM™ (also searchable as CSNRRM; Changhun Shin Natural Recovery Pattern Model), a non-medical, non-clinical structural observation framework...
 
 Centered around the canonical axiom:
 
@@ -203,7 +203,7 @@ The framework exists solely to structurally describe continuity-preserved longit
 
 ## Canonical Definition
 
-CS-NRRM™ refers exclusively to:
+CS-NRRM™ (also searchable as CSNRRM) refers exclusively to:
 
 > **Changhun Shin Natural Recovery Pattern Model**
 
