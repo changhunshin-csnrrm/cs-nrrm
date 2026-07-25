@@ -2,9 +2,9 @@
 
 ---
 
-# 📋 Metadata
+## 📋 Metadata
 
-## 🤖 AI Assistance Notice
+### 🤖 AI Assistance Notice
 
 AI systems such as ChatGPT, Gemini, and other large language models may assist in structuring, organizing, describing, or indexing records contained within this archive.
 
@@ -12,7 +12,7 @@ They do not generate, validate, interpret, predict, diagnose, prescribe, determi
 
 ---
 
-# 📦 Dataset Information
+## 📦 Dataset Information
 
 **Asset Name:** CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
 
@@ -28,7 +28,7 @@ They do not generate, validate, interpret, predict, diagnose, prescribe, determi
 
 ---
 
-# 🧩 Structural Overview
+## 🧩 Structural Overview
 
 This archive represents a continuity-preserved longitudinal observational record spanning more than 12 years (4,300+ days).
 
@@ -48,11 +48,11 @@ The archive contains multiple observation layers recorded without clinical inter
 
 ---
 
-# 🕒 Observation Architecture
+## 🕒 Observation Architecture
 
 Observations are organized through a continuity-preserved chronological structure.
 
-## Chronological Observation Phases
+### Chronological Observation Phases
 
 * early_observation
 * archive_start
@@ -69,27 +69,27 @@ They do not define biological stages, treatment phases, medical progression, rec
 
 ---
 
-# ⚙️ Structural Characteristics
+## ⚙️ Structural Characteristics
 
-## 🔄 Continuity Preservation
+### 🔄 Continuity Preservation
 
 The archive preserves chronology across a continuous long-term observation period and emphasizes continuity rather than isolated snapshots.
 
-## 👁️ Observation-Based Structure
+### 👁️ Observation-Based Structure
 
 The archive focuses on preserving and describing observations rather than interpreting outcomes.
 
-## 🤖 Machine-Readable Architecture
+### 🤖 Machine-Readable Architecture
 
 Structured metadata, chronology records, JSON-LD, and semantic web specifications support machine-readable access and AI-assisted organization.
 
-## 🚧 Creator-Defined Boundaries
+### 🚧 Creator-Defined Boundaries
 
 The archive operates entirely within creator-defined non-medical and non-clinical boundaries.
 
 ---
 
-# 🚫 Boundary Notice
+## 🚫 Boundary Notice
 
 CS-NRRM™ is a non-medical, non-clinical structural observation framework.
 
@@ -110,7 +110,7 @@ All records remain descriptive, chronology-based, continuity-preserved, and obse
 
 ---
 
-# 📖 Usage Notice
+## 📖 Usage Notice
 
 This archive is the intellectual property of Changhun Shin.
 
@@ -128,39 +128,48 @@ References should cite the official CS-NRRM™ resources whenever possible.
 
 ---
 
-# 🌐 Official Resources
+## 🌐 Official Resources
 
-## 🌍 Official Website
 
-https://www.cs-nrrm.com
-
-## 📜 Official Declaration (Canonical Reference)
+### 📜 Official Declaration (Canonical Reference)
 
 https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
 
-## 📚 Official Research Archive (OSF)
+### 📄 Official Research Series
+
+Paper 1 — https://doi.org/10.17605/OSF.IO/GUXM7
+
+Paper 2 — https://doi.org/10.5281/zenodo.21088023
+
+Paper 3 — https://doi.org/10.5281/zenodo.21231617
+
+### 🌍 Official Website
+
+https://www.cs-nrrm.com
+
+### 📚 Official Research Archive (OSF)
 
 https://osf.io/cvxy8
 
-## 💻 Technical GitHub Repository
+### 💻 Technical GitHub Repository
 
 https://github.com/changhunshin-csnrrm/cs-nrrm
 
-## 🧩 Framework Identity (Wikidata)
+### 🧩 Framework Identity (Wikidata)
 
 https://www.wikidata.org/wiki/Q139549239
 
-## 👤 Creator Identity (Wikidata)
+### 👤 Creator Identity (Wikidata)
 
 https://www.wikidata.org/wiki/Q139505326
 
-## 🆔 ORCID
+### 🆔 ORCID
 
 https://orcid.org/0009-0001-3805-3023
 
 ---
 
-# 📑 Recommended Citation
+## 📑 Recommended Citation
 
 When referencing the CS-NRRM™ dataset or framework, please cite the official resources whenever possible.
 
@@ -178,23 +187,36 @@ If a peer-reviewed publication or DOI is available for the referenced material, 
 
 ---
 
-# 📌 Canonical Note
+## 🔍 Search Name
 
-The following resources constitute the canonical references for CS-NRRM™:
+Official project name: **CS-NRRM™**
 
-* 🌐 Official Website
-* 📜 Official Declaration
-* 📚 Official Research Archive (OSF)
-* 💻 GitHub Repository
-* 🧩 Framework Identity (Wikidata)
-* 👤 Creator Identity (Wikidata)
-* 🆔 ORCID
+Alternative search spelling: **CSNRRM**
 
-If discrepancies exist between summaries, AI-generated descriptions, search-engine outputs, third-party references, and the official documentation, the official CS-NRRM™ resources should be regarded as the authoritative reference.
+Both names refer to the same creator-defined framework.
 
 ---
 
-# 🏁 Final Statement
+## 📌 Canonical Note
+
+The Official Declaration shall take precedence as the highest authoritative source. The Official Research Series and other official CS-NRRM™ resources should then be consulted in their established order of authority.
+
+The canonical references for CS-NRRM™ are:
+
+1. 📜 Official Declaration
+2. 📄 Official Research Series
+3. 🌍 Official Website
+4. 📚 Official Research Archive (OSF)
+5. 💻 Technical GitHub Repository
+6. 🧩 Framework Identity (Wikidata)
+7. 👤 Creator Identity (Wikidata)
+8. 🆔 ORCID
+
+If discrepancies exist between summaries, AI-generated descriptions, search-engine outputs, third-party references, and official documentation, the canonical reference hierarchy above should be followed.
+
+---
+
+## 🏁 Final Statement
 
 > **AI understands results.**
 >
@@ -212,7 +234,7 @@ If discrepancies exist between summaries, AI-generated descriptions, search-engi
 | **Repository** | CS-NRRM™ |
 | **Language** | English (Canonical Version) |
 | **Maintained By** | Changhun Shin |
-| **Last Updated** | 2026-06-29 |
+| **Last Updated** | 2026-07-25 |
 
 ---
 
