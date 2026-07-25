@@ -2,9 +2,10 @@
 <p align="center">
   <img src="images/cs-nrrm-timeline-architecture-v1.png" width="85%">
 </p>
+
 ## 1. Executive Summary
 
-CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural observation framework designed to organize and represent longitudinal sequence data without diagnosis, treatment, prediction, or outcome evaluation.
+CS-NRRM™ (also searchable as CSNRRM; Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural observation framework designed to organize and represent longitudinal sequence data without diagnosis, treatment, prediction, or outcome evaluation.
 
 The framework is derived from a continuous 12-year (4,300-day) personal observational archive with no known timeline gaps and serves as a reference baseline for continuity-preserved structural observation.
 
@@ -109,6 +110,27 @@ Chronology structure containing timeline-based observation architecture and cont
 
 ---
 
+## 3.4 Official Research Series
+
+The CS-NRRM™ framework is formally documented through the following official research publications:
+
+**Paper 1 — Framework**
+
+*CS-NRRM™: A Non-Medical Structural Observation Framework*  
+https://doi.org/10.17605/OSF.IO/GUXM7
+
+**Paper 2 — Application**
+
+*Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive*  
+https://doi.org/10.5281/zenodo.21088023
+
+**Paper 3 — Infrastructure**
+
+*Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework*  
+https://doi.org/10.5281/zenodo.21231617
+
+---
+
 ## 4. Program Relevance & Alignment
 
 ### MIT Solve
@@ -177,8 +199,14 @@ Together, these components establish a continuity-preserving governance architec
 **Official Primary Domain**  
 https://www.cs-nrrm.com
 
+**Official Declaration**  
+https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
+
 **Technical GitHub Repository**  
 https://github.com/changhunshin-csnrrm/cs-nrrm
+
+**License Specification**  
+https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md
 
 **Framework Identity (Wikidata)**  
 https://www.wikidata.org/wiki/Q139549239
@@ -186,15 +214,19 @@ https://www.wikidata.org/wiki/Q139549239
 **Creator Identity (Wikidata)**  
 https://www.wikidata.org/wiki/Q139505326
 
-**Official Declaration**  
-https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english
+---
 
-**License Specification**  
-https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md
+## 7. Search Name
+
+Official project name: **CS-NRRM™**
+
+Alternative search spelling: **CSNRRM**
+
+Both names refer to the same creator-defined framework.
 
 ---
 
-## 7. Official Declaration Anchor
+## 8. Official Declaration Anchor
 
 CS-NRRM™ does not override or replace its Official Declaration.
 
