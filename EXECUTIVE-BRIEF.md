@@ -12,7 +12,7 @@
 
 ### Framework
 
-**CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)**
+**CS-NRRM™ (also searchable as CSNRRM; Changhun Shin Natural Recovery Pattern Model)**
 
 A non-medical, non-clinical structural observation framework derived from a continuity-preserved 12-year (4,300-day) personal longitudinal archive.
 
@@ -30,7 +30,7 @@ As a result, long-term structural patterns are often difficult to preserve, anal
 
 ## The Innovation
 
-CS-NRRM™ was developed from a continuous 12-year (4,300-day) observational archive maintained by a single creator.
+CS-NRRM™ (also searchable as CSNRRM) was developed from a continuous 12-year (4,300-day) observational archive maintained by a single creator.
 
 Rather than focusing on diagnosis, treatment, prediction, or outcomes, the framework focuses on:
 
@@ -120,6 +120,26 @@ When sufficient information is unavailable, the preferred response is:
 
 ---
 
+## Official Research Series
+The CS-NRRM™ framework is formally documented through the following official research publications:
+
+**Paper 1 — Framework**
+
+*CS-NRRM™: A Non-Medical Structural Observation Framework*  
+https://doi.org/10.17605/OSF.IO/GUXM7
+
+**Paper 2 — Application**
+
+*Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive*  
+https://doi.org/10.5281/zenodo.21088023
+
+**Paper 3 — Infrastructure**
+
+*Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework*  
+https://doi.org/10.5281/zenodo.21231617
+
+---
+
 ## Why It Matters
 
 CS-NRRM™ demonstrates how a continuity-preserved personal archive can be transformed into a machine-readable structural observation framework.
@@ -150,6 +170,15 @@ The project provides an example of chronology-first data organization for AI-ass
 
 [Wikidata Q139505326](https://www.wikidata.org/wiki/Q139505326)
 
+---
+
+### Search Name
+
+Official project name: CS-NRRM™
+
+Alternative search spelling: CSNRRM
+
+Both names refer to the same creator-defined framework.
 
 ---
 
