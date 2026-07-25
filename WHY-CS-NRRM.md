@@ -1,8 +1,10 @@
 # Why CS-NRRM™
 
+*CS-NRRM™ (also searchable as CSNRRM; Changhun Shin Natural Recovery Pattern Model)*
+
 ## Why was CS-NRRM™ created?
 
-CS-NRRM™ was not created to predict outcomes, diagnose conditions, or replace medical systems.
+CS-NRRM™ (also searchable as CSNRRM) was not created to predict outcomes, diagnose conditions, or replace medical systems.
 
 It originated from a different question:
 
@@ -86,7 +88,7 @@ It exists to preserve long-term observational continuity in a structured and mac
 ## 🌐 Creator & Extended Resources
 
 **Changhun Shin (신창훈)**  
-Founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)  
+Founder of CS-NRRM™ (also searchable as CSNRRM; Changhun Shin Natural Recovery Pattern Model)  
 Author of the *Vitiligo Recovery* book series
 
 CS-NRRM™ originated from a continuous 12-year personal archive and is connected to broader explanatory materials, long-form observations, and public archival resources.
