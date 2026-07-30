@@ -46,10 +46,9 @@ The model represents the structural interpretation layer designed to organize co
 
 | Item | Value |
 |---|---|
-| Observation Period | 2026-03-27 ~ 2026-05-23 |
-| Total Frames | 105 |
-| Observation Days | 35 |
-| Observation Phases | 4 |
+| Observation Period | 2026-03-27 ~ 2026-07-22 |
+| Total Observation Frames | 126 |
+| Representative Public Material | Representative Observation Timeline |
 | Dataset Type | Longitudinal Structural Observation Dataset |
 | Observation Method | Same-region repeated photography |
 | Structure Type | Chronological continuity archive |
@@ -91,6 +90,27 @@ Chronological continuity remained stable while observation intervals expanded.
 
 High-frequency continuity monitoring and repeated same-day sessions were recorded.
 
+### Phase 5 — Extended Longitudinal Observation
+2026-05-24 ~ 2026-07-22
+
+Longitudinal observation continued through repeated same-region photography to preserve chronological continuity and structural documentation over an extended observation period.
+
+---
+
+## Representative Observation Timeline
+
+The figure below presents representative observation points selected from a 126-frame longitudinal skin observational archive collected between **2026-03-27 and 2026-07-22**.
+
+The representative timeline is provided to illustrate chronological continuity and continuity-preserving structural observation within the CS-NRRM™ framework.
+
+The complete observational archive is retained by the creator and is not publicly released.
+
+![](images/representative-observation-timeline.png)
+
+**Figure 1.** Representative observation timeline selected from a 126-frame longitudinal skin observational archive. Images are presented in chronological order to illustrate continuity-based structural observation.
+
+The representative timeline is provided as public documentation of continuity-preserving longitudinal observation.
+
 ---
 
 ## Purpose
@@ -111,7 +131,9 @@ It does not provide:
 
 This archive is non-medical, non-diagnostic, and non-therapeutic.
 
-No private images, sensitive personal data, or proprietary observational logic are publicly disclosed.
+Representative observational material is publicly available for documentation purposes.
+
+The complete observational archive, including the remaining images and associated personal observational records, is retained by the creator and is not publicly released.
 
 ---
 
@@ -126,6 +148,16 @@ No private images, sensitive personal data, or proprietary observational logic a
 - Continuity-Based Observation
 - AI-Assisted Structural Observation
 - CS-NRRM™
+
+---
+
+## Public Evidence
+
+This repository includes representative observational material from a longitudinal archive consisting of **126 observation frames** collected between **2026-03-27 and 2026-07-22**.
+
+The representative material is published to document chronological continuity within the CS-NRRM™ framework.
+
+The complete observational archive remains under creator management and is not publicly released in order to preserve privacy, research integrity, and long-term archive management.
 
 ---
 
