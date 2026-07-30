@@ -935,13 +935,15 @@ https://medium.com/@shinhuni0624/why-i-submitted-cs-nrrm-to-global-ai-social-inn
 
 ## Additional Structural Observation Archive
 
-A public overview of the CS-NRRM™ Skin Structural Observation Dataset is available here:
+A public overview of the **CS-NRRM™ Skin Structural Observation Dataset** is available here:
 
-[SKIN_STRUCTURAL_OBSERVATION_DATASET.md](./SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+👉 [SKIN_STRUCTURAL_OBSERVATION_DATASET.md](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
 
-This document describes a non-medical, continuity-based longitudinal skin observation archive without disclosing private images, sensitive personal data, or proprietary observational logic.
+This document describes a non-medical, continuity-based longitudinal skin observation archive based on **126 observation frames** collected between **2026-03-27 and 2026-07-22**.
 
-This archive is provided as an additional continuity-based observational reference connected to the broader CS-NRRM™ framework.
+It includes a representative observation timeline that illustrates continuity-preserving structural observation while preserving the privacy, integrity, and long-term management of the complete observational archive.
+
+This archive serves as an additional continuity-based observational reference within the broader CS-NRRM™ framework.
 
 ---
 
