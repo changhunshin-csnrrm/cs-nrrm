@@ -11,11 +11,11 @@ Basado en un Archivo Longitudinal personal con preservación de la continuidad d
 
 ---
 
-# 📌 Aviso de Referencia (Reference Notice)
+📌 Aviso de Referencia (Reference Notice)
 
 Este documento es una traducción del README original en inglés.
 
-Para obtener la información más reciente y la documentación de referencia oficial, consulte el README en inglés (**README.md**).
+Para obtener la información más reciente y la documentación de referencia oficial, consulte el **[README en inglés](README.md)**.
 
 En caso de discrepancias entre esta traducción y la versión en inglés, prevalecerá la versión en inglés.
 
