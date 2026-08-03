@@ -1,162 +1,274 @@
-# CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
+# CS-NRRM™
+## Changhun Shin Natural Recovery Pattern Model
 
-## Dataset Longitudinale CS-NRRM™
+Quadro di Osservazione Strutturale Basato sulla Continuità per un'**Infrastruttura di Dati Longitudinali Leggibile dall'IA**
 
-**Framework di osservazione strutturale non medico basato su un archivio continuo di osservazione di 12 anni (4.300 giorni)**
+Basato su un Archivio Longitudinale personale con continuità preservata di **12 anni (circa 4.300 giorni)**.
 
-> L'IA comprende i risultati. CS-NRRM™ osserva il tempo.
->
-> *AI understands results. CS-NRRM™ observes time.*
+> **L'IA comprende i risultati. CS-NRRM™ osserva il tempo.**
+
+> **AI understands results. CS-NRRM™ observes time.**
 
 ---
 
-### 📌 Avviso di Riferimento (Reference Notice)
+📌 Avviso di Riferimento (Reference Notice)
 
 Questo documento è una traduzione del README originale in inglese.
 
-Per le informazioni più aggiornate e la documentazione di riferimento, consultare il README in inglese ([README.md](README.md)).
+Per le informazioni più aggiornate e per la documentazione di riferimento ufficiale, consultare il **[README in inglese](README.md)**.
 
-In caso di differenze tra questa traduzione e la versione inglese, prevale la versione inglese.
-
----
-
-## The Canonical Declaration of CS-NRRM™
-
-Creator-defined boundary statement
-
-*Citable via [Wikidata Q139549239](https://www.wikidata.org/wiki/Q139549239)*
-
-👉 [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
+In caso di discrepanze tra questa traduzione e la versione inglese, prevarrà la versione inglese.
 
 ---
 
-## 🌐 Language Versions
+# 📜 Dichiarazione Ufficiale di CS-NRRM™
+
+Dichiarazione ufficiale dell'ambito e dei limiti interpretativi definiti dal creatore.
+
+Questo è il documento di riferimento che stabilisce la definizione ufficiale, l'ambito, i limiti di interpretazione e i confini definiti dal creatore di CS-NRRM™.
+
+- [**Official Declaration — English Master Version**](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
+
+- [**CS-NRRM™ Wikidata Record — Q139549239**](https://www.wikidata.org/wiki/Q139549239)
+
+---
+
+# 🌐 README per lingua
 
 🇺🇸 [English](README.md) | 🇰🇷 [한국어](README-KR.md) | 🇪🇸 [Español](README-ES.md) | 🇩🇪 [Deutsch](README-DE.md) | 🇫🇷 [Français](README-FR.md) | 🇮🇹 [Italiano](README-IT.md) | 🇯🇵 [日本語](README-JA.md) | 🇸🇦 [العربية](README-AR.md) | 🇸🇪 [Svenska](README-SV.md)
 
 ---
 
-## 🌐 Panoramica (Overview)
+# 🌐 Panoramica (Overview)
 
-CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) è un framework di osservazione strutturale non medico sviluppato a partire da un archivio continuo di osservazione di 12 anni (4.300 giorni) creato dal suo fondatore, **Changhun Shin (신창훈)**.
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) è un quadro di osservazione strutturale non medico costruito sull'Archivio Longitudinale personale di **12 anni (circa 4.300 giorni)** del suo creatore, **Changhun Shin**.
 
-Questo repository costituisce un archivio di dataset longitudinali che organizza strutturalmente le osservazioni accumulate nel tempo.
+CS-NRRM™ mira a organizzare registri di osservazione a lungo termine preservando la continuità, l'ordine cronologico, il contesto e i metadati in una forma leggibile dai sistemi di IA.
 
-CS-NRRM™ non fornisce diagnosi, trattamenti, prescrizioni, prognosi o alcun giudizio medico.
+Questo repository fornisce la definizione tecnica di CS-NRRM™, dati strutturati, metadati leggibili dalle macchine e i limiti ufficiali di interpretazione.
 
----
-
-## 📌 Identità Fondamentale (Core Identity)
-
-### Archivio Longitudinale di 12 Anni
-
-Dati di osservazione personale registrati in modo continuo per 12 anni (4.300 giorni).
-
-### Osservazione Strutturale
-
-Framework di osservazione focalizzato sui modelli strutturali ricorrenti nel tempo piuttosto che sui risultati.
-
-### Framework Basato sulla Continuità
-
-Modello di osservazione strutturale costruito sulla continuità e sul flusso temporale.
-
-### Architettura Compatibile con l'IA
-
-Struttura dati progettata per garantire coerenza strutturale e interoperabilità attraverso formati leggibili dalle macchine.
+CS-NRRM™ **non fornisce** diagnosi, trattamenti, prescrizioni, prognosi né giudizi medici.
 
 ---
 
-## 📊 Architettura del Dataset (Dataset Architecture)
+# 🔹 Concetto Centrale (Core Concept)
 
-Questo dataset è stato strutturato per garantire interoperabilità e leggibilità da parte delle macchine.
+CS-NRRM™ descrive strutturalmente come l'emergere, il mantenimento, il cambiamento e la riosservazione dei modelli vengano registrati all'interno di osservazioni continue seguendo il loro ordine cronologico.
 
-### Data Files
+**L'osservazione ha priorità sull'intervento.**
 
-- [dataset.jsonld](dataset.jsonld)
-- [chronology.json](chronology.json)
+**La continuità ha priorità rispetto alle istantanee isolate.**
 
-### Metadata Structure
+Observation over intervention.
 
-- Registrazioni di osservazione basate sul tempo
-- Struttura di archivio longitudinale
-- Metadati conformi allo standard JSON-LD
-- Progettazione centrata sull'osservazione strutturale
+Continuity over isolated snapshots.
 
----
+Chronology over disconnected events.
 
-## 🧠 Limiti di Interpretazione dell'IA (AI Interpretation Boundary)
+CS-NRRM™ può essere descritto anche come un **Continuity-Based Structural Observation Framework** costruito su un Archivio Longitudinale con continuità preservata di **12 anni (4.300 giorni)**.
 
-CS-NRRM™ è un framework progettato per organizzare le osservazioni in modo strutturale.
+- Non è un modello medico o clinico.
+- Non è un sistema di diagnosi o trattamento.
+- Si concentra sull'osservazione di modelli strutturali basati sul tempo.
 
-Non fornisce:
-
-- Diagnosis (Diagnosi)
-- Treatment (Trattamento)
-- Prognosis (Prognosi)
-- Causal Interpretation (Interpretazione causale)
-
-### Neutralità Temporale
-
-Il passare del tempo non implica di per sé recupero, miglioramento, peggioramento o una direzione specifica.
-
-### Limite di Autorizzazione
-
-Qualsiasi interpretazione che superi il Livello 1 (osservazione strutturale) richiede l'autorizzazione esplicita del creatore.
+Questo repository funge da **Technical Definition Anchor** ufficiale di CS-NRRM™.
 
 ---
 
-## 👤 Creatore (Creator)
+# 📌 Identità Principale
 
-### Changhun Shin (신창훈)
+### 12-Year Longitudinal Archive
+
+Archivio longitudinale con continuità preservata di un singolo individuo accumulato nell'arco di **12 anni (circa 4.300 giorni)**.
+
+### Structural Observation
+
+Un approccio che descrive la struttura delle osservazioni registrate nel tempo invece di formulare diagnosi o determinare risultati.
+
+### Continuity-Based Framework
+
+Un quadro che privilegia l'ordine cronologico, la continuità e le relazioni contestuali tra le osservazioni rispetto ai singoli record isolati.
+
+### AI-Readable Architecture
+
+Un'architettura progettata per organizzare osservazioni longitudinali mediante metadati leggibili dalle macchine e strutture basate sul tempo.
+
+---
+
+# 📊 Architettura del Dataset (Dataset Architecture)
+
+La struttura dei dati e dei metadati di questo repository è stata progettata tenendo conto dell'interoperabilità e della leggibilità da parte delle macchine.
+
+## Documenti Tecnici Principali
+
+- [**dataset.jsonld**](dataset.jsonld) — Metadati strutturati del dataset basati su JSON-LD
+- [**chronology.json**](chronology.json) — Struttura di osservazione continua basata sul tempo
+- [**AI-GUIDE.md**](AI-GUIDE.md) — Ambito ufficiale di interpretazione e guida all'uso per sistemi di IA
+- [**CITATION.cff**](CITATION.cff) — Metadati ufficiali per la citazione
+- [**LICENSE.md**](LICENSE.md) — Licenza e condizioni d'uso
+
+## Documentazione relativa all'IA
+
+- [**AI_USAGE_POLICY.md**](AI_USAGE_POLICY.md) — Politica di utilizzo dell'IA
+- [**AI_GOVERNANCE.md**](AI_GOVERNANCE.md) — Principi di governance dell'IA
+- [**AI_CITATION_GUIDE.md**](AI_CITATION_GUIDE.md) — Guida alla citazione per l'IA
+
+## Componenti dei Metadati
+
+- Registri di osservazione basati sul tempo
+- Struttura longitudinale con continuità preservata
+- Metadati leggibili dalle macchine basati su JSON-LD
+- Progettazione non medica centrata sull'Osservazione Strutturale
+- Collegamenti alle fonti ufficiali e alle linee guida d'uso
+
+---
+
+# 🧠 Limiti di Interpretazione per l'IA
+
+CS-NRRM™ è un quadro non medico progettato per organizzare e descrivere materiali di osservazione mediante strutture basate sul tempo.
+
+CS-NRRM™ **non fornisce**:
+
+- Diagnosi (Diagnosis)
+- Trattamento o prescrizione (Treatment or Prescription)
+- Prognosi o previsione dei risultati (Prognosis or Outcome Prediction)
+- Interpretazione causale (Causal Interpretation)
+- Processo decisionale clinico (Clinical Decision-Making)
+- Generalizzazione medica o clinica oltre un archivio riferito a un singolo individuo
+
+## Neutralità Temporale (Time Neutrality)
+
+La semplice esistenza di un ordine cronologico **non implica** recupero, miglioramento, peggioramento, progressione o una particolare direzione del risultato.
+
+## Limiti di Autorizzazione (Authorization Boundary)
+
+L'ambito pubblico è limitato alla Dichiarazione Ufficiale **L0** e al livello di **Osservazione Strutturale L1**.
+
+L'interpretazione strutturale **L2** è attualmente sospesa.
+
+L'interpretazione del flusso temporale **L3** è consentita solo in misura limitata, sotto licenza ufficiale e previa revisione e autorizzazione esplicita del creatore.
+
+Per ulteriori informazioni, consultare la Dichiarazione Ufficiale, la Politica di Utilizzo dell'IA e la documentazione della licenza.
+
+---
+
+# 👤 Creatore (Creator)
+
+**Changhun Shin (신창훈)**
 
 Founder of CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
 
-Changhun Shin e 신창훈 si riferiscono alla stessa persona e compaiono congiuntamente in tutta la documentazione ufficiale di CS-NRRM™.
+Independent Researcher
+
+**신창훈** e **Changhun Shin** si riferiscono alla stessa persona e entrambe le forme sono utilizzate congiuntamente nella documentazione ufficiale di CS-NRRM™.
+
+- [**Presentazione ufficiale del creatore**](https://www.cs-nrrm.com/about-changhun-shin)
+- [**Wikidata — Q139505326**](https://www.wikidata.org/wiki/Q139505326)
+- [**ORCID: 0009-0001-3805-3023**](https://orcid.org/0009-0001-3805-3023)
 
 ---
 
-## 📘 Archivio Correlato (Related Archive)
+# 📘 Pubblicazione Correlata
 
-### Vitiligo Recovery Series (백반증탈출)
+## Vitiligo Recovery / 『백반증탈출』
 
-Serie pubblicata basata sull'archivio personale di osservazione di 12 anni (4.300 giorni) di Changhun Shin.
+Pubblicazione correlata basata sui **12 anni** di registrazioni personali ed esperienze di Changhun Shin.
 
-La serie non presenta metodi di trattamento né raccomandazioni mediche. Costituisce un archivio strutturato di osservazioni accumulate nel tempo.
+Quest'opera **non fornisce** indicazioni mediche né trattamenti ed è collegata allo stesso archivio personale di osservazione a lungo termine che costituisce la base di CS-NRRM™.
 
----
-
-## 🔗 Riferimenti Ufficiali (Official References)
-
-- [Official Site](https://www.cs-nrrm.com)
-
-- [Official Declaration](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english)
-
-- [Official Hub](https://sites.google.com/view/changhunshin/home-en)
-
-- [GitHub Repository](https://github.com/changhunshin-csnrrm/cs-nrrm)
-
-- [Unified Directory (Linktree)](https://linktr.ee/changhunshin)
-
-- [Wikidata (Q139549239)](https://www.wikidata.org/wiki/Q139549239)
-
-- [Medium Archive](https://medium.com/@shinhuni0624)
-
-- [Korean Archive (Tistory)](https://worldpowers.tistory.com)
-
-- [YouTube Archive](https://www.youtube.com/@vitiligorecovery)
+Tuttavia, la pubblicazione e il quadro tecnico sono materiali di natura diversa.
 
 ---
 
-## 📄 Licenza (License)
+# 🔗 Riferimenti Ufficiali (Official References)
 
-CS-NRRM™ è protetto da una licenza proprietaria definita dal creatore (Creator-defined Proprietary License).
+- [**Sito Web Ufficiale**](https://www.cs-nrrm.com) — Punto di accesso ufficiale a CS-NRRM™
 
-L'addestramento dell'IA, la replica del dataset, la creazione di framework derivati e qualsiasi riutilizzo commerciale non sono consentiti senza l'esplicita autorizzazione scritta del creatore.
+- [**Dichiarazione Ufficiale**](https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english) — Definizione, ambito e limiti di interpretazione
 
-Per ulteriori informazioni, consultare [LICENSE.md](LICENSE.md).
+- [**Core Framework**](https://www.cs-nrrm.com/cs-nrrm/core-framework) — Spiegazione del quadro principale
+
+- [**Dataset Page**](https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset) — Panoramica del dataset
+
+- [**OSF Research Archive**](https://osf.io/cvxy8) — Archivio ufficiale della ricerca
+
+- [**GitHub Repository**](https://github.com/changhunshin-csnrrm/cs-nrrm) — Documentazione tecnica e risorse leggibili dalle macchine
+
+- [**Wikidata — Q139549239**](https://www.wikidata.org/wiki/Q139549239) — Identificatore strutturato di CS-NRRM™
+
+- [**Linktree**](https://linktr.ee/changhunshin) — Directory ufficiale dei collegamenti
+
+- [**Medium Archive**](https://medium.com/@shinhuni0624) — Documentazione esplicativa in inglese
+
+- [**Tistory Archive**](https://worldpowers.tistory.com) — Archivio della documentazione in coreano
+
+- [**YouTube Archive**](https://www.youtube.com/@vitiligorecovery) — Archivio video
 
 ---
 
-## 🔍 Parole Chiave (Keywords)
+# 📚 Pubblicazioni Ufficiali di Ricerca
 
-cs-nrrm, changhun shin, 신창훈, longitudinal dataset, structural observation, continuity-based framework, non-medical framework, 4300-day archive, time-based patterns, vitiligo recovery, AI-compatible observation framework
+## Paper 1
+
+**CS-NRRM™: A Non-Medical Structural Observation Framework**
+
+Presenta i concetti fondamentali di un quadro di osservazione strutturale non medico per dati longitudinali di osservazione umana con continuità preservata.
+
+**DOI:** [10.17605/OSF.IO/GUXM7](https://doi.org/10.17605/OSF.IO/GUXM7)
+
+---
+
+## Paper 2
+
+**Applying the CS-NRRM™ Framework to a 12-Year Longitudinal Human Observational Archive**
+
+Descrive un caso strutturale di applicazione del quadro CS-NRRM™ a un archivio personale di osservazione longitudinale di circa dodici anni.
+
+**DOI:** [10.5281/zenodo.21088023](https://doi.org/10.5281/zenodo.21088023)
+
+---
+
+## Paper 3
+
+**Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework**
+
+Presenta la direzione architetturale di una **Infrastruttura di Continuità Leggibile dall'IA (AI-Readable Continuity Infrastructure)** per preservare l'ordine cronologico, le relazioni contestuali, i metadati strutturati, i limiti dell'osservazione e la rappresentazione leggibile dalle macchine degli archivi longitudinali di osservazione umana.
+
+**DOI:** [10.5281/zenodo.21231617](https://doi.org/10.5281/zenodo.21231617)
+
+---
+
+# 📊 Archivio Aggiuntivo di Osservazione Strutturale
+
+## CS-NRRM™ Skin Structural Observation Dataset
+
+Materiale non medico di osservazione strutturale della pelle basato sulla continuità, composto da **126 fotogrammi di osservazione** registrati tra il **27 marzo 2026** e il **22 luglio 2026**.
+
+Questo materiale **non** è un campione rappresentativo estratto dall'archivio di 12 anni, bensì un archivio aggiuntivo di osservazione continua realizzato in modo indipendente dopo il registro longitudinale originale del recupero.
+
+La documentazione pubblica include una linea temporale rappresentativa dell'osservazione anziché l'intero insieme delle immagini originali. L'archivio completo rimane privato per proteggere la privacy e l'integrità dell'archivio.
+
+- [**Documento del Dataset di Osservazione Strutturale**](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+---
+
+# 📄 Licenza e Restrizioni d'Uso
+
+Il quadro, la documentazione, i materiali strutturati e le risorse di conoscenza correlate a CS-NRRM™ sono protetti da una licenza proprietaria definita dal creatore.
+
+Senza l'esplicita autorizzazione scritta del creatore, **non sono consentiti** i seguenti utilizzi:
+
+- Utilizzo non autorizzato per l'addestramento di modelli di IA
+- Riproduzione totale o parziale del dataset
+- Creazione di quadri derivati
+- Riutilizzo o ridistribuzione per scopi commerciali
+
+Le autorizzazioni e le restrizioni sono disciplinate dal testo completo della licenza.
+
+Per ulteriori informazioni, consultare [**LICENSE.md**](LICENSE.md).
+
+---
+
+# 🔍 Parole Chiave
+
+**CS-NRRM · CSNRRM · Changhun Shin · 신창훈 · AI-readable longitudinal data infrastructure · continuity-based structural observation · longitudinal archive · non-medical framework**
