@@ -103,7 +103,7 @@ La estructura de datos y metadatos de este repositorio ha sido diseñada conside
 
 - [**dataset.jsonld**](dataset.jsonld) — Metadatos estructurados del dataset basados en JSON-LD
 - [**chronology.json**](chronology.json) — Estructura de observación continua basada en el tiempo
-- [**AI_GUIDE.md**](AI_GUIDE.md) — Alcance oficial de interpretación y guía de uso para sistemas de IA
+- [**AI-GUIDE.md**](AI-GUIDE.md) — Alcance oficial de interpretación y guía de uso para sistemas de IA
 - [**CITATION.cff**](CITATION.cff) — Metadatos oficiales de citación
 - [**LICENSE.md**](LICENSE.md) — Licencia y condiciones de uso
 
