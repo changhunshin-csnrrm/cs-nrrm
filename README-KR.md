@@ -15,7 +15,7 @@
 
 본 문서는 영문 README의 번역본입니다.
 
-최신 정보 및 기준 문서는 영문 README ([README.md](README.md))를 참조하십시오.
+최신 정보 및 기준 문서는 영문 README (**[README.md](README.md)**)를 참조하십시오.
 
 번역본과 영문본 사이에 차이가 있을 경우 영문본이 우선합니다.
 
@@ -156,10 +156,13 @@ L3 시간 흐름 해석은 공식 라이선스와 창시자의 명시적 검토 
 - Independent Researcher
 
 신창훈과 Changhun Shin은 동일 인물을 가리키며, 공식 CS-NRRM™ 자료에서는 두 표기가 함께 사용됩니다.
-- [공식 창시자 소개](https://www.cs-nrrm.com/about-changhun-shin)
-- [Wikidata — Q139505326](https://www.wikidata.org/wiki/Q139505326)
-- ORCID: `0009-0001-3805-3023`
 
+- [**공식 창시자 소개**](https://www.cs-nrrm.com/about-changhun-shin)
+
+- [**Wikidata — Q139505326**](https://www.wikidata.org/wiki/Q139505326)
+
+- [**ORCID: 0009-0001-3805-3023**](https://orcid.org/0009-0001-3805-3023)
+  
 ---
 
 ## 📘 관련 기록물
