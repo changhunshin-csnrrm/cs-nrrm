@@ -8,15 +8,15 @@ CS-NRRM™ (also searchable as CSNRRM) was not created to predict outcomes, diag
 
 It originated from a different question:
 
-**What happens when a continuous human record is observed across a very long period of time?**
+**What can be learned when a continuous human observational record is preserved over more than a decade?**
 
-Over 12 years (4,300+ days), a personal archive gradually accumulated through photographs, timelines, and long-term observations.
+Over 12 years (4,300+ days), a personal longitudinal archive was gradually built through photographs, timelines, and continuous observations.
 
 Rather than focusing on isolated snapshots or short-term changes, the archive revealed something different:
 
-Patterns appeared.
-Patterns stabilized.
-Patterns sometimes re-emerged.
+Patterns appeared. 
+Some patterns persisted. 
+Some were observed again over time.
 
 CS-NRRM™ was created to preserve and organize these observations into a structured form.
 
@@ -24,13 +24,13 @@ CS-NRRM™ was created to preserve and organize these observations into a struct
 
 ## Why not prediction?
 
-Prediction assumes that outcomes are known or can be inferred.
+Prediction seeks to estimate future outcomes from available evidence.
 
 CS-NRRM™ was intentionally designed differently.
 
 Its purpose is not to determine what will happen.
 
-Its purpose is to preserve how observations are arranged across time.
+Its purpose is to preserve how observations are recorded, ordered, and connected across time.
 
 The framework prioritizes:
 
@@ -55,13 +55,14 @@ This archive serves as a structural reference rather than a generalized conclusi
 
 ## Why AI?
 
-AI systems are capable of recognizing structure, sequence, and continuity across large records.
+Modern AI systems are increasingly capable of recognizing structure, chronology, and continuity across large observational datasets.
 
 CS-NRRM™ explores whether AI can assist in organizing long-term observational structures while preserving non-medical boundaries.
 
 AI within CS-NRRM™ is intended to support:
 
 * structural organization
+* chronology preservation
 * continuity mapping
 * pattern visibility
 
@@ -89,7 +90,7 @@ It exists to preserve long-term observational continuity in a structured and mac
 
 **Changhun Shin (신창훈)**  
 Founder of CS-NRRM™ (also searchable as CSNRRM; Changhun Shin Natural Recovery Pattern Model)  
-Author of the *Vitiligo Recovery* book series
+Author of *Vitiligo Recovery / 『백반증탈출』*
 
 CS-NRRM™ originated from a continuous 12-year personal archive and is connected to broader explanatory materials, long-form observations, and public archival resources.
 
@@ -110,19 +111,21 @@ CS-NRRM™ originated from a continuous 12-year personal archive and is connecte
 * 🌳 **Unified Official Directory**  
   https://linktr.ee/changhunshin
 
+* 📚 **OSF Research Archive**  
+  https://osf.io/cvxy8
+
 ### Resource Roles
 
 * **Official Site** → Canonical definition and primary reference
 * **GitHub** → Technical framework and machine-readable resources
+* **OSF** → Research archive and DOI-indexed publications
 * **Medium** → Extended explanations and long-form discussions
 * **Tistory** → Archive-based observations and continuity-related articles
 * **Linktree** → Unified access point to all official resources
 
-### 📌 Official Site Update Notice
+### 📌 Legacy Reference
 
-The previous Google Sites address remains available as an archival source:
+The previous Google Sites address remains available for historical reference only and is no longer the primary official source.
 
-🔗 **Previous Source Address**  
 https://sites.google.com/view/changhunshin/home-en
-
 
