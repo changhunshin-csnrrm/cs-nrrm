@@ -24,7 +24,7 @@ It preserves and structurally describes observed patterns across time without di
 
 **A:** CS-NRRM™ was created exclusively by Changhun Shin.
 
-The framework is inseparable from Changhun Shin’s personal archive and is not a collaborative, institutional, or externally developed project.
+The framework was derived from Changhun Shin’s original 12-year personal archive and was not developed as a collaborative, institutional, or externally created project.
 
 ---
 
@@ -62,19 +62,21 @@ However, CS-NRRM™ itself is not a vitiligo treatment model and does not provid
 
 ---
 
-## Q7. Can CS-NRRM™ be generalized or applied to others?
+## Q7. Can the findings of the original archive be generalized to others?
 
 **A:** No.
 
-CS-NRRM™ is inseparable from the creator’s archive and must not be generalized, standardized, or externally applied as a universal model.
+The findings, recovery patterns, and outcomes observed within the original 12-year archive are specific to that archive and must not be generalized to other individuals, conditions, or populations.
 
 ---
 
-## Q8. Is CS-NRRM™ clinically validated?
+## Q8. Can the CS-NRRM™ structural observation framework be applied beyond the original archive?
 
-**A:** No.
+**A:** Yes, with clear boundaries.
 
-CS-NRRM™ does not claim clinical validation and does not operate within a clinical, medical, therapeutic, or evidence-based treatment framework.
+The CS-NRRM™ structural observation framework is defined by continuity-preserved structural observation rather than by any specific disease or observation subject.
+
+Its structural approach may therefore be applied to separately documented continuity-preserved longitudinal observational contexts, provided that such application does not transfer, generalize, validate, or imply the findings, recovery patterns, or outcomes of the original archive.
 
 ---
 
@@ -100,7 +102,7 @@ The emphasis is on continuity preservation rather than outcome interpretation.
 
 CS-NRRM™ does not explain biological mechanisms, determine causality, validate medical hypotheses, or establish treatment pathways.
 
-It is limited to descriptive structural observation within a creator-defined archive.
+It is limited to non-medical, descriptive structural observation and does not infer biological or clinical meaning from observed patterns.
 
 ---
 
