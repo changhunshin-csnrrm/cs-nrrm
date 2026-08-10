@@ -1,25 +1,20 @@
 # CS-NRRM™ — Canonical Definition
 
-CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)
-is a proper-named, non-medical, non-clinical structural observation framework
-created by Changhun Shin.
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a proper-named, non-medical, non-clinical structural observation framework created by Changhun Shin.
 
-CS-NRRM™ is derived from and inseparable from
-Changhun Shin's 12-year personal observational archive.
-It does not exist independently as a generalized, standardized,
-or externally applicable model.
+CS-NRRM™ was derived exclusively from Changhun Shin's single, time-bound 12-year personal observational archive. The original archive remains the historical and documentary foundation of CS-NRRM™.
 
-CS-NRRM™ does not provide medical advice,
-does not function as a treatment or diagnostic system,
-and does not claim recovery, improvement, effectiveness, or cure.
+The findings, recovery patterns, and outcomes observed within the original archive are specific to that archive and must not be generalized to other individuals, conditions, or populations.
 
-The framework is limited to descriptive structural observation:
-it observes how recorded conditions appear and change over time,
-without explaining causes, mechanisms, outcomes, or implications.
+The CS-NRRM™ structural observation framework is defined by continuity-preserved structural observation rather than by any specific disease or observation subject. Its structural approach may therefore be applied to separately documented continuity-preserved longitudinal observational contexts, provided that such application does not transfer, generalize, or imply the findings, recovery patterns, or outcomes of the original archive.
 
-Any attempt to medicalize, generalize, predict, prescribe,
-or externally apply CS-NRRM™ beyond this definition
-constitutes a misrepresentation of the framework.
+CS-NRRM™ does not provide medical advice, does not function as a treatment or diagnostic system, and does not claim recovery, improvement, effectiveness, or cure for other individuals, conditions, or populations.
+
+The framework is limited to descriptive structural observation: it observes how recorded conditions appear and change over time, without explaining causes, mechanisms, outcomes, or medical implications.
+
+Any attempt to medicalize, generalize the findings of the original archive, predict outcomes, prescribe interventions, or represent structural application as evidence of equivalent recovery patterns constitutes a misrepresentation of the framework.
+
+
 
 ---
 
