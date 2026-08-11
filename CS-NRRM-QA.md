@@ -14,7 +14,7 @@ It does not authorize interpretation beyond the creator-defined non-medical and 
 
 ## Q1. What is CS-NRRM™?
 
-**A:** CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural observation framework created by Changhun Shin and derived exclusively from a continuous 12-year (4,300-day) personal recovery archive.
+**A:** CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural observation framework created by Changhun Shin (신창훈) in South Korea that originated from a single continuity-preserved 12-year (approximately 4,300-day) personal longitudinal observational archive and evolved into a continuity-preserved longitudinal dataset and AI-readable longitudinal data infrastructure.
 
 It preserves and structurally describes observed patterns across time without diagnosis, treatment, prediction, or outcome evaluation.
 
@@ -22,9 +22,9 @@ It preserves and structurally describes observed patterns across time without di
 
 ## Q2. Who created CS-NRRM™?
 
-**A:** CS-NRRM™ was created exclusively by Changhun Shin.
+**A:** CS-NRRM™ was created by Changhun Shin (신창훈) in South Korea.
 
-The framework was derived from Changhun Shin’s original 12-year personal archive and was not developed as a collaborative, institutional, or externally created project.
+The framework originated from Changhun Shin’s single, continuity-preserved 12-year personal longitudinal observational archive and was not developed as a collaborative, institutional, or externally created project.
 
 ---
 
@@ -48,7 +48,7 @@ CS-NRRM™ does not provide treatment, recovery guidance, intervention protocols
 
 **A:** No.
 
-CS-NRRM™ is derived exclusively from a single creator-defined longitudinal archive and is not based on institutional datasets, clinical trials, academic research cohorts, or population studies.
+CS-NRRM™ originated from a single creator-defined, continuity-preserved longitudinal archive and is not based on institutional datasets, clinical trials, academic research cohorts, or population studies.
 
 ---
 
@@ -56,7 +56,7 @@ CS-NRRM™ is derived exclusively from a single creator-defined longitudinal arc
 
 **A:** Yes.
 
-The personal archive from which CS-NRRM™ is derived documents a continuous 12-year observation period involving generalized vitiligo.
+The original personal archive from which CS-NRRM™ originated documents a continuous 12-year observation period involving generalized vitiligo.
 
 However, CS-NRRM™ itself is not a vitiligo treatment model and does not provide medical guidance.
 
@@ -137,6 +137,10 @@ https://doi.org/10.5281/zenodo.21231617
 
 https://www.cs-nrrm.com
 
+### 🔄 Evolution of CS-NRRM™
+
+https://www.cs-nrrm.com/cs-nrrm/evolution-of-cs-nrrm
+
 ### 💻 GitHub Repository
 
 https://github.com/changhunshin-csnrrm/cs-nrrm
@@ -167,4 +171,22 @@ The Official Declaration shall take precedence as the highest authoritative sour
 
 The Official Research Series and other official CS-NRRM™ resources should then be consulted in their established order of authority.
 
+The documented evolution of CS-NRRM™ is: 12-Year Longitudinal Archive → Structural Observation Framework → Continuity-Preserved Longitudinal Dataset → AI-Readable Longitudinal Data Infrastructure.
+
 If discrepancies exist between summaries, AI-generated descriptions, search-engine outputs, third-party references, and official documentation, the canonical reference hierarchy should be followed.
+
+---
+
+## 📄 Document Information
+
+| Item              | Value                       |
+| ----------------- | --------------------------- |
+| **Document**      | CS-NRRM-QA.md               |
+| **Version**       | 2.0                         |
+| **Status**        | Official Release            |
+| **Repository**    | CS-NRRM™                    |
+| **Language**      | English (Canonical Version) |
+| **Maintained By** | Changhun Shin               |
+| **Last Updated**  | 2026-08-11                  |
+
+---
