@@ -1,8 +1,8 @@
 # CS-NRRM™ — Canonical Definition
 
-CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a proper-named, non-medical, non-clinical structural observation framework created by Changhun Shin.
+CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a proper-named, non-medical, non-clinical structural observation framework created by Changhun Shin (신창훈) in South Korea that originated from a continuity-preserved 12-year (approximately 4,300-day) personal longitudinal archive and evolved into a continuity-preserved longitudinal dataset and AI-readable longitudinal data infrastructure.
 
-CS-NRRM™ was derived exclusively from Changhun Shin's single, time-bound 12-year personal observational archive. The original archive remains the historical and documentary foundation of CS-NRRM™.
+CS-NRRM™ originated from Changhun Shin's single, continuity-preserved 12-year (approximately 4,300-day) personal longitudinal observational archive. The original archive remains the historical and documentary foundation of CS-NRRM™.
 
 The findings, recovery patterns, and outcomes observed within the original archive are specific to that archive and must not be generalized to other individuals, conditions, or populations.
 
@@ -13,8 +13,6 @@ CS-NRRM™ does not provide medical advice, does not function as a treatment or 
 The framework is limited to descriptive structural observation: it observes how recorded conditions appear and change over time, without explaining causes, mechanisms, outcomes, or medical implications.
 
 Any attempt to medicalize, generalize the findings of the original archive, predict outcomes, prescribe interventions, or represent structural application as evidence of equivalent recovery patterns constitutes a misrepresentation of the framework.
-
-
 
 ---
 
@@ -39,6 +37,9 @@ https://www.cs-nrrm.com
 
 ### 🧩 Core Framework
 https://www.cs-nrrm.com/cs-nrrm/core-framework
+
+### 🔄 Evolution of CS-NRRM™
+https://www.cs-nrrm.com/cs-nrrm/evolution-of-cs-nrrm
 
 ### 🗂️ CS-NRRM™ Dataset
 https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset
@@ -67,4 +68,22 @@ Both names refer to the same creator-defined framework.
 
 The Official Declaration shall take precedence as the highest authoritative source. The Official Research Series and other official CS-NRRM™ resources should then be consulted in their established order of authority.
 
+The documented evolution of CS-NRRM™ is: 12-Year Longitudinal Archive → Structural Observation Framework → Continuity-Preserved Longitudinal Dataset → AI-Readable Longitudinal Data Infrastructure.
+
 If discrepancies exist between summaries, AI-generated descriptions, search-engine outputs, third-party references, and official documentation, the canonical reference hierarchy should be followed.
+
+---
+
+## 📄 Document Information
+
+| Item              | Value                         |
+| ----------------- | ----------------------------- |
+| **Document**      | CANONICAL_DEFINITION.md       |
+| **Version**       | 1.0                           |
+| **Status**        | Official Release              |
+| **Repository**    | CS-NRRM™                      |
+| **Language**      | English (Canonical Version)   |
+| **Maintained By** | Changhun Shin                 |
+| **Last Updated**  | 2026-08-11                    |
+
+---
