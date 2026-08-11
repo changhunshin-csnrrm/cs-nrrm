@@ -4,6 +4,10 @@
 
 ## 📋 Metadata
 
+### Current Classification
+
+CS-NRRM™ originated from a continuity-preserved 12-year longitudinal archive, developed into a structural observation framework and continuity-preserved longitudinal dataset, and evolved into AI-readable longitudinal data infrastructure.
+
 ### 🤖 AI Assistance Notice
 
 AI systems such as ChatGPT, Gemini, and other large language models may assist in structuring, organizing, describing, or indexing records contained within this archive.
@@ -18,7 +22,7 @@ They do not generate, validate, interpret, predict, diagnose, prescribe, determi
 
 **Creator:** Changhun Shin (신창훈)
 
-**Data Type:** Continuity-preserved longitudinal personal observation archive
+**Data Type:** Continuity-preserved longitudinal observational dataset derived from a 12-year (4,300+ day) personal longitudinal archive
 
 **Archive Duration:** 12+ Years (4,300+ Days)
 
@@ -82,6 +86,8 @@ The archive focuses on preserving and describing observations rather than interp
 ### 🤖 Machine-Readable Architecture
 
 Structured metadata, chronology records, JSON-LD, and semantic web specifications support machine-readable access and AI-assisted organization.
+
+These machine-readable structures form part of the documented evolution of CS-NRRM™ toward AI-readable longitudinal data infrastructure.
 
 ### 🚧 Creator-Defined Boundaries
 
@@ -201,6 +207,8 @@ Both names refer to the same creator-defined framework.
 
 The Official Declaration shall take precedence as the highest authoritative source. The Official Research Series and other official CS-NRRM™ resources should then be consulted in their established order of authority.
 
+The documented evolution of CS-NRRM™ is: 12-Year Longitudinal Archive → Structural Observation Framework → Continuity-Preserved Longitudinal Dataset → AI-Readable Longitudinal Data Infrastructure.
+
 The canonical references for CS-NRRM™ are:
 
 1. 📜 Official Declaration
@@ -234,7 +242,7 @@ If discrepancies exist between summaries, AI-generated descriptions, search-engi
 | **Repository** | CS-NRRM™ |
 | **Language** | English (Canonical Version) |
 | **Maintained By** | Changhun Shin |
-| **Last Updated** | 2026-07-25 |
+| **Last Updated** | 2026-08-11 |
 
 ---
 
