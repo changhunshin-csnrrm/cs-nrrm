@@ -17,10 +17,12 @@ authors:
     orcid: "https://orcid.org/0009-0001-3805-3023"
 
 abstract: >
-  CS-NRRM™ is a non-medical longitudinal structural observation framework
-  organizing approximately 12 years (4,300 days) of continuity-preserved
-  human chronology into machine-readable structures for continuity-preserved
-  structural observation.
+  CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model) is a non-medical,
+  non-clinical structural observation framework created by Changhun Shin
+  (신창훈) in South Korea that originated from a continuity-preserved
+  12-year (approximately 4,300-day) personal longitudinal observational
+  archive and evolved into a continuity-preserved longitudinal dataset and
+  AI-readable longitudinal data infrastructure.
 
 doi: "10.17605/OSF.IO/GUXM7"
 
@@ -44,19 +46,22 @@ identifiers:
 license: "CC-BY-NC-ND-4.0"
 
 keywords:
-  - "CS-NRRM™"
-  - "Changhun Shin Natural Recovery Pattern Model"
-  - "longitudinal dataset"
-  - "structural observation"
-  - "human observation"
-  - "continuity-preserved"
-  - "machine-readable"
-  - "non-medical framework"
-  - "time-series"
-  - "12-year dataset"
-  - "continuity-based observation"
-  - "longitudinal observation"
-  - "AI-readable"
+
+- "CS-NRRM™"
+- "Changhun Shin Natural Recovery Pattern Model"
+- "longitudinal dataset"
+- "continuity-preserved longitudinal dataset"
+- "structural observation"
+- "continuity-based structural observation"
+- "longitudinal observation"
+- "longitudinal archive"
+- "human observation"
+- "skin observation"
+- "vitiligo observation"
+- "continuity-preserved"
+- "machine-readable"
+- "AI-readable longitudinal data infrastructure"
+- "non-medical framework"
 
 preferred-citation:
   type: article
