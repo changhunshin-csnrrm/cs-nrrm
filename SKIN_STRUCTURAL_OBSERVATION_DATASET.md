@@ -17,28 +17,71 @@ The framework is designed to preserve long-term visual continuity patterns throu
 
 ## Core Architecture
 
-### 1. Framework
-- Skin Recovery Framework
-- Natural Recovery Framework
+This dataset demonstrates the application of the CS-NRRM™ continuity-preserved structural observation approach to a longitudinal skin observation context.
 
-The framework defines the observational infrastructure and continuity standards used for repeated same-region documentation and longitudinal tracking.
+The architecture is designed to organize time-based observational records while preserving chronology, continuity, observational context, and source provenance.
 
-### 2. Dataset
-- Longitudinal Skin Observation Dataset
+### 1. Observation Source
 
-The dataset consists of repeated chronological observations collected through continuity-based recording methods.
+* Repeated same-region visual observations
+* Time-indexed observation records
+* Chronologically preserved observation sequences
 
-### 3. Archive
-- Skin Structural Observation Archive
+The observation source consists of longitudinal records collected over time while maintaining the original temporal order of observation.
 
-The archive preserves long-term structural continuity and time-based observation history across repeated observational phases.
+### 2. Continuity Structure
 
-### 4. Model
-- Skin Recovery Model
-- Natural Recovery Model
-- CS-NRRM™
+The observational records are organized while preserving:
 
-The model represents the structural interpretation layer designed to organize continuity-based observational patterns without medical interpretation.
+* chronological order
+* observation sequence
+* temporal continuity
+* observation context
+* phase relationships
+* source provenance
+
+Continuity is treated as a structural property of the longitudinal record rather than as a medical or clinical interpretation.
+
+### 3. Structural Organization
+
+The CS-NRRM™ structural observation approach organizes longitudinal observations according to their temporal and structural relationships.
+
+The organization does not assign:
+
+* diagnosis
+* treatment effects
+* causal interpretation
+* therapeutic meaning
+* clinical outcome prediction
+
+Its purpose is to preserve and represent observable structure across time.
+
+### 4. Machine-Readable Representation
+
+The continuity-preserved longitudinal structure can be represented through structured metadata and machine-readable formats for AI-assisted temporal organization and structural observation.
+
+This layer is intended to make chronology, continuity, observational context, and structural relationships more explicitly accessible to machine-based systems.
+
+The presence of machine-readable representation does not imply clinical validation, automated diagnosis, predictive modeling, or a deployed production infrastructure.
+
+---
+
+## Historical Terminology
+
+Earlier stages of CS-NRRM™ documentation used terms including:
+
+* Skin Recovery Framework
+* Natural Recovery Framework
+* Skin Recovery Model
+* Natural Recovery Model
+
+These terms are preserved as part of the documented historical development of CS-NRRM™ and reflect earlier stages of terminology and conceptual organization.
+
+They should not be interpreted as the current complete classification or architecture of CS-NRRM™.
+
+The current CS-NRRM™ architecture is centered on continuity-preserved longitudinal structural observation and machine-readable organization rather than on a specific disease, recovery subject, or earlier recovery-model terminology.
+
+For the current definition and classification of CS-NRRM™, refer to the Official Declaration and the latest CS-NRRM™ documentation.
 
 ---
 
@@ -111,6 +154,69 @@ The complete observational archive is retained by the creator and is not publicl
 
 The representative timeline is provided as public documentation of continuity-preserving longitudinal observation.
 
+
+## Structural Application Demonstration
+
+This dataset provides a practical demonstration of how the CS-NRRM™ structural observation approach can be applied to a longitudinal observation context separate from the original 12-year vitiligo archive.
+
+### Input
+
+The demonstration uses a chronological sequence of 126 same-region observation frames collected between 2026-03-27 and 2026-07-22.
+
+The original temporal order of the observations is preserved.
+
+### CS-NRRM™ Structural Organization
+
+The observation sequence is organized to preserve:
+
+* chronological order
+* continuity between observation points
+* observation context
+* phase relationships
+* source provenance
+* non-medical observational boundaries
+
+The purpose of this organization is to preserve the relationships between observations across time rather than treating individual observations as isolated snapshots.
+
+### Output
+
+The resulting structure provides a continuity-preserved longitudinal representation that can be expressed through structured metadata and machine-readable formats for AI-assisted temporal organization and structural observation.
+
+**Input → CS-NRRM™ Structural Organization → Continuity-Preserved Machine-Readable Representation**
+
+#### Machine-Readable Dataset Representation
+
+A machine-readable JSON-LD representation of this Skin Structural Observation Dataset is publicly available:
+
+**[skin-structural-observation.jsonld](./skin-structural-observation.jsonld)**
+
+The JSON-LD file represents dataset-level chronology, observation period, continuity structure, observation phases, observation context, provenance, and interpretation boundaries in a structured machine-readable format.
+
+It provides a machine-readable representation of the dataset structure without publicly exposing the complete 126-frame observational archive or associated private observational records.
+
+### Demonstration Scope
+
+This demonstration shows the application of the CS-NRRM™ structural observation approach to a longitudinal observation context separate from the original 12-year vitiligo archive.
+
+It demonstrates:
+
+* structural applicability beyond the original archive
+* chronology preservation
+* continuity-preserving organization
+* time-based phase organization
+* machine-readable dataset-level representation
+
+This demonstration does not constitute:
+
+* independent third-party validation
+* clinical validation
+* population-level generalization
+* treatment-effect validation
+* causal interpretation
+* outcome prediction
+
+Its purpose is limited to demonstrating the structural application and organization of longitudinal observational data within the CS-NRRM™ framework.
+
 ---
 
 ## Purpose
@@ -139,15 +245,18 @@ The complete observational archive, including the remaining images and associate
 
 ## Related Terms
 
-- Skin Recovery Framework
-- Natural Recovery Framework
-- Longitudinal Skin Observation Dataset
-- Structural Observation Archive
-- Skin Recovery Model
-- Natural Recovery Model
-- Continuity-Based Observation
-- AI-Assisted Structural Observation
-- CS-NRRM™
+The following terms reflect the current structural terminology used in this dataset:
+
+* CS-NRRM™
+* Continuity-Based Structural Observation
+* Longitudinal Skin Observation Dataset
+* Structural Observation Archive
+* Continuity-Preserved Longitudinal Observation
+* AI-Readable Longitudinal Structure
+* Machine-Readable Longitudinal Representation
+* AI-Assisted Structural Observation
+
+Earlier terms such as *Skin Recovery Framework*, *Natural Recovery Framework*, *Skin Recovery Model*, and *Natural Recovery Model* are preserved in the **Historical Terminology** section above and should be understood within their historical context.
 
 ---
 
