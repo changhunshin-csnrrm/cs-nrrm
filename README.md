@@ -971,6 +971,35 @@ The JSON-LD file provides a machine-readable dataset-level representation of the
 
 This demonstration shows structural applicability beyond the original archive, but does not constitute independent third-party validation, clinical validation, population-level generalization, causal interpretation, treatment-effect validation, or outcome prediction.
 
+## External Dataset Structural Demonstration
+
+CS-NRRM™ has been structurally mapped to an independently created public longitudinal dataset from the University of Queensland.
+
+The demonstration uses publicly documented longitudinal skin-image structures containing repeated observations of the same lesions across multiple timepoints.
+
+It evaluates whether externally created longitudinal relationships can be represented through the CS-NRRM™ structural elements of chronology, continuity, observation context, provenance, and interpretation boundaries.
+
+This is a **structural portability demonstration**, not independent validation, clinical validation, or operational infrastructure deployment.
+
+### External Demonstration
+
+👉 [UQ Longitudinal Skin Image Dataset — CS-NRRM™ Structural Mapping](./EXTERNAL_DATASET_STRUCTURAL_MAPPING_UQ.md)
+
+### External Source
+
+**Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025)**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
+
+**Dataset Publisher:** The University of Queensland  
+**Dataset DOI:** 10.48610/a13deaf
+
+**Publication:** Scientific Data, 12, 1602 (2025)  
+**Publication DOI:** 10.1038/s41597-025-05880-2
+
+The external dataset and publication were created independently of CS-NRRM™.
+
+The University of Queensland, Scientific Data, and the original authors did not create, validate, endorse, review, or approve CS-NRRM™ or this structural mapping.
+
 ---
 
 ## Official Publications & Media
