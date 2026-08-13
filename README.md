@@ -953,17 +953,23 @@ https://medium.com/@shinhuni0624/why-i-submitted-cs-nrrm-to-global-ai-social-inn
 
 ---
 
-## Additional Structural Observation Archive
+## Skin Structural Observation — Application Demonstration
 
-A public overview of the **CS-NRRM™ Skin Structural Observation Dataset** is available here:
+The **CS-NRRM™ Skin Structural Observation Dataset** provides a documented application of the CS-NRRM™ structural observation approach to a longitudinal observation context separate from the original 12-year vitiligo archive.
 
-👉 [SKIN_STRUCTURAL_OBSERVATION_DATASET.md](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+The dataset consists of **126 same-region observation frames** collected between **2026-03-27 and 2026-07-22**, organized to preserve chronology, continuity, observation context, phase relationships, provenance, and non-medical observational boundaries.
 
-This document describes a non-medical, continuity-based longitudinal skin observation archive based on **126 observation frames** collected between **2026-03-27 and 2026-07-22**.
+### Documentation
 
-It includes a representative observation timeline that illustrates continuity-preserving structural observation while preserving the privacy, integrity, and long-term management of the complete observational archive.
+👉 [SKIN_STRUCTURAL_OBSERVATION_DATASET.md](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
 
-This archive serves as an additional continuity-based observational reference within the broader CS-NRRM™ framework.
+### Machine-Readable Representation
+
+👉 [skin-structural-observation.jsonld](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/skin-structural-observation.jsonld)
+
+The JSON-LD file provides a machine-readable dataset-level representation of the observation period, chronology, continuity structure, observation phases, structural context, provenance, and interpretation boundaries.
+
+This demonstration shows structural applicability beyond the original archive, but does not constitute independent third-party validation, clinical validation, population-level generalization, causal interpretation, treatment-effect validation, or outcome prediction.
 
 ---
 
