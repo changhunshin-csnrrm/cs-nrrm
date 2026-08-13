@@ -1,0 +1,189 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/skin-structural-observation.jsonld",
+
+  "name": "CS-NRRM™ Skin Structural Observation Dataset",
+
+  "alternateName": [
+    "CS-NRRM Skin Structural Observation",
+    "Longitudinal Skin Observation Dataset"
+  ],
+
+  "description": "A non-medical longitudinal structural observation dataset consisting of 126 same-region observation frames collected between 2026-03-27 and 2026-07-22. The dataset demonstrates the application of the CS-NRRM™ continuity-preserved structural observation approach to a longitudinal observation context separate from the original 12-year vitiligo archive.",
+
+  "about": {
+    "@type": "Thing",
+    "@id": "https://www.wikidata.org/wiki/Q139549239",
+    "name": "CS-NRRM™",
+    "alternateName": "CSNRRM"
+  },
+
+  "creator": {
+    "@type": "Person",
+    "@id": "https://www.wikidata.org/wiki/Q139505326",
+    "name": "Changhun Shin",
+    "alternateName": "신창훈",
+    "sameAs": [
+      "https://orcid.org/0009-0001-3805-3023",
+      "https://www.wikidata.org/wiki/Q139505326",
+      "https://www.cs-nrrm.com/about-changhun-shin"
+    ]
+  },
+
+  "publisher": {
+    "@type": "Person",
+    "@id": "https://www.wikidata.org/wiki/Q139505326",
+    "name": "Changhun Shin",
+    "alternateName": "신창훈"
+  },
+
+  "isPartOf": {
+    "@type": "Dataset",
+    "@id": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
+    "name": "CS-NRRM™ Longitudinal Structural Observation Dataset"
+  },
+
+  "isBasedOn": [
+    "https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
+    "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/SKIN_STRUCTURAL_OBSERVATION_DATASET.md"
+  ],
+
+  "license": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md",
+
+  "usageInfo": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI_CITATION_GUIDE.md",
+
+  "conditionsOfAccess": "Representative public documentation only. The complete 126-frame observational archive and associated personal observational records remain under creator management and are not publicly released.",
+
+  "isAccessibleForFree": true,
+
+  "temporalCoverage": "2026-03-27/2026-07-22",
+
+  "measurementTechnique": "Repeated same-region photography organized through continuity-preserved longitudinal structural observation.",
+
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Total Observation Frames",
+      "value": 126
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Observation Method",
+      "value": "Same-region repeated photography"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Structure Type",
+      "value": "Chronological continuity archive"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Interpretation Boundary",
+      "value": "Non-medical, non-diagnostic, non-therapeutic, non-predictive structural observation"
+    }
+  ],
+
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "Phase 1 — Initial Reference Establishment",
+      "temporalCoverage": "2026-03-27/2026-04-08",
+      "description": "Repeated same-region observation patterns and baseline continuity references were established."
+    },
+    {
+      "@type": "Dataset",
+      "name": "Phase 2 — Transition & Fluctuation Observation",
+      "temporalCoverage": "2026-04-08/2026-04-22",
+      "description": "Structural fluctuation density and repeated transitional observation sessions increased."
+    },
+    {
+      "@type": "Dataset",
+      "name": "Phase 3 — Gradual Reduction Observation",
+      "temporalCoverage": "2026-04-22/2026-05-13",
+      "description": "Chronological continuity remained stable while observation intervals expanded."
+    },
+    {
+      "@type": "Dataset",
+      "name": "Phase 4 — Intensive Monitoring Phase",
+      "temporalCoverage": "2026-05-13/2026-05-23",
+      "description": "High-frequency continuity monitoring and repeated same-day sessions were recorded."
+    },
+    {
+      "@type": "Dataset",
+      "name": "Phase 5 — Extended Longitudinal Observation",
+      "temporalCoverage": "2026-05-24/2026-07-22",
+      "description": "Longitudinal observation continued through repeated same-region photography to preserve chronological continuity and structural documentation over an extended observation period."
+    }
+  ],
+
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Structural Application",
+      "value": "Application of the CS-NRRM™ structural observation approach to a longitudinal observation context separate from the original 12-year vitiligo archive."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Chronology",
+      "value": "Original temporal ordering of observations is preserved."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Continuity",
+      "value": "Relationships between observations are organized as a longitudinal sequence rather than as isolated snapshots."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Observation Context",
+      "value": "Same-region repeated visual observation across time."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Machine-Readable Representation",
+      "value": "Dataset-level chronology, continuity, phase relationships, observation context, and boundaries are represented in structured JSON-LD metadata."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Validation Boundary",
+      "value": "This demonstration does not constitute independent third-party validation, clinical validation, population-level generalization, causal interpretation, treatment-effect validation, or outcome prediction."
+    }
+  ],
+
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "url": "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/SKIN_STRUCTURAL_OBSERVATION_DATASET.md",
+      "name": "CS-NRRM™ Skin Structural Observation Dataset Documentation"
+    },
+    {
+      "@type": "CreativeWork",
+      "url": "https://www.cs-nrrm.com/official-documents/official-declaration/official-declaration-english",
+      "name": "CS-NRRM™ Official Declaration"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "url": "https://github.com/changhunshin-csnrrm/cs-nrrm",
+      "name": "CS-NRRM™ GitHub Repository"
+    }
+  ],
+
+  "keywords": [
+    "CS-NRRM™",
+    "CSNRRM",
+    "skin structural observation",
+    "longitudinal skin observation",
+    "continuity-preserved longitudinal observation",
+    "continuity-based structural observation",
+    "same-region repeated photography",
+    "chronological continuity",
+    "structural observation dataset",
+    "AI-readable longitudinal structure",
+    "machine-readable longitudinal representation",
+    "time-series observation",
+    "non-medical observation"
+  ],
+
+  "inLanguage": "en"
+}
+
