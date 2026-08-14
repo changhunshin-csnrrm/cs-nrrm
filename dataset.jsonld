@@ -57,6 +57,16 @@
 
   "isAccessibleForFree": true,
 
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "CS-NRRM™ Representative Observation-Level Sample",
+      "description": "A public structural demonstration sample containing 585 unique observation-level records derived from four low-density representative composite images. This sample is not the complete 12-year CS-NRRM™ longitudinal archive and should not be treated as independently validated ground truth, clinical data, or population-level evidence.",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://raw.githubusercontent.com/changhunshin-csnrrm/cs-nrrm/main/representative_observation_sample.csv"
+    }
+  ],
+
   "url": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
 
   "mainEntityOfPage": "https://www.cs-nrrm.com/cs-nrrm/cs-nrrm-dataset",
@@ -101,5 +111,6 @@
   "temporalCoverage": "2013/2026",
 
   "inLanguage": "en"
+}
 }
 
