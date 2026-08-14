@@ -194,6 +194,33 @@ Structured dataset metadata (JSON-LD):
 👉 [View dataset.jsonld](./dataset.jsonld)  
 👉 [View chronology.json](./chronology.json)
 
+
+## 📊 Representative Observation-Level Sample
+
+A public observation-level demonstration sample is provided to illustrate how representative longitudinal visual records can be transformed into machine-readable, chronologically linked observations.
+
+👉 [representative_observation_sample.csv](./representative_observation_sample.csv)
+
+### Sample Structure
+
+* **585 unique observation-level records**
+* Derived from **four low-density representative composite images**
+* Chronologically ordered observation IDs
+* `previous_observation_id` and `next_observation_id` preserve sequential relationships
+* Machine-readable CSV format
+
+### Important Boundary
+
+This CSV is a **structural demonstration sample**.
+
+It is **not the complete 12-year CS-NRRM™ longitudinal archive**, and the 585 records must not be interpreted as the total number of observations contained in the original archive.
+
+The records were structured from low-density representative composite images and should not be treated as independently validated ground truth, clinical data, or population-level evidence.
+
+Its purpose is to demonstrate the transformation:
+
+**Representative Visual Records → Observation-Level Records → Chronological Linkage → Machine-Readable Longitudinal Structure**
+
 ## AI Citation & Machine-Readable Usage
 
 The machine-readable dataset metadata ([dataset.jsonld](./dataset.jsonld)) is linked to the official AI citation and interpretation guide through `usageInfo`.
@@ -469,7 +496,7 @@ https://www.cs-nrrm.com/about-changhun-shin
 ---
 
 ## 📂 Dataset & Chronology
-This section contains the full 12-year (4,300-day) longitudinal dataset of CS-NRRM™ and its time-based structural observation records.
+This section provides documentation and structured references related to the original 12-year (approximately 4,300-day) longitudinal archive of CS-NRRM™. The complete private archive is not publicly released in this repository.
 - 🔹 [View Dataset Summary](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/DATASET-SUMMARY.md)
 - 🔹 [Raw Dataset](https://raw.githubusercontent.com/changhunshin-csnrrm/cs-nrrm/main/DATASET-SUMMARY.md)
 
