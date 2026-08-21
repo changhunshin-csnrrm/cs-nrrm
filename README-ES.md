@@ -136,6 +136,8 @@ CS-NRRM™ **no proporciona**:
 - Toma de decisiones clínicas (Clinical Decision-Making)
 - Generalización médica o clínica más allá de un archivo de un único individuo
 
+El archivo original de 12 años de CS-NRRM™ corresponde al registro longitudinal personal de un único individuo, Changhun Shin, y sigue siendo la base histórica del marco. El marco estructural puede aplicarse a datasets longitudinales creados de forma independiente para evaluar su aplicabilidad estructural. Este tipo de mapeo con datasets externos no constituye validación independiente, validación clínica ni generalización a nivel poblacional.
+
 ## Neutralidad Temporal (Time Neutrality)
 
 La mera existencia de un orden cronológico **no implica** recuperación, mejora, deterioro, progresión ni ninguna dirección específica del resultado.
@@ -249,6 +251,35 @@ Este material **no** es una muestra representativa extraída del archivo de 12 a
 La documentación pública incluye una línea temporal representativa de observación en lugar del conjunto completo de imágenes originales. El archivo completo permanece privado para proteger la privacidad y la integridad del archivo.
 
 - [**Documento del Dataset de Observación Estructural**](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+---
+
+# 🌐 Demostración de Mapeo Estructural con un Dataset Externo
+
+El enfoque estructural de CS-NRRM™ fue mapeado a un dataset longitudinal creado de forma independiente y publicado por **The University of Queensland**.
+
+Esta demostración utilizó las relaciones temporales de un dataset público de imágenes longitudinales de la piel, en el que las mismas lesiones fueron observadas repetidamente en múltiples momentos, para evaluar si las relaciones longitudinales generadas externamente podían representarse mediante la estructura de CS-NRRM™ de **cronología (chronology), continuidad (continuity), contexto de observación (observation context), procedencia (provenance) y límites de interpretación (interpretation boundaries)**.
+
+Esto constituye una **demostración de portabilidad estructural (structural portability demonstration)** y no una validación independiente (independent validation), validación clínica ni un despliegue de infraestructura en un entorno operativo real.
+
+## Documento de la Demostración Externa
+
+[UQ Longitudinal Skin Image Dataset — CS-NRRM™ Structural Mapping](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/EXTERNAL_DATASET_STRUCTURAL_MAPPING_UQ.md)
+
+## Dataset Externo Original
+
+**Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025)**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
+
+**Institución que publicó el dataset:** The University of Queensland  
+**Dataset DOI:** 10.48610/a13deaf
+
+**Publicación relacionada:** *Scientific Data*, 12, 1602 (2025)  
+**Publication DOI:** 10.1038/s41597-025-05880-2
+
+El dataset externo y la publicación asociada fueron creados independientemente de CS-NRRM™.
+
+The University of Queensland, *Scientific Data* y los autores del dataset original no desarrollaron, validaron, aprobaron, revisaron ni respaldaron CS-NRRM™ ni este mapeo estructural.
 
 ---
 
