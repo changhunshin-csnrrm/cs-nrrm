@@ -150,6 +150,9 @@ CS-NRRM™は、**以下を提供しません**（*CS-NRRM™ **does not provide
 * 臨床的意思決定 (Clinical Decision-Making)
 * 単一の個人のアーカイブを超える医学的または臨床的な一般化 (*Medical or clinical generalizations beyond a single individual's archive*)
 
+CS-NRRM™の元の12年間のアーカイブは、Changhun Shinによる単一個人の長期的な記録であり、フレームワークの歴史的基盤として維持されています。構造的フレームワークは、独立して作成された長期的データセットに適用し、その構造的適用可能性を評価することができます。このような外部データセットへの構造的マッピングは、独立した検証、臨床的検証、または集団レベルでの一般化を意味するものではありません。  
+*The original 12-year CS-NRRM™ archive is Changhun Shin's single-subject personal longitudinal record and remains the historical foundation of the framework. The structural framework may be applied to independently created longitudinal datasets to evaluate its structural applicability. Such structural mapping to external datasets does not constitute independent validation, clinical validation, or population-level generalization.*
+
 ## 時間的中立性 (Time Neutrality)
 時系列順の存在そのものは、回復、改善、悪化、進行、または特定の結果の方向性を意味するものでは**ありません**。  
 *The mere presence of chronological order does **not** imply recovery, improvement, worsening, progression, or any specific direction of outcome.*
@@ -266,6 +269,40 @@ Changhun Shinの**12年**間にわたる個人的な記録と経験に基づい�
 *The public documentation includes a representative observation timeline instead of the full original image archive. The complete archive remains non-public to protect privacy and archive integrity.*
 
 * [**構造的観察データセット文書 / Structural Observation Dataset Document**](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+---
+
+# 🌐 外部データセット構造マッピング実証 (External Dataset Structural Mapping Demonstration)
+
+CS-NRRM™の構造的アプローチは、**The University of Queensland**によって公開された、独立して作成された長期的データセットに構造的にマッピングされました。  
+*The structural approach of CS-NRRM™ was mapped to an independently created longitudinal dataset published by **The University of Queensland**.*
+
+この実証では、同一の病変が複数の時点で繰り返し観察された公開長期的皮膚画像データセットの時間的関係を使用し、外部で生成された長期的関係をCS-NRRM™の**時系列（chronology）、継続性（continuity）、観察コンテキスト（observation context）、来歴情報（provenance）、解釈の境界（interpretation boundaries）**の構造で表現できるかを評価しました。  
+*This demonstration used the temporal relationships in a public longitudinal skin image dataset, in which the same lesions were repeatedly observed at multiple timepoints, to evaluate whether externally generated longitudinal relationships could be represented within the CS-NRRM™ structure for chronology, continuity, observation context, provenance, and interpretation boundaries.*
+
+これは**構造的ポータビリティの実証（structural portability demonstration）**であり、独立した検証（independent validation）、臨床的検証、または実際の運用環境におけるインフラストラクチャの展開を意味するものではありません。  
+*This constitutes a **structural portability demonstration**, not independent validation, clinical validation, or deployment of the infrastructure in a real-world operational environment.*
+
+## 外部実証ドキュメント (External Demonstration Documentation)
+
+[UQ Longitudinal Skin Image Dataset — CS-NRRM™ Structural Mapping](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/EXTERNAL_DATASET_STRUCTURAL_MAPPING_UQ.md)
+
+## 元の外部データセット (Original External Dataset)
+
+**Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025)**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
+
+**データセット公開機関:** The University of Queensland  
+**Dataset DOI:** 10.48610/a13deaf
+
+**関連論文:** *Scientific Data*, 12, 1602 (2025)  
+**Publication DOI:** 10.1038/s41597-025-05880-2
+
+この外部データセットおよび関連論文は、CS-NRRM™とは独立して作成されました。  
+*The external dataset and associated publication were created independently of CS-NRRM™.*
+
+The University of Queensland、*Scientific Data*、および元のデータセットの著者は、CS-NRRM™またはこの構造的マッピングを開発、検証、承認、レビュー、または推奨したものではありません。  
+*The University of Queensland, Scientific Data, and the authors of the original dataset did not develop, validate, approve, review, or endorse CS-NRRM™ or this structural mapping.*
 
 ---
 
