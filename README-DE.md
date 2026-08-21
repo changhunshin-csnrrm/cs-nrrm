@@ -137,6 +137,8 @@ CS-NRRM™ **stellt Folgendes nicht bereit**:
 * Klinische Entscheidungsfindung (Clinical Decision-Making)
 * Medizinische oder klinische Verallgemeinerungen über ein Archiv einer einzelnen Person hinaus
 
+Das ursprüngliche 12-Jahres-Archiv von CS-NRRM™ ist Changhun Shins persönlicher longitudinaler Datensatz eines einzelnen Individuums und bleibt die historische Grundlage des Frameworks. Das strukturelle Framework kann auf unabhängig erstellte longitudinale Datensätze angewendet werden, um seine strukturelle Anwendbarkeit zu bewerten. Eine solche strukturelle Zuordnung zu externen Datensätzen stellt weder eine unabhängige Validierung noch eine klinische Validierung oder eine Verallgemeinerung auf Bevölkerungsebene dar.
+
 ## Zeitliche Neutralität (Time Neutrality)
 
 Das bloße Vorhandensein einer chronologischen Reihenfolge bedeutet **nicht** Genesung, Verbesserung, Verschlechterung, Fortschreiten oder eine bestimmte Richtung des Ergebnisses.
@@ -252,6 +254,35 @@ Dieses Material ist **keine** repräsentative Stichprobe aus dem 12-jährigen Ar
 Die öffentliche Dokumentation enthält eine repräsentative Beobachtungszeitleiste anstelle des vollständigen ursprünglichen Bildarchivs. Das vollständige Archiv bleibt zum Schutz der Privatsphäre und der Integrität des Archivs nicht öffentlich zugänglich.
 
 * [**Dokument des strukturellen Beobachtungsdatensatzes**](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+---
+
+# 🌐 Demonstration der strukturellen Zuordnung zu einem externen Datensatz
+
+Der strukturelle Ansatz von CS-NRRM™ wurde auf einen unabhängig erstellten und von **The University of Queensland** veröffentlichten longitudinalen Datensatz strukturell abgebildet.
+
+Diese Demonstration nutzte die zeitlichen Beziehungen eines öffentlichen longitudinalen Hautbilddatensatzes, in dem dieselben Läsionen zu mehreren Zeitpunkten wiederholt beobachtet wurden, um zu bewerten, ob extern erzeugte longitudinale Beziehungen innerhalb der CS-NRRM™-Struktur für **Chronologie (chronology), Kontinuität (continuity), Beobachtungskontext (observation context), Provenienz (provenance) und Interpretationsgrenzen (interpretation boundaries)** dargestellt werden können.
+
+Dies stellt eine **Demonstration der strukturellen Portabilität (structural portability demonstration)** dar und keine unabhängige Validierung (independent validation), klinische Validierung oder Bereitstellung der Infrastruktur in einer realen Betriebsumgebung.
+
+## Dokumentation der externen Demonstration
+
+[UQ Longitudinal Skin Image Dataset — CS-NRRM™ Structural Mapping](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/EXTERNAL_DATASET_STRUCTURAL_MAPPING_UQ.md)
+
+## Ursprünglicher externer Datensatz
+
+**Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025)**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
+
+**Veröffentlichende Institution des Datensatzes:** The University of Queensland  
+**Dataset DOI:** 10.48610/a13deaf
+
+**Zugehörige Publikation:** *Scientific Data*, 12, 1602 (2025)  
+**Publication DOI:** 10.1038/s41597-025-05880-2
+
+Der externe Datensatz und die zugehörige Publikation wurden unabhängig von CS-NRRM™ erstellt.
+
+The University of Queensland, *Scientific Data* und die Autoren des ursprünglichen Datensatzes haben CS-NRRM™ oder diese strukturelle Zuordnung weder entwickelt noch validiert, genehmigt, überprüft oder unterstützt.
 
 ---
 
