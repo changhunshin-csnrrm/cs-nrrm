@@ -149,6 +149,9 @@ CS-NRRM™ **لا يوفر** (CS-NRRM™ **does not provide the following**):
 - اتخاذ القرارات السريرية (Clinical Decision-Making)
 - التعميمات الطبية أو السريرية التي تتجاوز أرشيف فرد واحد (*Medical or clinical generalizations beyond a single individual's archive*)
 
+أرشيف CS-NRRM™ الأصلي الممتد على مدى 12 عاماً هو السجل الطولي الشخصي لفرد واحد، Changhun Shin، ويظل الأساس التاريخي للإطار. يمكن تطبيق الإطار الهيكلي على مجموعات بيانات طولية تم إنشاؤها بشكل مستقل لتقييم قابليته للتطبيق الهيكلي. ولا يشكل هذا النوع من التخطيط الهيكلي لمجموعات البيانات الخارجية تحققاً مستقلاً، أو تحققاً سريرياً، أو تعميماً على مستوى السكان.  
+*The original 12-year CS-NRRM™ archive is Changhun Shin's single-subject personal longitudinal record and remains the historical foundation of the framework. The structural framework may be applied to independently created longitudinal datasets to evaluate its structural applicability. Such structural mapping to external datasets does not constitute independent validation, clinical validation, or population-level generalization.*
+
 ## الحياد الزمني (Time Neutrality)
 وجود الترتيب الزمني بحد ذاته **لا يعني** التعافي أو التحسن أو التدهور أو التقدم أو أي اتجاه محدد للنتيجة.  
 *The mere presence of chronological order does **not** imply recovery, improvement, worsening, progression, or any specific direction of outcome.*
@@ -263,6 +266,40 @@ Independent Researcher
 *The public documentation includes a representative observation timeline instead of the full original image archive. The complete archive remains non-public to protect privacy and archive integrity.*
 
 - [**وثيقة مجموعة بيانات الملاحظة الهيكلية / Structural Observation Dataset Document**](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+---
+
+# 🌐 عرض توضيحي للتخطيط الهيكلي على مجموعة بيانات خارجية (External Dataset Structural Mapping Demonstration)
+
+تم تطبيق النهج الهيكلي لـ CS-NRRM™ من خلال التخطيط الهيكلي على مجموعة بيانات طولية تم إنشاؤها بشكل مستقل ونشرتها **The University of Queensland**.  
+*The structural approach of CS-NRRM™ was mapped to an independently created longitudinal dataset published by **The University of Queensland**.*
+
+استخدم هذا العرض التوضيحي العلاقات الزمنية في مجموعة بيانات عامة لصور جلدية طولية، حيث تمت ملاحظة الآفات نفسها بشكل متكرر عبر نقاط زمنية متعددة، لتقييم ما إذا كان يمكن تمثيل العلاقات الطولية المنشأة خارجياً ضمن بنية CS-NRRM™ من حيث **التسلسل الزمني (chronology)، والاستمرارية (continuity)، وسياق الملاحظة (observation context)، ومصدر البيانات (provenance)، وحدود التفسير (interpretation boundaries)**.  
+*This demonstration used the temporal relationships in a public longitudinal skin image dataset, in which the same lesions were repeatedly observed at multiple timepoints, to evaluate whether externally generated longitudinal relationships could be represented within the CS-NRRM™ structure for chronology, continuity, observation context, provenance, and interpretation boundaries.*
+
+يمثل هذا **عرضاً توضيحياً لقابلية النقل الهيكلي (structural portability demonstration)**، وليس تحققاً مستقلاً (independent validation)، أو تحققاً سريرياً، أو نشراً للبنية التحتية في بيئة تشغيلية فعلية.  
+*This constitutes a **structural portability demonstration**, not independent validation, clinical validation, or deployment of the infrastructure in a real-world operational environment.*
+
+## وثائق العرض التوضيحي الخارجي (External Demonstration Documentation)
+
+[UQ Longitudinal Skin Image Dataset — CS-NRRM™ Structural Mapping](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/EXTERNAL_DATASET_STRUCTURAL_MAPPING_UQ.md)
+
+## مجموعة البيانات الخارجية الأصلية (Original External Dataset)
+
+**Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025)**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
+
+**المؤسسة الناشرة لمجموعة البيانات:** The University of Queensland  
+**Dataset DOI:** 10.48610/a13deaf
+
+**المنشور المرتبط:** *Scientific Data*, 12, 1602 (2025)  
+**Publication DOI:** 10.1038/s41597-025-05880-2
+
+تم إنشاء مجموعة البيانات الخارجية والمنشور المرتبط بها بشكل مستقل عن CS-NRRM™.  
+*The external dataset and associated publication were created independently of CS-NRRM™.*
+
+لم تقم The University of Queensland أو *Scientific Data* أو مؤلفو مجموعة البيانات الأصلية بتطوير CS-NRRM™ أو هذا التخطيط الهيكلي أو التحقق منه أو اعتماده أو مراجعته أو تأييده.  
+*The University of Queensland, Scientific Data, and the authors of the original dataset did not develop, validate, approve, review, or endorse CS-NRRM™ or this structural mapping.*
 
 ---
 
