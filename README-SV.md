@@ -149,6 +149,9 @@ CS-NRRM™ **tillhandahåller inte** följande (CS-NRRM™ **does not provide th
 - Kliniskt beslutsfattande (Clinical Decision-Making)
 - Medicinska eller kliniska generaliseringar utöver en enskild individs arkiv (*Medical or clinical generalizations beyond a single individual's archive*)
 
+Det ursprungliga 12-åriga CS-NRRM™-arkivet är Changhun Shins personliga longitudinella register för en enskild individ och förblir ramverkets historiska grund. Det strukturella ramverket kan tillämpas på oberoende skapade longitudinella dataset för att utvärdera dess strukturella tillämplighet. Sådan strukturell mappning till externa dataset utgör inte oberoende validering, klinisk validering eller generalisering på populationsnivå.  
+*The original 12-year CS-NRRM™ archive is Changhun Shin's single-subject personal longitudinal record and remains the historical foundation of the framework. The structural framework may be applied to independently created longitudinal datasets to evaluate its structural applicability. Such structural mapping to external datasets does not constitute independent validation, clinical validation, or population-level generalization.*
+
 ## Tidssneutralitet (Time Neutrality)
 Enbart förekomsten av en kronologisk ordning **innebär inte** återhämtning, förbättring, försämring, progression eller någon specifik riktning för resultatet.  
 *The mere presence of chronological order does **not** imply recovery, improvement, worsening, progression, or any specific direction of outcome.*
@@ -263,6 +266,40 @@ Den offentliga dokumentationen innehåller en representativ observationstidslinj
 *The public documentation includes a representative observation timeline instead of the full original image archive. The complete archive remains non-public to protect privacy and archive integrity.*
 
 - [**Dokument för datasetet för strukturell observation / Structural Observation Dataset Document**](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+---
+
+# 🌐 Demonstration av strukturell mappning till ett externt dataset (External Dataset Structural Mapping Demonstration)
+
+CS-NRRM™:s strukturella tillvägagångssätt mappades till ett oberoende skapat longitudinellt dataset publicerat av **The University of Queensland**.  
+*The structural approach of CS-NRRM™ was mapped to an independently created longitudinal dataset published by **The University of Queensland**.*
+
+Denna demonstration använde de tidsmässiga relationerna i ett offentligt longitudinellt hudbildsdataset, där samma lesioner observerades upprepade gånger vid flera tidpunkter, för att utvärdera om externt genererade longitudinella relationer kunde representeras inom CS-NRRM™-strukturen för **kronologi (chronology), kontinuitet (continuity), observationskontext (observation context), proveniens (provenance) och tolkningsgränser (interpretation boundaries)**.  
+*This demonstration used the temporal relationships in a public longitudinal skin image dataset, in which the same lesions were repeatedly observed at multiple timepoints, to evaluate whether externally generated longitudinal relationships could be represented within the CS-NRRM™ structure for chronology, continuity, observation context, provenance, and interpretation boundaries.*
+
+Detta utgör en **demonstration av strukturell portabilitet (structural portability demonstration)**, inte oberoende validering (independent validation), klinisk validering eller driftsättning av infrastrukturen i en verklig operativ miljö.  
+*This constitutes a **structural portability demonstration**, not independent validation, clinical validation, or deployment of the infrastructure in a real-world operational environment.*
+
+## Dokumentation av den externa demonstrationen (External Demonstration Documentation)
+
+[UQ Longitudinal Skin Image Dataset — CS-NRRM™ Structural Mapping](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/EXTERNAL_DATASET_STRUCTURAL_MAPPING_UQ.md)
+
+## Ursprungligt externt dataset (Original External Dataset)
+
+**Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025)**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
+
+**Institution som publicerade datasetet:** The University of Queensland  
+**Dataset DOI:** 10.48610/a13deaf
+
+**Relaterad publikation:** *Scientific Data*, 12, 1602 (2025)  
+**Publication DOI:** 10.1038/s41597-025-05880-2
+
+Det externa datasetet och den tillhörande publikationen skapades oberoende av CS-NRRM™.  
+*The external dataset and associated publication were created independently of CS-NRRM™.*
+
+The University of Queensland, *Scientific Data* och författarna till det ursprungliga datasetet utvecklade, validerade, godkände, granskade eller stödde inte CS-NRRM™ eller denna strukturella mappning.  
+*The University of Queensland, Scientific Data, and the authors of the original dataset did not develop, validate, approve, review, or endorse CS-NRRM™ or this structural mapping.*
 
 ---
 
