@@ -149,6 +149,10 @@ CS-NRRM™ **ne fournit pas** (CS-NRRM™ **does not provide the following**) :
 - Prise de décision clinique (Clinical Decision-Making)
 - Généralisation médicale ou clinique au-delà d'une archive d'un individu unique (*Medical or clinical generalizations beyond a single individual's archive*)
 
+L'archive originale de 12 ans de CS-NRRM™ correspond au dossier longitudinal personnel d'un seul individu, Changhun Shin, et demeure la base historique du cadre. Le cadre structurel peut être appliqué à des jeux de données longitudinaux créés de manière indépendante afin d'évaluer son applicabilité structurelle. Un tel mappage structurel sur des jeux de données externes ne constitue ni une validation indépendante, ni une validation clinique, ni une généralisation à l'échelle de la population.
+
+*The original 12-year CS-NRRM™ archive is Changhun Shin's single-subject personal longitudinal record and remains the historical foundation of the framework. The structural framework may be applied to independently created longitudinal datasets to evaluate its structural applicability. Such structural mapping to external datasets does not constitute independent validation, clinical validation, or population-level generalization.*
+
 ## Neutralité Temporelle (Time Neutrality)
 La simple présence d'un ordre chronologique **n'implique pas** de guérison, d'amélioration, de détérioration, de progression ou de direction spécifique du résultat.  
 *The mere presence of chronological order does **not** imply recovery, improvement, worsening, progression, or any specific direction of outcome.*
@@ -263,6 +267,46 @@ La documentation publique comprend une chronologie d'observation représentative
 *The public documentation includes a representative observation timeline instead of the full original image archive. The complete archive remains non-public to protect privacy and archive integrity.*
 
 - [**Document du Jeu de Données d'Observation Structurelle / Structural Observation Dataset Document**](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+---
+
+# 🌐 Démonstration de Mappage Structurel sur un Jeu de Données Externe
+*External Dataset Structural Mapping Demonstration*
+
+L'approche structurelle de CS-NRRM™ a été mappée sur un jeu de données longitudinal créé de manière indépendante et publié par **The University of Queensland**.
+
+*The structural approach of CS-NRRM™ was mapped to an independently created longitudinal dataset published by **The University of Queensland**.*
+
+Cette démonstration a utilisé les relations temporelles d'un jeu de données public d'images longitudinales de la peau, dans lequel les mêmes lésions ont été observées à plusieurs moments, afin d'évaluer si des relations longitudinales générées de manière externe pouvaient être représentées dans la structure CS-NRRM™ en termes de **chronologie (chronology), continuité (continuity), contexte d'observation (observation context), provenance (provenance) et limites d'interprétation (interpretation boundaries)**.
+
+*This demonstration used the temporal relationships in a public longitudinal skin image dataset, in which the same lesions were repeatedly observed at multiple timepoints, to evaluate whether externally generated longitudinal relationships could be represented within the CS-NRRM™ structure for chronology, continuity, observation context, provenance, and interpretation boundaries.*
+
+Il s'agit d'une **démonstration de portabilité structurelle (structural portability demonstration)** et non d'une validation indépendante (independent validation), d'une validation clinique ou d'un déploiement de l'infrastructure dans un environnement opérationnel réel.
+
+*This constitutes a **structural portability demonstration**, not independent validation, clinical validation, or deployment of the infrastructure in a real-world operational environment.*
+
+## Documentation de la Démonstration Externe
+
+[UQ Longitudinal Skin Image Dataset — CS-NRRM™ Structural Mapping](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/EXTERNAL_DATASET_STRUCTURAL_MAPPING_UQ.md)
+
+## Jeu de Données Externe Original
+
+**Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025)**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
+
+**Institution ayant publié le jeu de données :** The University of Queensland  
+**Dataset DOI:** 10.48610/a13deaf
+
+**Publication associée :** *Scientific Data*, 12, 1602 (2025)  
+**Publication DOI:** 10.1038/s41597-025-05880-2
+
+Le jeu de données externe et la publication associée ont été créés indépendamment de CS-NRRM™.
+
+*The external dataset and associated publication were created independently of CS-NRRM™.*
+
+The University of Queensland, *Scientific Data* et les auteurs du jeu de données original n'ont ni développé, ni validé, ni approuvé, ni examiné, ni cautionné CS-NRRM™ ou ce mappage structurel.
+
+*The University of Queensland, Scientific Data, and the authors of the original dataset did not develop, validate, approve, review, or endorse CS-NRRM™ or this structural mapping.*
 
 ---
 
