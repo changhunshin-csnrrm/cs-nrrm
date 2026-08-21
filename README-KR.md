@@ -132,6 +132,9 @@ CS-NRRM™은 다음을 제공하지 않습니다.
 - 임상적 의사결정(Clinical Decision-Making)
 - 단일 개인 아카이브를 넘어선 의료적·임상적 일반화
 
+CS-NRRM™의 원본 12년 아카이브는 신창훈의 단일 개인 종단 기록이며 프레임워크의 역사적 기반으로 유지됩니다. 구조적 프레임워크는 독립적으로 생성된 종단 데이터셋에 적용하여 구조적 적용 가능성을 평가할 수 있습니다. 
+이러한 외부 데이터셋 매핑은 독립적 검증, 임상적 검증 또는 인구집단 수준의 일반화를 의미하지 않습니다.
+
 ### 시간 중립성(Time Neutrality)
 
 시간 순서가 존재한다는 사실만으로 회복, 개선, 악화, 진행 또는 특정 결과 방향을 의미하지 않습니다.
@@ -227,6 +230,35 @@ L3 시간 흐름 해석은 공식 라이선스와 창시자의 명시적 검토 
 공개 문서에는 전체 원본 대신 대표 관찰 타임라인이 포함되어 있으며, 전체 자료는 개인정보 보호와 아카이브 무결성을 위해 비공개로 관리됩니다.
 
 - [구조 관찰 데이터셋 문서](SKIN_STRUCTURAL_OBSERVATION_DATASET.md)
+
+---
+
+## 🌐 외부 데이터셋 구조 매핑 실증
+
+CS-NRRM™의 구조적 접근은 **퀸즐랜드 대학교(The University of Queensland)**에서 공개한 독립적으로 생성된 종단 데이터셋에 구조적으로 매핑되었습니다.
+
+이 실증은 동일 병변을 여러 시점에 걸쳐 반복 관찰한 공개 종단 피부 이미지 데이터의 시간적 관계를 활용하여, 외부에서 생성된 종단 관계가 CS-NRRM™의 **시간 순서(chronology), 연속성(continuity), 관찰 맥락(observation context), 출처 정보(provenance), 해석 경계(interpretation boundaries)** 구조로 표현될 수 있는지를 평가했습니다.
+
+이는 **구조적 포타빌리티 실증(structural portability demonstration)**이며, 독립적 검증(independent validation), 임상적 검증, 또는 실제 운영 인프라 배포를 의미하지 않습니다.
+
+### 외부 실증 문서
+
+[UQ Longitudinal Skin Image Dataset — CS-NRRM™ Structural Mapping](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/EXTERNAL_DATASET_STRUCTURAL_MAPPING_UQ.md)
+
+### 외부 원본 데이터셋
+
+**Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025)**
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
+
+**데이터셋 공개 기관:** The University of Queensland
+**Dataset DOI:** 10.48610/a13deaf
+
+**관련 논문:** *Scientific Data*, 12, 1602 (2025)
+**Publication DOI:** 10.1038/s41597-025-05880-2
+
+해당 외부 데이터셋과 논문은 CS-NRRM™과 독립적으로 생성되었습니다.
+
+The University of Queensland, *Scientific Data* 및 원 데이터셋 저자들은 CS-NRRM™ 또는 본 구조 매핑을 개발, 검증, 승인, 검토 또는 보증한 것이 아닙니다.
 
 ---
 
