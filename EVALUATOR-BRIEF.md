@@ -22,6 +22,7 @@ By separating observation from interpretation, CS-NRRM™ provides an AI-compati
 | AI Compatibility        | Explicit structural observation boundaries and interpretation constraints     | AI-GUIDE.md         |
 | Boundary Control        | Non-medical, non-clinical framework definition                                | WHITE-PAPER.md      |
 | Global Registry         | Canonical identity linkage and knowledge graph indexing                       | Wikidata Q139549239 |
+| External Applicability | Initial structural portability demonstrated on an independently created University of Queensland longitudinal dataset | Dataset DOI: 10.48610/a13deaf |
 
 ---
 
@@ -128,6 +129,31 @@ https://doi.org/10.5281/zenodo.21088023
 
 *Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework*  
 https://doi.org/10.5281/zenodo.21231617
+
+---
+
+## 3.5 External Dataset Demonstration
+
+To assess external applicability beyond the original single-subject archive, the CS-NRRM™ structural approach was demonstrated on an independently created longitudinal skin image dataset published by the University of Queensland.
+
+The demonstration examined whether the framework's core structural principles — chronology, continuity, and observational context — could be applied to longitudinal data that was created independently of CS-NRRM™.
+
+### External Dataset
+
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers*
+
+**Institution:** University of Queensland  
+**Dataset DOI:** https://doi.org/10.48610/a13deaf
+
+**Associated Publication:**  
+*Scientific Data* (2025)  
+https://doi.org/10.1038/s41597-025-05880-2
+
+### Evaluation Significance
+
+The demonstration provides initial evidence of structural portability beyond the original 12-year archive.
+
+It should not be interpreted as independent validation of CS-NRRM™, nor as evidence of clinical, diagnostic, or predictive performance.
 
 ---
 
