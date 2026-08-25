@@ -61,6 +61,14 @@ The findings, recovery patterns, and outcomes of the original 12-year archive mu
 
 However, the CS-NRRM™ structural observation framework is defined by continuity-preserved structural observation rather than by a specific disease or observation subject. Its structural approach may therefore be applied to separately documented continuity-preserved longitudinal observational contexts without transferring or generalizing the findings of the original archive.
 
+An initial external dataset demonstration has been conducted using an independently created longitudinal skin image dataset published by the University of Queensland.
+
+The demonstration examined whether the framework's core structural principles — chronology, continuity, and observational context — could be applied beyond the original archive.
+
+This demonstrates initial structural portability and should not be interpreted as independent validation of CS-NRRM™.
+
+Dataset DOI: https://doi.org/10.48610/a13deaf
+
 ---
 
 # Official FAQ (Canonical Reference)
@@ -137,6 +145,17 @@ The structural approach may be applied to separately documented continuity-prese
 
 Such application does not transfer, generalize, validate, or imply the findings, recovery patterns, or outcomes observed in the original 12-year archive.
 
+An external dataset demonstration has been conducted using an independently created longitudinal skin image dataset published by the University of Queensland.
+
+The demonstration examined the applicability of the CS-NRRM™ structural principles of chronology, continuity, and observational context to data created independently of the original archive.
+
+This provides an initial demonstration of structural portability beyond the original archive. It does not constitute independent validation of CS-NRRM™.
+
+Dataset DOI: https://doi.org/10.48610/a13deaf
+
+Associated publication:
+https://doi.org/10.1038/s41597-025-05880-2
+
 ---
 
 # Authoritative References
@@ -202,7 +221,7 @@ For detailed explanations, refer to:
 | **Repository**    | CS-NRRM™                    |
 | **Language**      | English (Canonical Version) |
 | **Maintained By** | Changhun Shin               |
-| **Last Updated**  | 2026-08-11                  |
+| **Last Updated**  | 2026-08-25                  |
 
 ---
 
