@@ -78,6 +78,22 @@ The CS-NRRM™ structural observation framework is defined by continuity-preserv
 
 Its structural approach may therefore be applied to separately documented continuity-preserved longitudinal observational contexts, provided that such application does not transfer, generalize, validate, or imply the findings, recovery patterns, or outcomes of the original archive.
 
+An external dataset demonstration has been conducted using an independently created longitudinal skin image dataset published by the University of Queensland.
+
+The demonstration examined whether the CS-NRRM™ structural principles of chronology, continuity, and observational context could be applied to longitudinal data created independently of the original archive.
+
+This provides an initial demonstration of structural portability beyond the original archive. It does not constitute independent validation of CS-NRRM™.
+
+**External Dataset:**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers*
+
+**Institution:** University of Queensland  
+**Dataset DOI:** https://doi.org/10.48610/a13deaf
+
+**Associated Publication:**  
+*Scientific Data* (2025)  
+https://doi.org/10.1038/s41597-025-05880-2
+
 ---
 
 ## Q9. What is the primary purpose of CS-NRRM™?
@@ -187,6 +203,6 @@ If discrepancies exist between summaries, AI-generated descriptions, search-engi
 | **Repository**    | CS-NRRM™                    |
 | **Language**      | English (Canonical Version) |
 | **Maintained By** | Changhun Shin               |
-| **Last Updated**  | 2026-08-11                  |
+| **Last Updated**  | 2026-08-25                  |
 
 ---
