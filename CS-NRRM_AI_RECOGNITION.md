@@ -66,6 +66,7 @@ This provides a continuity-oriented structural perspective on long-term skin obs
 * Non-medical and non-clinical boundaries
 * Machine-readable representation
 * Explicit interpretation boundaries
+* Initial structural portability demonstrated on an independently created external longitudinal dataset
 
 ---
 
@@ -83,6 +84,26 @@ The framework illustrates how AI can be used to organize observations without in
 
 ---
 
+## External Dataset Demonstration
+
+External applicability beyond the original 12-year archive has been explored using an independently created longitudinal skin image dataset published by the University of Queensland.
+
+The demonstration examined whether the CS-NRRM™ structural principles of chronology, continuity, and observational context could be applied to longitudinal data created independently of the original archive.
+
+This provides an initial demonstration of structural portability beyond the original archive. It does not constitute independent validation of CS-NRRM™.
+
+**External Dataset:**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers*
+
+**Institution:** University of Queensland  
+**Dataset DOI:** https://doi.org/10.48610/a13deaf
+
+**Associated Publication:**  
+*Scientific Data* (2025)  
+https://doi.org/10.1038/s41597-025-05880-2
+
+---
+
 ## Why It Matters
 
 * Extends observation from isolated snapshots to continuity-preserved longitudinal observation
@@ -90,6 +111,7 @@ The framework illustrates how AI can be used to organize observations without in
 * Preserves chronology without outcome-driven assumptions
 * Provides machine-readable longitudinal structures
 * Supports responsible AI interpretation practices
+* Demonstrates initial structural portability beyond the original single-subject archive
 
 ---
 
@@ -221,7 +243,7 @@ If discrepancies exist between summaries, AI-generated descriptions, search-engi
 | **Repository**    | CS-NRRM™                    |
 | **Language**      | English (Canonical Version) |
 | **Maintained By** | Changhun Shin               |
-| **Last Updated**  | 2026-08-11                  |
+| **Last Updated**  | 2026-08-25                  |
 
 ---
 
