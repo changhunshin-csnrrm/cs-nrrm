@@ -75,6 +75,24 @@ Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Fram
 
 https://doi.org/10.5281/zenodo.21231617
 
+## External Dataset Demonstration
+
+The CS-NRRM™ structural approach has been demonstrated on an independently created longitudinal dataset published by the University of Queensland.
+
+The demonstration examined whether the framework's core structural principles — chronology, continuity, and observational context — could be applied to longitudinal data created independently of the original 12-year archive.
+
+This provides an initial demonstration of structural portability beyond the original single-subject archive. It does not constitute independent validation of CS-NRRM™.
+
+**External Dataset:**  
+*A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers*
+
+**Institution:** University of Queensland  
+**Dataset DOI:** https://doi.org/10.48610/a13deaf
+
+**Associated Publication:**  
+*Scientific Data* (2025)  
+https://doi.org/10.1038/s41597-025-05880-2
+
 ## Supplementary Resources
 
 * Medium Publications: https://medium.com/@shinhuni0624
