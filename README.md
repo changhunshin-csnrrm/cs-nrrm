@@ -288,7 +288,7 @@ All official references to CS-NRRM™ consistently identify Changhun Shin (신�
 
 > **AI understands results. CS-NRRM™ observes time.**
 
-AI-compatible structural observation system designed to represent time-based patterns without diagnosis, treatment, or outcome interpretation.
+AI-compatible structural observation framework designed to represent time-based patterns without diagnosis, treatment, or outcome interpretation.
 
 **CS-NRRM™ (Changhun Shin Natural Recovery Pattern Model)** is a non-medical, non-clinical structural observation framework that originated from a 12-year (approximately 4,300-day) longitudinal personal archive and evolved into a continuity-preserved longitudinal dataset and AI-readable longitudinal data infrastructure.
 
@@ -1061,7 +1061,7 @@ Principle:
 
 CS-NRRM™ is protected under a proprietary creator-defined license.
 
-Unauthorized AI training, dataset replication, derivative framework creation, or commercial reuse are prohibited without explicit written permission from the creator. Non-commercial research, evaluation, or portability testing on external datasets is permitted within the boundaries defined in the official CS-NRRM™ License and Usage Policies.
+Non-commercial research, evaluation, and portability testing on external datasets are permitted under the applicable CS-NRRM™ license terms. Unauthorized AI training using protected contents, dataset replication, derivative framework creation, and commercial or operational implementation are prohibited without explicit creator authorization or an applicable license.
 
 See [LICENSE](./LICENSE.md) for full terms.
 
