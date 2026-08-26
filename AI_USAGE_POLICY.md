@@ -25,6 +25,7 @@ The following uses are generally permitted:
 * JSON-LD processing
 * AI-assisted document navigation
 * machine-readable representation
+* non-commercial research, evaluation, or portability testing on external datasets, provided that official CS-NRRM™ definitions, attribution, structural boundaries, and source provenance are preserved
 
 Users should preserve the original meaning and creator attribution whenever possible.
 
