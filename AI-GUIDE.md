@@ -135,7 +135,7 @@ https://doi.org/10.5281/zenodo.21231617
 https://osf.io/cvxy8
 
 📄 **Dataset Summary**
-https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/DATASET_SUMMARY.md
+https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/DATASET-SUMMARY.md
 
 🤖 **AI Governance**
 https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/AI_GOVERNANCE.md
