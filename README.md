@@ -241,7 +241,9 @@ It does not provide diagnosis, treatment, prediction, or causal interpretation.
 
 It is designed to describe how patterns appear and are structured over time.
 
-All interpretations beyond structural recognition require explicit authorization from the creator.
+Non-commercial research, evaluation, and structural portability testing on external datasets are permitted within the applicable CS-NRRM™ usage and licensing policies.
+
+Commercial or operational implementation requires explicit creator authorization or an applicable license.
 
 ## 📊 Dataset Visualization (Summary)
 
