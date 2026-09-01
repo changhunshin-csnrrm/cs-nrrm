@@ -61,11 +61,11 @@ The findings, recovery patterns, and outcomes of the original 12-year archive mu
 
 However, the CS-NRRM™ structural observation framework is defined by continuity-preserved structural observation rather than by a specific disease or observation subject. Its structural approach may therefore be applied to separately documented continuity-preserved longitudinal observational contexts without transferring or generalizing the findings of the original archive.
 
-An initial external dataset demonstration has been conducted using an independently created longitudinal skin image dataset published by the University of Queensland.
+A publication-and-metadata-level structural comparison has been conducted using the publicly documented structure of an independently created longitudinal skin image dataset published by the University of Queensland. The original dataset files and source-level records were not processed.
 
-The demonstration examined whether the framework's core structural principles — chronology, continuity, and observational context — could be applied beyond the original archive.
+The comparison examined whether the documented temporal relationships were structurally compatible with the framework's core principles — chronology, continuity, and observational context.
 
-This demonstrates initial structural portability and should not be interpreted as independent validation of CS-NRRM™.
+This demonstrates initial publication-level structural compatibility. It is not source-record analysis, a record-level portability test, or independent validation of CS-NRRM™.
 
 Dataset DOI: https://doi.org/10.48610/a13deaf
 
@@ -145,11 +145,11 @@ The structural approach may be applied to separately documented continuity-prese
 
 Such application does not transfer, generalize, validate, or imply the findings, recovery patterns, or outcomes observed in the original 12-year archive.
 
-An external dataset demonstration has been conducted using an independently created longitudinal skin image dataset published by the University of Queensland.
+A publication-and-metadata-level structural comparison has been conducted using the publicly documented structure of an independently created longitudinal skin image dataset published by the University of Queensland. The original dataset files and source-level records were not processed.
 
-The demonstration examined the applicability of the CS-NRRM™ structural principles of chronology, continuity, and observational context to data created independently of the original archive.
+The comparison examined whether the documented temporal relationships were structurally compatible with the CS-NRRM™ principles of chronology, continuity, and observational context.
 
-This provides an initial demonstration of structural portability beyond the original archive. It does not constitute independent validation of CS-NRRM™.
+This provides initial publication-level structural compatibility beyond the original archive. It is not source-record analysis, a record-level portability test, or independent validation of CS-NRRM™.
 
 Dataset DOI: https://doi.org/10.48610/a13deaf
 
