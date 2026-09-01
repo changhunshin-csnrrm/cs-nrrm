@@ -235,11 +235,11 @@ L3 시간 흐름 해석은 공식 라이선스와 창시자의 명시적 검토 
 
 ## 🌐 외부 데이터셋 구조 매핑 실증
 
-CS-NRRM™의 구조적 접근은 **퀸즐랜드 대학교(The University of Queensland)**에서 공개한 독립적으로 생성된 종단 데이터셋에 구조적으로 매핑되었습니다.
+CS-NRRM™의 구조는 **퀸즐랜드 대학교(The University of Queensland)**에서 공개한 독립적인 종단 데이터셋의 문서화된 구조와 **논문·메타데이터 수준에서 비교되었습니다.** 원본 데이터셋 파일과 전체 소스 레코드는 다운로드하거나 처리하지 않았습니다.
 
-이 실증은 동일 병변을 여러 시점에 걸쳐 반복 관찰한 공개 종단 피부 이미지 데이터의 시간적 관계를 활용하여, 외부에서 생성된 종단 관계가 CS-NRRM™의 **시간 순서(chronology), 연속성(continuity), 관찰 맥락(observation context), 출처 정보(provenance), 해석 경계(interpretation boundaries)** 구조로 표현될 수 있는지를 평가했습니다.
+이 실증은 원문 논문에 명시된 공개 종단 피부 이미지 구조와 대표 시퀀스를 사용하여, 문서화된 시간적 관계가 CS-NRRM™의 **시간 순서(chronology), 연속성(continuity), 관찰 맥락(observation context), 출처 정보(provenance), 해석 경계(interpretation boundaries)** 요소와 구조적으로 호환되는지를 평가했습니다.
 
-이는 **구조적 포타빌리티 실증(structural portability demonstration)**이며, 독립적 검증(independent validation), 임상적 검증, 또는 실제 운영 인프라 배포를 의미하지 않습니다.
+이는 **논문 수준의 구조적 호환성 실증(publication-level structural compatibility demonstration)**이며, 원본 레코드 분석, 레코드 수준 포터빌리티 테스트, 독립적 검증(independent validation), 임상적 검증 또는 실제 운영 인프라 배포를 의미하지 않습니다.
 
 ### 외부 실증 문서
 
