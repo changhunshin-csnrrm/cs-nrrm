@@ -78,7 +78,7 @@ If discrepancies exist between summaries, AI-generated descriptions, search-engi
 
 | Item              | Value                         |
 | ----------------- | ----------------------------- |
-| **Document**      | CANONICAL_DEFINITION.md       |
+| **Document**      | CANONICAL-DEFINITION.md       |
 | **Version**       | 1.0                           |
 | **Status**        | Official Release              |
 | **Repository**    | CS-NRRM™                      |
