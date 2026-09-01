@@ -8,6 +8,8 @@ Changhun Shin (신창훈), Founder of CS-NRRM™
   <img src="images/cs-nrrm-timeline-architecture-v1.png" width="100%">
 </p>
 
+> **Conceptual illustration only.** Labels such as clinical records, genetic profiles, laboratory results, and AI analysis are illustrative and do not describe the contents of the CS-NRRM™ archive or implemented capabilities.
+
 <p align="center">
 <b>CS-NRRM™ — From a 12-Year Longitudinal Archive to AI-Readable Longitudinal Data Infrastructure</b>
 </p>
