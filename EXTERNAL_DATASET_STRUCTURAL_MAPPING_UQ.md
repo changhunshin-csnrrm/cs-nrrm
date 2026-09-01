@@ -2,9 +2,9 @@
 
 ## Status
 
-External Public Dataset Structural Demonstration
+Publication-Level External Dataset Structural Mapping
 
-This document demonstrates how the CS-NRRM™ continuity-preserved structural observation approach can be mapped to an independently created longitudinal dataset.
+This document presents a publication-level structural comparison between the CS-NRRM™ continuity-preserved structural observation approach and the publicly documented organization of an independently created longitudinal dataset.
 
 This is not an independent validation of CS-NRRM™ and does not imply endorsement, collaboration, or validation by the University of Queensland, Scientific Data, or the original dataset authors.
 
@@ -12,7 +12,7 @@ This is not an independent validation of CS-NRRM™ and does not imply endorseme
 
 ## External Data Source
 
-This demonstration uses the independently created public dataset:
+This demonstration references the source publication and public metadata describing the independently created dataset. The original dataset files, complete CSV metadata, and source-level records were not downloaded or processed:
 
 **Ghahari, N., Caffery, L., Betz-Stablein, B., et al. (2025).**  
 *A longitudinal dataset of tile and corresponding dermoscopic images with metadata for identifying skin cancers.*
