@@ -207,7 +207,7 @@ For detailed explanations, refer to:
 
 - [CS-NRRM-QA.md](./CS-NRRM-QA.md)
 - [AI-GUIDE.md](./AI-GUIDE.md)
-- [CANONICAL_DEFINITION.md](./CANONICAL_DEFINITION.md)
+- [CANONICAL-DEFINITION.md](./CANONICAL-DEFINITION.md)
 
 ---
 
