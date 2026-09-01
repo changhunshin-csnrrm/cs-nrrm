@@ -258,9 +258,10 @@ A simplified visualization representing the observation density across the 12-ye
 > **Conceptual dataset illustration only.** Terms such as pattern recognition engine, AI-powered structural analysis, and health or lifestyle logs are illustrative and do not represent verified archive contents or deployed technical capabilities.
 
 ### Dataset Structure
-- Image Data (Long-term Visual Records)
-- Health & Lifestyle Logs
-- Timeline Logs (4,300+ records)
+- Long-term visual records
+- Chronology and observation metadata
+- Representative public sample: 585 observation-level records
+- Historical foundation: approximately 4,300 days, not 4,300 public records
 
 ### Description
 CS-NRRM™ is a non-medical structural observation framework whose continuity-preserved longitudinal structure supports its development as AI-readable longitudinal data infrastructure.
@@ -353,9 +354,11 @@ Temporal order does not imply progression or outcome.
 
 ## 📊 Structural Overview (Visual)
 
-A simplified representation of how CS-NRRM™ transforms long-term observational data into structured outputs.
+A simplified conceptual representation of how long-term observational data may be organized into structured outputs.
 
 ![CS-NRRM Overview](./structure-overview.png)
+
+> **Conceptual illustration only.** The labels, sample fields, dates, and values shown in this image are illustrative. They are not verified source records, an official implementation schema, or deployed technical capabilities.
 
 ## 🔗 Demonstration
 
@@ -372,16 +375,20 @@ It enables:
 - generating structural snapshots  
 - visualizing time-based patterns  
 
-Compatible AI systems include:
+Potential AI-assisted environments include:
 - HyperCLOVA X (Naver)
 - Upstage Solar / Document AI
 - OpenAI GPT models
+
+> Inclusion in this list does not imply tested integration, endorsement, or validated compatibility.
 
 🌐 Language: [English](./README.md) | [한국어](./README-KR.md)
 
 ---
 
 ## 📊 Sample Structural Output
+
+> **Illustrative, non-normative example only.** The dates and values below are not verified source records from the private archive and do not define an official implementation schema.
 
 ```json
 {
@@ -392,8 +399,7 @@ Compatible AI systems include:
 }
 ```
 
-This output format can be generated and visualized using AI systems.  
-This is a sample-based structural snapshot demonstrating how CS-NRRM™ outputs can be represented.
+This illustrative format shows one possible way AI-assisted systems could represent structured observations. It is not an official schema, a verified source record, or evidence of a deployed integration.
 
 ⚠️ This output is non-medical and does not imply diagnosis, treatment, or prediction.
 

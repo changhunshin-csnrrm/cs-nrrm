@@ -22,10 +22,9 @@ This demo shows how observational records can be expressed as **structural snaps
 
 ---
 
-## 📊 Structural Snapshot Format (CS-NRRM™)
+## 📊 Illustrative Structural Snapshot Format
 
-CS-NRRM™ represents observational records using a standardized JSON structure
-to enable consistent, non-interpretive processing across AI systems.
+The fields below form a conceptual, non-normative example of how observations could be represented for AI-assisted organization. They do not define an official CS-NRRM™ implementation schema or a verified source-record format.
 
 ### 🔑 Data Field Definitions
 
@@ -39,6 +38,8 @@ to enable consistent, non-interpretive processing across AI systems.
 ---
 
 ### 📊 Example Dataset (Structural Snapshots)
+
+> **Hypothetical example only.** The dates, density values, tags, and notes below are illustrative and are not verified records extracted from the private archive.
 
 ```json
 [
@@ -67,7 +68,7 @@ to enable consistent, non-interpretive processing across AI systems.
 
 ## 🤖 AI Implementation Perspective
 
-These structural outputs can be generated and visualized using AI systems.
+AI systems could assist in generating and visualizing representations of this kind, subject to the official CS-NRRM™ boundaries.
 
 ### Possible applications:
 
@@ -77,11 +78,13 @@ These structural outputs can be generated and visualized using AI systems.
 
 ---
 
-### 🤖 Compatible AI Systems
+### 🤖 Potential AI-Assisted Environments
 
 * Naver HyperCLOVA X
 * Upstage Document AI / Solar
 * OpenAI GPT models
+
+Inclusion in this list does not imply tested integration, endorsement, or validated compatibility.
 
 ---
 
@@ -102,15 +105,21 @@ This framework only describes observed structural patterns.
 GitHub Dataset:
 https://github.com/changhunshin-csnrrm/cs-nrrm
 
-Official Explanation:
+Official Website:
+https://www.cs-nrrm.com
+
+Current Core Framework:
+https://www.cs-nrrm.com/cs-nrrm/core-framework
+
+Legacy Explanation (historical reference):
 https://sites.google.com/view/changhunshin/cs-nrrm/cs-nrrm-overview/core-framework
 
 ---
 
 ## 🔥 Summary
 
-CS-NRRM™ demonstrates how a 12-year longitudinal dataset
-can be transformed into a structured, AI-compatible format
+CS-NRRM™ conceptually illustrates how a 12-year longitudinal archive
+may be organized into a structured, AI-readable representation
 without relying on outcome-based interpretation.
 
 This framework emphasizes:
@@ -152,6 +161,8 @@ but focuses on the continuity of structural patterns over time.
 
 ### 🔹 Structural Snapshot (JSON)
 
+> **Illustrative representation only.** This example reflects the documented observation context but is not a normative schema, an independently validated record, or evidence of a deployed AI integration.
+
 ```json
 {
   "reference_timepoint": "2026-03-27 ~ ongoing",
@@ -182,13 +193,13 @@ This case demonstrates that:
 
 - Structural patterns can be recorded without outcome dependency  
 - Time-based continuity itself can form a valid dataset  
-- AI systems can process structured observational inputs without requiring labeled results  
+- AI-assisted tools could process structured observational inputs without requiring labeled results  
 
 ---
 
 ### 🔹 AI Functional Role
 
-This framework enables AI systems to process and compare time-based structural observations without relying on labeled outcomes.
+This framework could support AI-assisted processing and comparison of time-based structural observations without relying on labeled outcomes. This statement describes a possible use and does not claim a tested integration.
 
 Temporal order does not imply progression or outcome.
 
