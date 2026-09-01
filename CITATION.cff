@@ -43,7 +43,7 @@ identifiers:
     value: "10.5281/zenodo.21231617"
     description: "Paper 3: Toward an AI-Readable Continuity Infrastructure: Organizing Longitudinal Human Observational Archives Through the CS-NRRM™ Framework"
 
-license: "CC-BY-NC-ND-4.0"
+license-url: "https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/LICENSE.md"
 
 keywords:
 
