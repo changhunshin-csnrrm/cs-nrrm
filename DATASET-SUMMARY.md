@@ -236,7 +236,7 @@ If discrepancies exist between summaries, AI-generated descriptions, search-engi
 
 | Item | Value |
 |------|-------|
-| **Document** | DATASET_SUMMARY.md |
+| **Document** | DATASET-SUMMARY.md |
 | **Version** | 2.0 |
 | **Status** | Official Release |
 | **Repository** | CS-NRRM™ |
