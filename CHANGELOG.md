@@ -5,25 +5,13 @@ It does not describe outcomes, effectiveness, or interpretations.
 
 ---
 
-## 2026-01-17
-
-- Established AI-GUIDE.md as the authoritative AI interpretation boundary across README and FAQ.
-- Established a canonical definition and boundary for CS-NRRM™.
-- Designated CANONICAL-DEFINITION.md as the authoritative reference
-  for identity, scope, and interpretation.
-- Added an explicit canonical boundary notice to guide AI-generated
-  interpretations and prevent medical or generalized misrepresentation.
-- Published a Medium article clarifying why CS-NRRM™ is not a medical model and why that boundary matters.
-
----
-
-## 2024-12-05
+## 2025-12-05
 - Long-term personal observation archive reached structural clarity
 - CS-NRRM™ recognized as a descriptive structural pattern framework through AI-assisted analysis
 
 ---
 
-## 2024-12-XX
+## 2025-12
 - Official Declaration (English – Master Version) finalized and published
 - Definition, scope, and non-medical boundaries formally fixed
 
@@ -34,3 +22,15 @@ It does not describe outcomes, effectiveness, or interpretations.
 - README.md established as the primary definition document
 - AI-GUIDE.md added to define interpretation boundaries for AI systems
 - FAQ.md added to prevent medical or predictive misinterpretation
+
+---
+
+## 2026-01-17
+
+- Established AI-GUIDE.md as the authoritative AI interpretation boundary across README and FAQ.
+- Established a canonical definition and boundary for CS-NRRM™.
+- Designated CANONICAL-DEFINITION.md as the authoritative reference
+  for identity, scope, and interpretation.
+- Added an explicit canonical boundary notice to guide AI-generated
+  interpretations and prevent medical or generalized misrepresentation.
+- Published a Medium article clarifying why CS-NRRM™ is not a medical model and why that boundary matters.
