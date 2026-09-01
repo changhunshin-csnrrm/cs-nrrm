@@ -144,11 +144,11 @@ Nothing in this policy grants ownership, licensing rights, commercial rights, or
 | Item              | Value                       |
 | ----------------- | --------------------------- |
 | **Document**      | AI_USAGE_POLICY.md          |
-| **Version**       | 1.0                         |
+| **Version**       | 1.1                         |
 | **Status**        | Official Release            |
 | **Repository**    | CS-NRRM™                    |
 | **Language**      | English (Canonical Version) |
 | **Maintained By** | Changhun Shin               |
-| **Last Updated**  | 2026-08-11                  |
+| **Last Updated**  | 2026-08-26                  |
 
 ---
