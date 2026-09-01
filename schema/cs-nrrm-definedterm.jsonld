@@ -1,4 +1,3 @@
-```json
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
@@ -22,4 +21,3 @@
     "https://www.wikidata.org/wiki/Q139549239"
   ]
 }
-```
