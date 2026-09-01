@@ -273,17 +273,17 @@ La documentation publique comprend une chronologie d'observation représentative
 # 🌐 Démonstration de Mappage Structurel sur un Jeu de Données Externe
 *External Dataset Structural Mapping Demonstration*
 
-L'approche structurelle de CS-NRRM™ a été mappée sur un jeu de données longitudinal créé de manière indépendante et publié par **The University of Queensland**.
+La structure de CS-NRRM™ a été comparée, au niveau de la publication et des métadonnées, à la structure documentée d'un jeu de données longitudinal créé indépendamment et publié par **The University of Queensland**. Les fichiers originaux du jeu de données, les métadonnées CSV complètes et les enregistrements sources n'ont été ni téléchargés ni traités.
 
-*The structural approach of CS-NRRM™ was mapped to an independently created longitudinal dataset published by **The University of Queensland**.*
+*The structure of CS-NRRM™ was compared at the publication-and-metadata level with the documented structure of an independently created longitudinal dataset published by **The University of Queensland**. The original dataset files, complete CSV metadata, and source-level records were not downloaded or processed.*
 
-Cette démonstration a utilisé les relations temporelles d'un jeu de données public d'images longitudinales de la peau, dans lequel les mêmes lésions ont été observées à plusieurs moments, afin d'évaluer si des relations longitudinales générées de manière externe pouvaient être représentées dans la structure CS-NRRM™ en termes de **chronologie (chronology), continuité (continuity), contexte d'observation (observation context), provenance (provenance) et limites d'interprétation (interpretation boundaries)**.
+Cette évaluation a utilisé la structure d'images cutanées longitudinales et les séquences représentatives documentées publiquement dans la publication source afin de déterminer si les relations temporelles documentées étaient structurellement compatibles avec les éléments CS-NRRM™ de **chronologie (chronology), continuité (continuity), contexte d'observation (observation context), provenance (provenance) et limites d'interprétation (interpretation boundaries)**.
 
-*This demonstration used the temporal relationships in a public longitudinal skin image dataset, in which the same lesions were repeatedly observed at multiple timepoints, to evaluate whether externally generated longitudinal relationships could be represented within the CS-NRRM™ structure for chronology, continuity, observation context, provenance, and interpretation boundaries.*
+*This demonstration used the publicly documented longitudinal skin-image structure and representative sequences described in the source publication to assess whether the documented temporal relationships were structurally compatible with the CS-NRRM™ elements of chronology, continuity, observation context, provenance, and interpretation boundaries.*
 
-Il s'agit d'une **démonstration de portabilité structurelle (structural portability demonstration)** et non d'une validation indépendante (independent validation), d'une validation clinique ou d'un déploiement de l'infrastructure dans un environnement opérationnel réel.
+Il s'agit d'une **démonstration de compatibilité structurelle au niveau de la publication (publication-level structural compatibility demonstration)**, et non d'une analyse des enregistrements sources, d'un test de portabilité au niveau des enregistrements, d'une validation indépendante, d'une validation clinique ou d'un déploiement opérationnel de l'infrastructure.
 
-*This constitutes a **structural portability demonstration**, not independent validation, clinical validation, or deployment of the infrastructure in a real-world operational environment.*
+*This is a **publication-level structural compatibility demonstration**, not source-record analysis, a record-level portability test, independent validation, clinical validation, or operational infrastructure deployment.*
 
 ## Documentation de la Démonstration Externe
 

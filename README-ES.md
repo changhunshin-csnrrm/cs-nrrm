@@ -256,11 +256,11 @@ La documentación pública incluye una línea temporal representativa de observa
 
 # 🌐 Demostración de Mapeo Estructural con un Dataset Externo
 
-El enfoque estructural de CS-NRRM™ fue mapeado a un dataset longitudinal creado de forma independiente y publicado por **The University of Queensland**.
+La estructura de CS-NRRM™ se comparó, a nivel de publicación y metadatos, con la estructura documentada de un dataset longitudinal creado de forma independiente y publicado por **The University of Queensland**. Los archivos originales del dataset, los metadatos CSV completos y los registros de origen no fueron descargados ni procesados.
 
-Esta demostración utilizó las relaciones temporales de un dataset público de imágenes longitudinales de la piel, en el que las mismas lesiones fueron observadas repetidamente en múltiples momentos, para evaluar si las relaciones longitudinales generadas externamente podían representarse mediante la estructura de CS-NRRM™ de **cronología (chronology), continuidad (continuity), contexto de observación (observation context), procedencia (provenance) y límites de interpretación (interpretation boundaries)**.
+Esta evaluación utilizó la estructura de imágenes longitudinales de la piel y las secuencias representativas documentadas públicamente en la publicación fuente para determinar si las relaciones temporales documentadas eran estructuralmente compatibles con los elementos de CS-NRRM™ de **cronología (chronology), continuidad (continuity), contexto de observación (observation context), procedencia (provenance) y límites de interpretación (interpretation boundaries)**.
 
-Esto constituye una **demostración de portabilidad estructural (structural portability demonstration)** y no una validación independiente (independent validation), validación clínica ni un despliegue de infraestructura en un entorno operativo real.
+Esta es una **demostración de compatibilidad estructural a nivel de publicación (publication-level structural compatibility demonstration)**, no un análisis de registros de origen, una prueba de portabilidad a nivel de registros, una validación independiente, una validación clínica ni un despliegue operativo de infraestructura.
 
 ## Documento de la Demostración Externa
 

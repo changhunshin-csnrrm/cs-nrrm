@@ -259,11 +259,11 @@ Die öffentliche Dokumentation enthält eine repräsentative Beobachtungszeitlei
 
 # 🌐 Demonstration der strukturellen Zuordnung zu einem externen Datensatz
 
-Der strukturelle Ansatz von CS-NRRM™ wurde auf einen unabhängig erstellten und von **The University of Queensland** veröffentlichten longitudinalen Datensatz strukturell abgebildet.
+Die Struktur von CS-NRRM™ wurde auf Publikations- und Metadatenebene mit der dokumentierten Struktur eines unabhängig erstellten longitudinalen Datensatzes verglichen, der von **The University of Queensland** veröffentlicht wurde. Die ursprünglichen Datensatzdateien, vollständigen CSV-Metadaten und Quelldatensätze wurden weder heruntergeladen noch verarbeitet.
 
-Diese Demonstration nutzte die zeitlichen Beziehungen eines öffentlichen longitudinalen Hautbilddatensatzes, in dem dieselben Läsionen zu mehreren Zeitpunkten wiederholt beobachtet wurden, um zu bewerten, ob extern erzeugte longitudinale Beziehungen innerhalb der CS-NRRM™-Struktur für **Chronologie (chronology), Kontinuität (continuity), Beobachtungskontext (observation context), Provenienz (provenance) und Interpretationsgrenzen (interpretation boundaries)** dargestellt werden können.
+Diese Untersuchung verwendete die in der Quellenpublikation öffentlich dokumentierte longitudinale Hautbildstruktur und repräsentative Sequenzen, um zu prüfen, ob die dokumentierten zeitlichen Beziehungen strukturell mit den CS-NRRM™-Elementen **Chronologie (chronology), Kontinuität (continuity), Beobachtungskontext (observation context), Provenienz (provenance) und Interpretationsgrenzen (interpretation boundaries)** kompatibel sind.
 
-Dies stellt eine **Demonstration der strukturellen Portabilität (structural portability demonstration)** dar und keine unabhängige Validierung (independent validation), klinische Validierung oder Bereitstellung der Infrastruktur in einer realen Betriebsumgebung.
+Dies ist eine **Demonstration der strukturellen Kompatibilität auf Publikationsebene (publication-level structural compatibility demonstration)** und keine Analyse von Quelldatensätzen, kein Portabilitätstest auf Datensatzebene, keine unabhängige Validierung, keine klinische Validierung und keine operative Bereitstellung der Infrastruktur.
 
 ## Dokumentation der externen Demonstration
 

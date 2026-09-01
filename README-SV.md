@@ -271,14 +271,14 @@ Den offentliga dokumentationen innehåller en representativ observationstidslinj
 
 # 🌐 Demonstration av strukturell mappning till ett externt dataset (External Dataset Structural Mapping Demonstration)
 
-CS-NRRM™:s strukturella tillvägagångssätt mappades till ett oberoende skapat longitudinellt dataset publicerat av **The University of Queensland**.  
-*The structural approach of CS-NRRM™ was mapped to an independently created longitudinal dataset published by **The University of Queensland**.*
+CS-NRRM™:s struktur jämfördes på publikations- och metadatanivå med den dokumenterade strukturen i ett oberoende skapat longitudinellt dataset publicerat av **The University of Queensland**. De ursprungliga datasetfilerna, fullständiga CSV-metadata och källposter laddades inte ned eller bearbetades.  
+*The structure of CS-NRRM™ was compared at the publication-and-metadata level with the documented structure of an independently created longitudinal dataset published by **The University of Queensland**. The original dataset files, complete CSV metadata, and source-level records were not downloaded or processed.*
 
-Denna demonstration använde de tidsmässiga relationerna i ett offentligt longitudinellt hudbildsdataset, där samma lesioner observerades upprepade gånger vid flera tidpunkter, för att utvärdera om externt genererade longitudinella relationer kunde representeras inom CS-NRRM™-strukturen för **kronologi (chronology), kontinuitet (continuity), observationskontext (observation context), proveniens (provenance) och tolkningsgränser (interpretation boundaries)**.  
-*This demonstration used the temporal relationships in a public longitudinal skin image dataset, in which the same lesions were repeatedly observed at multiple timepoints, to evaluate whether externally generated longitudinal relationships could be represented within the CS-NRRM™ structure for chronology, continuity, observation context, provenance, and interpretation boundaries.*
+Denna utvärdering använde den offentligt dokumenterade longitudinella hudbildsstrukturen och representativa sekvenser som beskrivs i källpublikationen för att bedöma om de dokumenterade tidsmässiga relationerna var strukturellt kompatibla med CS-NRRM™-elementen **kronologi (chronology), kontinuitet (continuity), observationskontext (observation context), proveniens (provenance) och tolkningsgränser (interpretation boundaries)**.  
+*This demonstration used the publicly documented longitudinal skin-image structure and representative sequences described in the source publication to assess whether the documented temporal relationships were structurally compatible with the CS-NRRM™ elements of chronology, continuity, observation context, provenance, and interpretation boundaries.*
 
-Detta utgör en **demonstration av strukturell portabilitet (structural portability demonstration)**, inte oberoende validering (independent validation), klinisk validering eller driftsättning av infrastrukturen i en verklig operativ miljö.  
-*This constitutes a **structural portability demonstration**, not independent validation, clinical validation, or deployment of the infrastructure in a real-world operational environment.*
+Detta är en **demonstration av strukturell kompatibilitet på publikationsnivå (publication-level structural compatibility demonstration)**, inte analys av källposter, ett portabilitetstest på postnivå, oberoende validering, klinisk validering eller operativ driftsättning av infrastrukturen.  
+*This is a **publication-level structural compatibility demonstration**, not source-record analysis, a record-level portability test, independent validation, clinical validation, or operational infrastructure deployment.*
 
 ## Dokumentation av den externa demonstrationen (External Demonstration Documentation)
 

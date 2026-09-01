@@ -274,14 +274,14 @@ Changhun Shinの**12年**間にわたる個人的な記録と経験に基づい�
 
 # 🌐 外部データセット構造マッピング実証 (External Dataset Structural Mapping Demonstration)
 
-CS-NRRM™の構造的アプローチは、**The University of Queensland**によって公開された、独立して作成された長期的データセットに構造的にマッピングされました。  
-*The structural approach of CS-NRRM™ was mapped to an independently created longitudinal dataset published by **The University of Queensland**.*
+CS-NRRM™の構造は、**The University of Queensland**が公開した独立作成の縦断データセットの文書化された構造と、論文・メタデータレベルで比較されました。元のデータセットファイル、完全なCSVメタデータ、ソースレベルのレコードはダウンロードまたは処理されていません。  
+*The structure of CS-NRRM™ was compared at the publication-and-metadata level with the documented structure of an independently created longitudinal dataset published by **The University of Queensland**. The original dataset files, complete CSV metadata, and source-level records were not downloaded or processed.*
 
-この実証では、同一の病変が複数の時点で繰り返し観察された公開長期的皮膚画像データセットの時間的関係を使用し、外部で生成された長期的関係をCS-NRRM™の**時系列（chronology）、継続性（continuity）、観察コンテキスト（observation context）、来歴情報（provenance）、解釈の境界（interpretation boundaries）**の構造で表現できるかを評価しました。  
-*This demonstration used the temporal relationships in a public longitudinal skin image dataset, in which the same lesions were repeatedly observed at multiple timepoints, to evaluate whether externally generated longitudinal relationships could be represented within the CS-NRRM™ structure for chronology, continuity, observation context, provenance, and interpretation boundaries.*
+本実証では、原著論文に記載された公開縦断皮膚画像構造と代表的シーケンスを用いて、文書化された時間的関係がCS-NRRM™の**時系列（chronology）、継続性（continuity）、観察コンテキスト（observation context）、来歴情報（provenance）、解釈の境界（interpretation boundaries）**の各要素と構造的に互換性があるかを評価しました。  
+*This demonstration used the publicly documented longitudinal skin-image structure and representative sequences described in the source publication to assess whether the documented temporal relationships were structurally compatible with the CS-NRRM™ elements of chronology, continuity, observation context, provenance, and interpretation boundaries.*
 
-これは**構造的ポータビリティの実証（structural portability demonstration）**であり、独立した検証（independent validation）、臨床的検証、または実際の運用環境におけるインフラストラクチャの展開を意味するものではありません。  
-*This constitutes a **structural portability demonstration**, not independent validation, clinical validation, or deployment of the infrastructure in a real-world operational environment.*
+これは**出版物レベルの構造的互換性実証（publication-level structural compatibility demonstration）**であり、ソースレコード分析、レコードレベルのポータビリティテスト、独立した検証、臨床的検証、または運用環境へのインフラストラクチャ展開ではありません。  
+*This is a **publication-level structural compatibility demonstration**, not source-record analysis, a record-level portability test, independent validation, clinical validation, or operational infrastructure deployment.*
 
 ## 外部実証ドキュメント (External Demonstration Documentation)
 

@@ -271,14 +271,14 @@ Independent Researcher
 
 # 🌐 عرض توضيحي للتخطيط الهيكلي على مجموعة بيانات خارجية (External Dataset Structural Mapping Demonstration)
 
-تم تطبيق النهج الهيكلي لـ CS-NRRM™ من خلال التخطيط الهيكلي على مجموعة بيانات طولية تم إنشاؤها بشكل مستقل ونشرتها **The University of Queensland**.  
-*The structural approach of CS-NRRM™ was mapped to an independently created longitudinal dataset published by **The University of Queensland**.*
+تمت مقارنة بنية CS-NRRM™، على مستوى المنشور والبيانات الوصفية، بالبنية الموثقة لمجموعة بيانات طولية أُنشئت بصورة مستقلة ونشرتها **The University of Queensland**. لم يتم تنزيل أو معالجة ملفات مجموعة البيانات الأصلية أو بيانات CSV الوصفية الكاملة أو السجلات على مستوى المصدر.  
+*The structure of CS-NRRM™ was compared at the publication-and-metadata level with the documented structure of an independently created longitudinal dataset published by **The University of Queensland**. The original dataset files, complete CSV metadata, and source-level records were not downloaded or processed.*
 
-استخدم هذا العرض التوضيحي العلاقات الزمنية في مجموعة بيانات عامة لصور جلدية طولية، حيث تمت ملاحظة الآفات نفسها بشكل متكرر عبر نقاط زمنية متعددة، لتقييم ما إذا كان يمكن تمثيل العلاقات الطولية المنشأة خارجياً ضمن بنية CS-NRRM™ من حيث **التسلسل الزمني (chronology)، والاستمرارية (continuity)، وسياق الملاحظة (observation context)، ومصدر البيانات (provenance)، وحدود التفسير (interpretation boundaries)**.  
-*This demonstration used the temporal relationships in a public longitudinal skin image dataset, in which the same lesions were repeatedly observed at multiple timepoints, to evaluate whether externally generated longitudinal relationships could be represented within the CS-NRRM™ structure for chronology, continuity, observation context, provenance, and interpretation boundaries.*
+استخدم هذا العرض البنية الموثقة علنًا للصور الجلدية الطولية والتسلسلات التمثيلية الموضحة في المنشور المصدر لتقييم ما إذا كانت العلاقات الزمنية الموثقة متوافقة هيكليًا مع عناصر CS-NRRM™ الخاصة بـ **التسلسل الزمني (chronology)، والاستمرارية (continuity)، وسياق الملاحظة (observation context)، ومصدر البيانات (provenance)، وحدود التفسير (interpretation boundaries)**.  
+*This demonstration used the publicly documented longitudinal skin-image structure and representative sequences described in the source publication to assess whether the documented temporal relationships were structurally compatible with the CS-NRRM™ elements of chronology, continuity, observation context, provenance, and interpretation boundaries.*
 
-يمثل هذا **عرضاً توضيحياً لقابلية النقل الهيكلي (structural portability demonstration)**، وليس تحققاً مستقلاً (independent validation)، أو تحققاً سريرياً، أو نشراً للبنية التحتية في بيئة تشغيلية فعلية.  
-*This constitutes a **structural portability demonstration**, not independent validation, clinical validation, or deployment of the infrastructure in a real-world operational environment.*
+يمثل هذا **عرضًا للتوافق الهيكلي على مستوى المنشور (publication-level structural compatibility demonstration)**، وليس تحليلًا لسجلات المصدر، أو اختبار قابلية نقل على مستوى السجلات، أو تحققًا مستقلاً، أو تحققًا سريريًا، أو نشرًا تشغيليًا للبنية التحتية.  
+*This is a **publication-level structural compatibility demonstration**, not source-record analysis, a record-level portability test, independent validation, clinical validation, or operational infrastructure deployment.*
 
 ## وثائق العرض التوضيحي الخارجي (External Demonstration Documentation)
 

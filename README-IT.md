@@ -256,11 +256,11 @@ La documentazione pubblica include una linea temporale rappresentativa dell'osse
 
 # 🌐 Dimostrazione di Mappatura Strutturale su un Dataset Esterno
 
-L'approccio strutturale di CS-NRRM™ è stato mappato su un dataset longitudinale creato in modo indipendente e pubblicato da **The University of Queensland**.
+La struttura di CS-NRRM™ è stata confrontata, a livello di pubblicazione e metadati, con la struttura documentata di un dataset longitudinale creato in modo indipendente e pubblicato da **The University of Queensland**. I file originali del dataset, i metadati CSV completi e i record sorgente non sono stati scaricati né elaborati.
 
-Questa dimostrazione ha utilizzato le relazioni temporali di un dataset pubblico di immagini longitudinali della pelle, nel quale le stesse lesioni sono state osservate ripetutamente in più momenti temporali, per valutare se relazioni longitudinali generate esternamente potessero essere rappresentate all'interno della struttura CS-NRRM™ in termini di **cronologia (chronology), continuità (continuity), contesto di osservazione (observation context), provenienza (provenance) e limiti di interpretazione (interpretation boundaries)**.
+Questa valutazione ha utilizzato la struttura pubblicamente documentata delle immagini cutanee longitudinali e le sequenze rappresentative descritte nella pubblicazione di origine per verificare se le relazioni temporali documentate fossero strutturalmente compatibili con gli elementi CS-NRRM™ di **cronologia (chronology), continuità (continuity), contesto di osservazione (observation context), provenienza (provenance) e limiti di interpretazione (interpretation boundaries)**.
 
-Questa costituisce una **dimostrazione di portabilità strutturale (structural portability demonstration)** e non una validazione indipendente (independent validation), una validazione clinica o un'implementazione dell'infrastruttura in un ambiente operativo reale.
+Questa è una **dimostrazione di compatibilità strutturale a livello di pubblicazione (publication-level structural compatibility demonstration)**, non un'analisi dei record sorgente, un test di portabilità a livello di record, una validazione indipendente, una validazione clinica o un'implementazione operativa dell'infrastruttura.
 
 ## Documentazione della Dimostrazione Esterna
 
