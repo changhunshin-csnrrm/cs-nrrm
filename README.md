@@ -1002,13 +1002,13 @@ This demonstration shows structural applicability beyond the original archive, b
 
 ## External Dataset Structural Demonstration
 
-CS-NRRM™ has been structurally mapped to an independently created public longitudinal dataset from the University of Queensland.
+CS-NRRM™ has been compared at the publication-and-metadata level with the documented structure of an independently created public longitudinal dataset from the University of Queensland. The original dataset files and complete source records were not downloaded or processed.
 
-The demonstration uses publicly documented longitudinal skin-image structures containing repeated observations of the same lesions across multiple timepoints.
+The demonstration uses publicly documented longitudinal skin-image structures and representative sequences described in the source publication.
 
-It evaluates whether externally created longitudinal relationships can be represented through the CS-NRRM™ structural elements of chronology, continuity, observation context, provenance, and interpretation boundaries.
+It evaluates whether the documented temporal relationships are structurally compatible with the CS-NRRM™ elements of chronology, continuity, observation context, provenance, and interpretation boundaries.
 
-This is a **structural portability demonstration**, not independent validation, clinical validation, or operational infrastructure deployment.
+This is a **publication-level structural compatibility demonstration**, not source-record analysis, a record-level portability test, independent validation, clinical validation, or operational infrastructure deployment.
 
 ### External Demonstration
 
