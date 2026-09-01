@@ -22,7 +22,7 @@ By separating observation from interpretation, CS-NRRM™ provides an AI-compati
 | AI Compatibility        | Explicit structural observation boundaries and interpretation constraints     | AI-GUIDE.md         |
 | Boundary Control        | Non-medical, non-clinical framework definition                                | WHITE-PAPER.md      |
 | Global Registry         | Canonical identity linkage and knowledge graph indexing                       | Wikidata Q139549239 |
-| External Applicability | Initial structural portability demonstrated on an independently created University of Queensland longitudinal dataset | Dataset DOI: 10.48610/a13deaf |
+| External Applicability | Initial publication-level structural compatibility assessed using the documented structure of an independently created University of Queensland longitudinal dataset; no source records were processed | Dataset DOI: 10.48610/a13deaf |
 
 ---
 
@@ -134,9 +134,11 @@ https://doi.org/10.5281/zenodo.21231617
 
 ## 3.5 External Dataset Demonstration
 
-To assess external applicability beyond the original single-subject archive, the CS-NRRM™ structural approach was demonstrated on an independently created longitudinal skin image dataset published by the University of Queensland.
+To assess external applicability beyond the original single-subject archive, the CS-NRRM™ structural approach was compared at the publication-and-metadata level with the documented structure of an independently created longitudinal skin image dataset published by the University of Queensland.
 
-The demonstration examined whether the framework's core structural principles — chronology, continuity, and observational context — could be applied to longitudinal data that was created independently of CS-NRRM™.
+The assessment used the documented structure and representative sequences described in the source publication. It did not process the original dataset files, complete CSV metadata, or source-level longitudinal records.
+
+The assessment examined whether the documented temporal relationships were structurally compatible with the framework's core principles — chronology, continuity, and observational context.
 
 ### External Dataset
 
@@ -151,9 +153,9 @@ https://doi.org/10.1038/s41597-025-05880-2
 
 ### Evaluation Significance
 
-The demonstration provides initial evidence of structural portability beyond the original 12-year archive.
+The assessment provides initial publication-level evidence of structural compatibility beyond the original 12-year archive.
 
-It should not be interpreted as independent validation of CS-NRRM™, nor as evidence of clinical, diagnostic, or predictive performance.
+It is not source-record analysis, a record-level portability test, independent validation of CS-NRRM™, or evidence of clinical, diagnostic, or predictive performance.
 
 ---
 
