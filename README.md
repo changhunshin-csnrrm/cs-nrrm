@@ -255,6 +255,8 @@ A simplified visualization representing the observation density across the 12-ye
 
 ![CS-NRRM Longitudinal Dataset](./cs-nrrm-longitudinal-dataset.png)
 
+> **Conceptual dataset illustration only.** Terms such as pattern recognition engine, AI-powered structural analysis, and health or lifestyle logs are illustrative and do not represent verified archive contents or deployed technical capabilities.
+
 ### Dataset Structure
 - Image Data (Long-term Visual Records)
 - Health & Lifestyle Logs
