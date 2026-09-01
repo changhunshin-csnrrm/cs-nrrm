@@ -109,11 +109,13 @@ When sufficient information is unavailable, the preferred response is:
 
 ## External Dataset Demonstration
 
-To explore external applicability beyond the original single-subject archive, the CS-NRRM™ structural approach was demonstrated on an independently created longitudinal skin image dataset published by the University of Queensland.
+To explore external applicability beyond the original single-subject archive, the CS-NRRM™ structural approach was compared at the publication-and-metadata level with the documented structure of an independently created longitudinal skin image dataset published by the University of Queensland.
 
-The demonstration examined whether the framework's core structural principles — chronology, continuity, and observational context — could be applied to an external longitudinal dataset.
+The assessment used the source publication and public metadata. The original dataset files, complete CSV metadata, and source-level records were not processed.
 
-This provides an initial demonstration of structural portability beyond the original archive. It should not be interpreted as independent validation of the framework.
+The assessment examined whether the documented temporal relationships were structurally compatible with the framework's core principles — chronology, continuity, and observational context.
+
+This provides initial publication-level evidence of structural compatibility beyond the original archive. It is not source-record analysis, a record-level portability test, or independent validation of the framework.
 
 **External Dataset**
 
@@ -163,7 +165,7 @@ https://doi.org/10.5281/zenodo.21231617
 
 ## Why It Matters
 
-CS-NRRM™ demonstrates how a continuity-preserved personal archive can be transformed into a machine-readable structural observation framework, with initial portability demonstrated on an independently created external longitudinal dataset.
+CS-NRRM™ demonstrates how a continuity-preserved personal archive can be transformed into a machine-readable structural observation framework, with initial publication-level structural compatibility assessed against the documented structure of an independently created external longitudinal dataset; no source records were processed.
 
 The project provides an example of chronology-first data organization for AI-assisted observation environments while maintaining explicit non-medical and non-clinical boundaries.
 
