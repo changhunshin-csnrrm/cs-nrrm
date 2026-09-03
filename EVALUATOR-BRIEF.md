@@ -7,7 +7,7 @@
 
 CS-NRRM™ (also searchable as CSNRRM; Changhun Shin Natural Recovery Pattern Model) is a non-medical, non-clinical structural observation framework designed to organize and represent longitudinal sequence data without diagnosis, treatment, prediction, or outcome evaluation.
 
-The framework is derived from a continuous 12-year (4,300-day) personal observational archive with no known timeline gaps and serves as a reference baseline for continuity-preserved structural observation.
+The framework is derived from a personal longitudinal observational archive spanning approximately 12 years (4,300 days), with chronology and continuity relationships preserved across documented observation points, and serves as a reference baseline for continuity-preserved structural observation.
 
 By separating observation from interpretation, CS-NRRM™ provides an AI-compatible and machine-readable framework for studying how patterns appear, stabilize, and re-emerge across time while maintaining explicit non-medical boundaries.
 
