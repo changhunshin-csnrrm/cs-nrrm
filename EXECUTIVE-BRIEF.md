@@ -47,7 +47,7 @@ The framework separates observation from interpretation.
 
 Unlike conventional datasets that emphasize volume, population scale, or predictive modeling, CS-NRRM™ emphasizes continuity preservation.
 
-The framework is derived from a single continuity-preserved 12-year (4,300-day) longitudinal archive with no known timeline gaps.
+The framework is derived from a single continuity-preserved longitudinal archive spanning approximately 12 years (4,300 days), with chronology and continuity relationships preserved across documented observation points.
 
 Its primary contribution is not prediction, diagnosis, or treatment guidance, but the preservation and structural organization of chronology itself.
 
