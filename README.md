@@ -460,9 +460,9 @@ Rather than focusing on results, CS-NRRM™ organizes long-term records into a c
 **Input → Processing → Output**
 
 ### Input
-- Continuous observational record (12 years / 4,300 days)
+- Longitudinal observational archive spanning approximately 12 years (4,300 days)
 - Time-indexed visual references
-- Recorded continuity without missing intervals
+- Chronology and continuity relationships preserved across documented observation points
 
 ### Processing
 - Reference timepoint selection
