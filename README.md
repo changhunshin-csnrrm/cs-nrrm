@@ -71,6 +71,20 @@ CS-NRRM™ preserves continuity, chronology, and observational context across ti
 
 This repository serves as the technical definition anchor of CS-NRRM™.
 
+### Why Does CS-NRRM™ Matter?
+
+Two photographs can show what changed between two moments. But they cannot show everything that happened in between.
+
+CS-NRRM™ began with approximately 12 years of personal observation records. Its purpose is to preserve the documented timeline of change, including observation dates, continuity, missing periods, context, and data sources.
+
+This matters because AI can compare recorded results, but it cannot reliably reconstruct events that were never documented.
+
+CS-NRRM™ provides a structured approach to organizing long-term observations so that AI systems and researchers can examine documented changes without inventing missing information.
+
+The complete original archive remains private. Public materials demonstrate the framework's structure and selected applications.
+
+CS-NRRM™ does not diagnose, treat, explain medical causes, or predict future health outcomes.
+  
 ---
 
 ## 🔹 Structure
@@ -185,9 +199,13 @@ Technical specifications, governance architecture, machine-readable assets, chro
 
 ---
 
-## CS-NRRM™ Dataset (12-Year Longitudinal Archive)
 
-The original **12-year (approximately 4,300-day) longitudinal archive** forms the historical foundation of the CS-NRRM™ continuity-preserved longitudinal dataset and its development toward AI-readable longitudinal data infrastructure.
+## CS-NRRM™ Dataset Documentation (Based on a Private 12-Year Archive)
+
+The original 12-year (approximately 4,300-day) longitudinal archive forms the historical foundation of CS-NRRM™ and its development toward AI-readable longitudinal data infrastructure.
+
+**Public Access Boundary:** The complete original 12-year archive remains private and is not publicly released. This repository provides public documentation, structured metadata, chronology references, and representative demonstration samples. These public materials do not constitute the complete original archive.
+  
 
 ## 📊 Dataset Metadata (Machine-readable)
 
@@ -510,8 +528,7 @@ https://www.cs-nrrm.com/about-changhun-shin
 ## 📂 Dataset & Chronology
 This section provides documentation and structured references related to the original 12-year (approximately 4,300-day) longitudinal archive of CS-NRRM™. The complete private archive is not publicly released in this repository.
 - 🔹 [View Dataset Summary](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/DATASET-SUMMARY.md)
-- 🔹 [Raw Dataset](https://raw.githubusercontent.com/changhunshin-csnrrm/cs-nrrm/main/DATASET-SUMMARY.md)
-
+- 🔹 [Dataset Summary (Raw Markdown)](https://raw.githubusercontent.com/changhunshin-csnrrm/cs-nrrm/main/DATASET-SUMMARY.md)
 - 🔹 [View Full Chronology](https://github.com/changhunshin-csnrrm/cs-nrrm/blob/main/CHRONOLOGY.md)
 - 🔹 [Raw Chronology](https://raw.githubusercontent.com/changhunshin-csnrrm/cs-nrrm/main/CHRONOLOGY.md)
 ---
