@@ -1,0 +1,33 @@
+SURVIVED X01 adjacent None-skip continue->pass
+SURVIVED X02 nonadj candidate None guard removed
+SURVIVED X03 nonadj bounds None guard removed
+SURVIVED X04 global a None skip removed
+SURVIVED X05 global b None guard removed
+SURVIVED X06 global overlap drops a[0]<=b[1] clause
+KILLED   X07 global tie requires only a[0]==b[0] in tie-count
+SURVIVED X08 short-row isinstance guard removed
+SURVIVED X09 extra-field detection (None in row) removed
+SURVIVED X10 year-only count regex ASCII->\d
+KILLED   X11 year-only interval regex fullmatch->match
+SURVIVED X12 time regex ASCII->\d
+SURVIVED X13 date regex ASCII->\d (canonical check backstops)
+SURVIVED X14 day end -1us -> -1s (equiv at 1s granularity?)
+SURVIVED X15 year-only end -1us -> -1s
+SURVIVED X16 report record_count -> 0
+SURVIVED X17 report ambiguous pair list -> []
+SURVIVED X18 report max_date param -> None
+SURVIVED X19 report columns -> []
+SURVIVED X20 except drops OverflowError (reachable?)
+SURVIVED X21 remove canonical-date backstop
+KILLED   X22 cutoff end-of-day -> start-of-day
+SURVIVED X23 interval invalid_timestamp detail dropped
+KILLED   X24 unknown_region startswith -> ==
+KILLED   X25 exit code always 0
+KILLED   X26 adjacent loop range start 1->2
+KILLED   X27 nonadj threshold i>=2 -> i>=3
+KILLED   X28 nonadj uses intervals[i-1]
+SURVIVED X29 duplicate-id report id dropped
+KILLED   X30 sequence_order compare str(i+1)->str(i)
+SURVIVED X31 invalid_confidence value field dropped
+KILLED   X32 year-only requires unknown time: raise->pass
+my mutants: killed=10 survived=22 skipped=0

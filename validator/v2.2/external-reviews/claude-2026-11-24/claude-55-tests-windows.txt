@@ -1,0 +1,63 @@
+test_adjacent_inversion (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_adjacent_inversion) ... ok
+test_bad_dates (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_bad_dates) ... ok
+test_cli (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_cli) ... ok
+test_confidence (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_confidence) ... ok
+test_count (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_count) ... ok
+test_counts_unknown (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_counts_unknown) ... ok
+test_duplicate (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_duplicate) ... ok
+test_empty (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_empty) ... ok
+test_id_sequence (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_id_sequence) ... ok
+test_invalid_encoding (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_invalid_encoding) ... ok
+test_max_date (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_max_date) ... ok
+test_midnight_overlap_both_directions (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_midnight_overlap_both_directions) ... ok
+test_missing_field (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_missing_field) ... ok
+test_next_link (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_next_link) ... ok
+test_nonadjacent_inversion (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_nonadjacent_inversion) ... ok
+test_nonadjacent_witness_when_adjacent_is_peak (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_nonadjacent_witness_when_adjacent_is_peak) ... ok
+test_previous_link (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_previous_link) ... ok
+test_region_whitespace (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_region_whitespace) ... ok
+test_schema (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_schema) ... ok
+test_sequence_order (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_sequence_order) ... ok
+test_ties (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_ties) ... ok
+test_valid_and_hashes (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_valid_and_hashes) ... ok
+test_equal_latest_start_keeps_first_witness (test_v2_1_mutation_gaps.MutationGapTests.test_equal_latest_start_keeps_first_witness) ... ok
+test_nonadjacent_equal_boundary_is_not_inversion (test_v2_1_mutation_gaps.MutationGapTests.test_nonadjacent_equal_boundary_is_not_inversion) ... ok
+test_unsupported_year_boundaries (test_v2_1_mutation_gaps.MutationGapTests.test_unsupported_year_boundaries) ... ok
+test_bom_input_accepted (audit_new_tests.GapClosers.test_bom_input_accepted) ... ok
+test_cli_argument_guards (audit_new_tests.GapClosers.test_cli_argument_guards) ... ok
+test_day_interval_does_not_reach_next_midnight (audit_new_tests.GapClosers.test_day_interval_does_not_reach_next_midnight) ... ok
+test_input_regex_strictness (audit_new_tests.GapClosers.test_input_regex_strictness) ... ok
+test_invalid_timestamp_reported_through_validate (audit_new_tests.GapClosers.test_invalid_timestamp_reported_through_validate) ... ok
+test_lowercase_unknown_region_counted (audit_new_tests.GapClosers.test_lowercase_unknown_region_counted) ... ok
+test_max_date_boundaries (audit_new_tests.GapClosers.test_max_date_boundaries) ... ok
+test_oversize_field_reports_csv_parse_error (audit_new_tests.GapClosers.test_oversize_field_reports_csv_parse_error) ... ok
+test_whitespace_only_field_is_missing (audit_new_tests.GapClosers.test_whitespace_only_field_is_missing) ... ok
+test_nonadjacent_exact_tie_counted_globally_only (audit_new_tests.TieSite2.test_nonadjacent_exact_tie_counted_globally_only) ... ok
+test_point_vs_containing_day_is_overlap_not_exact_tie (audit_new_tests.TieSite2.test_point_vs_containing_day_is_overlap_not_exact_tie) ... ok
+test_two_identical_imprecise_intervals_are_not_exact_ties (audit_new_tests.TieSite2.test_two_identical_imprecise_intervals_are_not_exact_ties) ... ok
+test_year_zero_and_9999_report_validator_message (audit_new_tests.YearBoundaryMessage.test_year_zero_and_9999_report_validator_message) ... ok
+test_documented_range_includes_0001_to_0999 (audit_bug_repro.YearBelow1000.test_documented_range_includes_0001_to_0999) ... ok
+test_all_rows_invalid (proposed_tests.InvalidTimestampNeighbours.test_all_rows_invalid) ... ok
+test_invalid_first_and_last_rows (proposed_tests.InvalidTimestampNeighbours.test_invalid_first_and_last_rows) ... ok
+test_invalid_row_between_valid_rows_does_not_crash_and_is_isolated (proposed_tests.InvalidTimestampNeighbours.test_invalid_row_between_valid_rows_does_not_crash_and_is_isolated) ... ok
+test_inversion_across_invalid_row_still_reported (proposed_tests.InvalidTimestampNeighbours.test_inversion_across_invalid_row_still_reported) ... ok
+test_invalid_row_after_two_valid_rows (proposed_tests.MoreNoneAndDigitCases.test_invalid_row_after_two_valid_rows) ... ok
+test_mixed_ascii_and_non_ascii_digit_time_rejected (proposed_tests.MoreNoneAndDigitCases.test_mixed_ascii_and_non_ascii_digit_time_rejected) ... ok
+test_definite_inversion_is_not_counted_as_overlap (proposed_tests.OverlapCountSemantics.test_definite_inversion_is_not_counted_as_overlap) ... ok
+test_nonadjacent_inversion_not_counted_as_overlap (proposed_tests.OverlapCountSemantics.test_nonadjacent_inversion_not_counted_as_overlap) ... ok
+test_duplicate_id_payload (proposed_tests.ReportContent.test_duplicate_id_payload) ... C:\CS-NRRM\검증패키지\Validator_v2.2\claude-test-run\proposed_tests.py:83: ResourceWarning: unclosed file <_io.TextIOWrapper name='C:\\Users\\samsung\\AppData\\Local\\Temp\\tmpua9602g3\\sample.csv' mode='r' encoding='utf-8'>
+  recs = list(csv.DictReader(p.open(encoding='utf-8', newline='')))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_issue_payloads (proposed_tests.ReportContent.test_issue_payloads) ... ok
+test_report_fields (proposed_tests.ReportContent.test_report_fields) ... ok
+test_extra_field (proposed_tests.RowShape.test_extra_field) ... ok
+test_short_row (proposed_tests.RowShape.test_short_row) ... ok
+test_non_ascii_digit_date_rejected_in_validate (proposed_tests.UnicodeAndWhitespace.test_non_ascii_digit_date_rejected_in_validate) ... ok
+test_non_ascii_digit_time_rejected (proposed_tests.UnicodeAndWhitespace.test_non_ascii_digit_time_rejected) ... ok
+test_year_only_count_ignores_non_ascii_digit_year (proposed_tests.UnicodeAndWhitespace.test_year_only_count_ignores_non_ascii_digit_year) ... ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 1.849s
+
+OK

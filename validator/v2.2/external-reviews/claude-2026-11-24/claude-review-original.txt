@@ -1,0 +1,142 @@
+The 39 tests pass and both SHA-256 values match. Next: the mutation script and the dataset run.
+
+Independent verification review: CS-NRRM™ Validator v2.2
+
+This is a structural software review only. I did not evaluate medical or clinical claims.
+
+Access and execution limits
+Fetch: GitHub's web page was blocked to my fetch tool (robots.txt). I cloned the repo with git in my sandbox and ran everything locally.
+Environment: Linux, Python 3.12.3. I could not run Windows, Python 3.13.17, or 3.9–3.11. I did not verify the certutil run or that 3.13.17 exists.
+Spec: There is no formal spec. "Expected behavior" below comes from the README, docstrings and code comments.
+Tests: The reviewer-authored tests are in proposed_tests.py. Put it beside the repo's test files, because it imports from test_validate_csnrrm_v2_2.
+Reproduced claims (verified)
+Claim	Result
+39 tests pass	Reproduced (39 OK)
+Mutation: 30 killed, 0 survived, 0 skipped	Reproduced
+Both SHA-256 values	Match (sha256sum)
+585-record results	Fresh run is identical to the published validation_result_v2_2.json, ignoring the runtime field
+1. Do the 39 tests cover the validation rules?
+
+Most rules have at least one test. But they do not cover how rules behave when other rows are invalid, nor the report contents.
+
+Branch coverage is 85% in-process: 173 statements, 28 missed, 3 partial branches. Lines 183–207 are the CLI body, which runs in a subprocess and so is unmeasured.
+The real in-process gaps are line 129 (continue when an adjacent row has an invalid timestamp) and line 40.
+Line 40 is unreachable. The ASCII regex at line 33 guards it. I checked years 1–9998 against months and days 1 and 28–31 and found no way to reach it. It is harmless defense-in-depth.
+2. Does the 30-mutant result show meaningful test effectiveness?
+
+It reproduces, but it is weak evidence.
+
+Circularity (verified). audit_new_tests.py contains the comment "Added: gap-closing tests for surviving auditor mutants", and test_v2_1_mutation_gaps.py is named for the same purpose. The suite was extended until these mutants died. A 100% score is therefore close to true by construction.
+Mutant mix. About 17 of the 30 are "delete the check" or "drop the counter" mutants (if False, pass), which are the easiest to kill. None target None-handling, loop bounds, except clauses, or report fields.
+Independent check. I wrote 32 additional mutants (my_mutants.py, not shipped). 22 survived the published suite. After adding my tests, 26 of the 32 were killed. The remaining 6 are equivalent or unreachable: a redundant date-format backstop (X13 and X21), one-second versus one-microsecond interval ends at second-level input (X14, X15), an unreachable OverflowError (X20), and a behaviorally identical guard (X08).
+3. Ordering, continuity, uncertain-date and ambiguity logic
+
+No bug found in the core logic (verified). I ran a differential fuzz of 4,000 random inputs of 1–7 rows each. Dates and times were drawn from small pools that included invalid values, year-only dates and unknown. I compared the validator against an independent brute-force O(n²) oracle on these outputs:
+
+adjacent inversions
+non-adjacent witness choice (earliest index among the maximum start values)
+ambiguous-adjacent count
+adjacent and global tie counts
+global overlap count
+
+There were 0 mismatches. Two caveats: the oracle uses the same definitions as the code, so this checks the implementation rather than whether the definitions are right. And the inputs are short.
+
+Design properties, not bugs:
+
+Times are naive, with no time zone or DST handling.
+Precision stops at one second.
+A year-only row can never produce an inversion with another row in the same year, so it absorbs ordering errors within that year.
+"Chronological order" means file row order. The tool says in its own output text (lines 176–178) that it cannot prove continuity in the private archive.
+4. Findings
+
+Each finding lists its file and lines, repro, expected and actual behavior.
+
+F1. Verified (test gap, medium): None-interval handling is untested.
+
+Location: validate_csnrrm_v2_2.py lines 128–129, 141–145 and 151–154. Survivors X01–X05.
+Repro: In a copy of the validator, change line 129 continue to pass, or drop the candidate is not None guard on line 143, then run the 39 tests.
+Expected: At least one test fails.
+Actual: All 39 pass, even though the mutated code would crash with TypeError on a malformed row. The original code handles these cases correctly, which proposed_tests.InvalidTimestampNeighbours confirms.
+
+F2. Verified (test gap, medium): overlap count is never checked on inverted pairs.
+
+Location: line 154. Survivor X06.
+Repro: Drop the a[0] <= b[1] clause, then run the 39 tests.
+Expected: [10:00, 09:00] gives overlapping_all_record_pairs_including_ties == 0.
+Actual: The mutant counts the pair as an overlap and still passes. This matters because 432 is a headline number in the audit.
+
+F3. Verified (test gap, low–medium): short and extra-column rows are untested.
+
+Location: line 85, None in row (survivor X09).
+Expected and actual: The original correctly flags both cases (proposed_tests.RowShape). The existing suite would not notice if that detection were removed.
+
+F4. Verified (test gap, low): report fields are not asserted.
+
+Location: lines 163–179. Survivors X16–X19, X23, X29, X31.
+Detail: record_count, columns, validation_parameters.max_date, the ambiguous-pair list, and the payloads of the duplicate_id, invalid_confidence_level and invalid_timestamp issues are never asserted.
+
+F5. Verified (test gap, low): non-ASCII digits in time strings.
+
+Location: line 45. Survivor X12.
+Detail: Existing tests cover non-ASCII digits only for the year. With the regex loosened to \d, '1٨:00:00' is accepted and nothing fails. The original rejects it correctly.
+
+F6. Verified (test infrastructure, low): audit_new_tests.py silently skips tests when run directly.
+
+Location: line 221 (if __name__=='__main__': unittest.main()), which sits mid-file before the GapClosers class.
+Repro: python audit_new_tests.py
+Expected: All 13 tests run.
+Actual: "Ran 4 tests … OK".
+Scope: The documented -m unittest command is unaffected, so the 39 count stands.
+
+F7. Verified (documentation drift, low).
+
+audit_bug_repro.py says it is "expected to FAIL on glibc/Linux". It passes on Linux here.
+audit_new_tests.py is described as "NEW audit tests (not part of supplied files)" but is counted inside the 39.
+Test files and classes still say "v2.1".
+The validator docstring says Python 3.9+, while the README says 3.13.
+
+F8. Verified (input handling, low). Non-empty means "not blank by str.strip()".
+
+Location: line 85.
+Repro: Set source_type to '\u200b', or put a NUL byte in a field.
+Expected: Probably flagged. This is my reading, since there is no spec.
+Actual: No issues are reported. NUL acceptance is Python 3.11+ csv behavior. On older Pythons I expect a csv_parse_error, but I did not run that, so it is a hypothesis.
+
+F9. Verified (scalability, informational). The global overlap loop is O(n²).
+
+Location: lines 148–157.
+Measured: 2,000 rows take 0.19 s, 4,000 take 0.64 s, and 8,000 take 2.72 s.
+Extrapolation (hypothesis): about 7 minutes at 100,000 rows. A sweep line would fix this.
+
+F10. Verified (usability, low): one defect produces a cascade of issues.
+
+Repro: Delete row 2 of a 6-row file.
+Actual: 10 issues (4 id_sequence, 4 sequence_order, 1 previous_link, 1 next_link) for one root cause.
+5. Audit claims against the evidence
+Supported (verified): the 39 tests, the 30 mutants, both hashes, and all counts in §5 of the audit.
+Stated limitations: the audit's own caveats are accurate, including no independent certification and a mutation score limited to the 30 mutants.
+Overstated: the README's "selected provenance-related metadata". The code only checks that source_type and observation_scope_note are non-blank. Both fields hold a single constant value across all 585 rows.
+Weak evidential value: the "0 issues" result on the sample.
+The precise dates are sorted ascending, and the 34 year-only rows are rows 1–34. The low confidence rows are exactly those 34.
+The sample therefore cannot exercise inversion detection, so zero issues was expected in advance.
+The published command omits --max-date, so the date-boundary rule was not applied to the dataset.
+Wording: "Detect … overlapping temporal intervals" in the README implies an error. The code counts overlaps and explicitly says they are not ordering errors. The audit report itself describes this correctly.
+Unverified: the Windows and Python 3.13.17 environment.
+6. Counterexamples and tests to add
+
+proposed_tests.py has 16 tests. They pass on the unmodified validator and kill 26 of my 32 mutants. They cover:
+
+invalid rows in the first, middle, last and all positions, and after two valid rows
+inverted and non-adjacent inverted pairs not counting as overlaps
+short and extra-column rows
+non-ASCII and mixed-digit date and time strings
+report fields and issue payloads
+
+I kept the zero-width-space check (F8) out of the file. It is a spec decision for you, and it fails on the current code.
+
+Beyond those, I recommend:
+
+a CI run across 3.9–3.13
+the fuzz-versus-oracle test, with longer sequences
+a larger mutant set that is not tuned to the tests
+an aggregation of cascade issues under a root cause

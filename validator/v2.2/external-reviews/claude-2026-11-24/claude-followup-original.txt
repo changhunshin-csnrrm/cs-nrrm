@@ -1,0 +1,245 @@
+I'll re-read both files from disk so they're reproduced exactly, and record the repo commit I tested against.
+
+Both files are reproduced exactly below, as they exist on disk. The commands in the second section were re-run from a clean directory just now and gave the results shown there.
+
+I tested commit 2c98d25f9cd0bab1aad48a5de011df1078c24d7b (origin still pointed at the same commit when I fetched). I didn't change the original validator or its tests. Git reports 0 modified tracked files in the clone. Running the tests created untracked __pycache__ and .coverage files there, and nothing else changed.
+
+1. proposed_tests.py
+
+SHA-256: 5dec5a786fbc9399622d00f92dad6893cf93073abb3cbf9b85913912d28fe678. It is also attached to the earlier reply.
+
+python
+"""Proposed additional tests (reviewer-authored). Run: python -m unittest -v proposed_tests"""
+import csv, json, tempfile, unittest
+from pathlib import Path
+import validate_csnrrm_v2_2 as V
+from test_validate_csnrrm_v2_2 import make_csv, row
+
+def val(rows, **kw):
+    with tempfile.TemporaryDirectory() as d:
+        return V.validate(make_csv(d, rows), **kw)
+
+def val_raw(text, **kw):
+    with tempfile.TemporaryDirectory() as d:
+        p = Path(d)/'r.csv'; p.write_text(text, encoding='utf-8', newline=''); return V.validate(p, **kw)
+
+class InvalidTimestampNeighbours(unittest.TestCase):
+    def test_invalid_row_between_valid_rows_does_not_crash_and_is_isolated(self):
+        r = val([row(1,'2025-01-01','08:00:00'), row(2,'2025-02-30','unknown'), row(3,'2025-01-02','08:00:00')])
+        self.assertEqual(r['issue_counts'], {'invalid_timestamp': 1})
+        self.assertEqual(r['counts']['overlapping_all_record_pairs_including_ties'], 0)
+    def test_invalid_first_and_last_rows(self):
+        r = val([row(1,'bad','unknown'), row(2), row(3,'bad','unknown')])
+        self.assertEqual(r['issue_counts'], {'invalid_timestamp': 2})
+    def test_all_rows_invalid(self):
+        r = val([row(1,'x','unknown'), row(2,'y','unknown')])
+        self.assertEqual(r['issue_counts'], {'invalid_timestamp': 2})
+    def test_inversion_across_invalid_row_still_reported(self):
+        r = val([row(1,time='10:00:00'), row(2,'bad','unknown'), row(3,time='09:00:00')])
+        self.assertEqual(r['issue_counts'].get('nonadjacent_chronological_inversion'), 1)
+
+class OverlapCountSemantics(unittest.TestCase):
+    def test_definite_inversion_is_not_counted_as_overlap(self):
+        r = val([row(1,time='10:00:00'), row(2,time='09:00:00')])
+        self.assertEqual(r['counts']['overlapping_all_record_pairs_including_ties'], 0)
+        self.assertEqual(r['counts']['temporally_ambiguous_adjacent_pairs'], 0)
+    def test_nonadjacent_inversion_not_counted_as_overlap(self):
+        r = val([row(1,time='10:00:00'), row(2,'2025-01-05','unknown'), row(3,time='09:00:00')])
+        self.assertEqual(r['counts']['overlapping_all_record_pairs_including_ties'], 0)
+
+class RowShape(unittest.TestCase):
+    def test_short_row(self):
+        hdr = ','.join(V.FIELDS)
+        r = val_raw(hdr + '\r\nCSNRRM-OBS-0001,2025-01-01,08:00:00,1\r\n')
+        self.assertIn('missing_or_extra_field', r['issue_counts'])
+    def test_extra_field(self):
+        hdr = ','.join(V.FIELDS)
+        good = ['CSNRRM-OBS-0001','2025-01-01','08:00:00','1','r','none','none','s','high','n']
+        r = val_raw(hdr + '\r\n' + ','.join(good) + ',EXTRA\r\n')
+        self.assertIn('missing_or_extra_field', r['issue_counts'])
+
+class UnicodeAndWhitespace(unittest.TestCase):
+    def test_non_ascii_digit_time_rejected(self):
+        for t in ('٠٨:٠٠:٠٠', '０８:００:００'):
+            with self.subTest(t=t), self.assertRaises(ValueError): V.interval('2025-01-01', t)
+    def test_non_ascii_digit_date_rejected_in_validate(self):
+        r = val([row(1,'٢٠٢٥-٠١-٠١','unknown')])
+        self.assertEqual(r['issue_counts'].get('invalid_timestamp'), 1)
+    def test_year_only_count_ignores_non_ascii_digit_year(self):
+        r = val([row(1,'２０２５','unknown')])
+        self.assertEqual(r['counts'].get('year_only_date',0), 0)
+
+class ReportContent(unittest.TestCase):
+    def test_report_fields(self):
+        from datetime import datetime
+        with tempfile.TemporaryDirectory() as d:
+            p = make_csv(d, [row(1,time='unknown'), row(2,time='10:00:00')])
+            r = V.validate(p, expected_count=2, max_date=datetime(2025,6,1))
+        self.assertEqual(r['record_count'], 2)
+        self.assertEqual(r['columns'], V.FIELDS)
+        self.assertEqual(r['validation_parameters'], {'expected_count': 2, 'max_date': '2025-06-01'})
+        self.assertEqual(r['temporally_ambiguous_adjacent_pairs'],
+                         [{'previous_id':'CSNRRM-OBS-0001','current_id':'CSNRRM-OBS-0002'}])
+        json.dumps(r)
+    def test_issue_payloads(self):
+        r = val([row(1), row(2)])  # baseline clean
+        self.assertEqual(r['issues'], [])
+        r = val([row(1), dict(row(2), confidence_level='bogus')])
+        self.assertIn({'type':'invalid_confidence_level','id':'CSNRRM-OBS-0002','value':'bogus'}, r['issues'])
+        r = val([row(1,'2025-02-30','unknown')])
+        self.assertEqual(r['issues'][0]['type'], 'invalid_timestamp'); self.assertTrue(r['issues'][0]['detail'])
+    def test_duplicate_id_payload(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = make_csv(d, [row(1), row(2)])
+            recs = list(csv.DictReader(p.open(encoding='utf-8', newline='')))
+            recs[1]['observation_id'] = recs[0]['observation_id']
+            with p.open('w', encoding='utf-8', newline='') as f:
+                w = csv.DictWriter(f, fieldnames=V.FIELDS); w.writeheader(); w.writerows(recs)
+            r = V.validate(p)
+        self.assertIn({'type':'duplicate_id','id':'CSNRRM-OBS-0001'}, r['issues'])
+if __name__ == '__main__': unittest.main()
+
+class MoreNoneAndDigitCases(unittest.TestCase):
+    def test_invalid_row_after_two_valid_rows(self):      # kills "bounds is not None" guard removal
+        r = val([row(1), row(2,'2025-01-02'), row(3,'bad','unknown')])
+        self.assertEqual(r['issue_counts'], {'invalid_timestamp': 1})
+    def test_mixed_ascii_and_non_ascii_digit_time_rejected(self):
+        with self.assertRaises(ValueError): V.interval('2025-01-01', '1\u0668:00:00')   # '1' + ARABIC-INDIC EIGHT
+
+Correction to my earlier review (verified). This file has the same defect I reported as F6 in the author's audit_new_tests.py. The if __name__ == '__main__' line sits mid-file, before MoreNoneAndDigitCases. Running python proposed_tests.py directly runs only 14 of the 16 tests and still prints "OK" (I confirmed this). Use the -m unittest form below. I did not change the file, because you asked for it unmodified.
+
+2. my_mutants.py
+
+SHA-256: 63fe7c601b55120092e80721e4615ee99c1ba87cae2b48f8f00abb70f400eb09.
+
+python
+import subprocess, tempfile, sys, shutil
+from pathlib import Path
+SRC=Path('/home/claude/cs-nrrm/validator/v2.2'); v=SRC/'validate_csnrrm_v2_2.py'
+src=v.read_text(encoding='utf-8')
+files=['test_validate_csnrrm_v2_2.py','test_v2_1_mutation_gaps.py','audit_new_tests.py','audit_bug_repro.py']
+extra=sys.argv[1:]  # optional extra test modules from /tmp/rev
+M=[
+('X01 adjacent None-skip continue->pass', "        if a is None or b is None:\n            continue\n        pair", "        if a is None or b is None:\n            pass\n        pair"),
+('X02 nonadj candidate None guard removed', 'if candidate is not None and (latest_start', 'if (latest_start'),
+('X03 nonadj bounds None guard removed', 'if bounds is not None and latest_start is not None and', 'if latest_start is not None and'),
+('X04 global a None skip removed', "        if a is None:\n            continue\n        for b in", "        for b in"),
+('X05 global b None guard removed', 'if b is not None and a[0] <= b[1]', 'if a[0] <= b[1]'),
+('X06 global overlap drops a[0]<=b[1] clause', 'if b is not None and a[0] <= b[1] and b[0] <= a[1]:', 'if b is not None and b[0] <= a[1]:'),
+('X07 global tie requires only a[0]==b[0] in tie-count', "if a[0] == a[1] == b[0] == b[1]:\n                    exact_tie_pairs", "if a[0] == b[0]:\n                    exact_tie_pairs"),
+('X08 short-row isinstance guard removed', "any(not isinstance(row.get(k), str) or not row.get(k, '').strip() for k in FIELDS)", "any(not (row.get(k) or '').strip() for k in FIELDS)"),
+('X09 extra-field detection (None in row) removed', 'if None in row or any(', 'if any('),
+('X10 year-only count regex ASCII->\\d', "re.fullmatch(r'[0-9]{4}', row.get('observation_date') or '')", "re.fullmatch(r'\\d{4}', row.get('observation_date') or '')"),
+('X11 year-only interval regex fullmatch->match', "if re.fullmatch(r'[0-9]{4}', date):", "if re.match(r'[0-9]{4}', date):"),
+('X12 time regex ASCII->\\d', "re.fullmatch(r'[0-9]{2}:[0-9]{2}:[0-9]{2}', time)", "re.fullmatch(r'\\d{2}:\\d{2}:\\d{2}', time)"),
+('X13 date regex ASCII->\\d (canonical check backstops)', "re.fullmatch(r'[0-9]{4}-[0-9]{2}-[0-9]{2}', date)", "re.fullmatch(r'\\d{4}-\\d{2}-\\d{2}', date)"),
+('X14 day end -1us -> -1s (equiv at 1s granularity?)', "return day, day+timedelta(days=1)-timedelta(microseconds=1)", "return day, day+timedelta(days=1)-timedelta(seconds=1)"),
+('X15 year-only end -1us -> -1s', "datetime(year+1, 1, 1)-timedelta(microseconds=1)", "datetime(year+1, 1, 1)-timedelta(seconds=1)"),
+('X16 report record_count -> 0', "'record_count': len(rows)", "'record_count': 0"),
+('X17 report ambiguous pair list -> []', "'temporally_ambiguous_adjacent_pairs': ambiguous_adjacent,", "'temporally_ambiguous_adjacent_pairs': [],"),
+('X18 report max_date param -> None', "'max_date': f'{max_date.year:04d}-{max_date.month:02d}-{max_date.day:02d}' if max_date else None", "'max_date': None"),
+('X19 report columns -> []', "'columns': columns,", "'columns': [],"),
+('X20 except drops OverflowError (reachable?)', "except (ValueError, OverflowError) as exc:", "except ValueError as exc:"),
+('X21 remove canonical-date backstop', "    if f'{day.year:04d}-{day.month:02d}-{day.day:02d}' != date:\n        raise ValueError('invalid canonical date')\n", ""),
+('X22 cutoff end-of-day -> start-of-day', 'datetime.max.time()', 'datetime.min.time()'),
+('X23 interval invalid_timestamp detail dropped', "'detail': str(exc)})\n            intervals.append(None)", "})\n            intervals.append(None)"),
+('X24 unknown_region startswith -> ==', "region.lower().startswith('unknown')", "region.lower() == 'unknown'"),
+('X25 exit code always 0', "sys.exit(1 if result['issues'] else 0)", "sys.exit(0)"),
+('X26 adjacent loop range start 1->2', 'for i in range(1, len(rows)):\n        a, b', 'for i in range(2, len(rows)):\n        a, b'),
+('X27 nonadj threshold i>=2 -> i>=3', 'if i >= 2:', 'if i >= 3:'),
+('X28 nonadj uses intervals[i-1]', 'candidate = intervals[i-2]', 'candidate = intervals[i-1]'),
+('X29 duplicate-id report id dropped', "issues.append({'type': 'duplicate_id', 'id': identifier})", "issues.append({'type': 'duplicate_id'})"),
+('X30 sequence_order compare str(i+1)->str(i)', "!= str(i+1)", "!= str(i)"),
+('X31 invalid_confidence value field dropped', ", 'value': confidence})", "})"),
+('X32 year-only requires unknown time: raise->pass', "raise ValueError('year-only date requires unknown time')", "pass"),
+]
+extra_mods=[Path(e).stem for e in extra]
+surv=0;kill=0;skip=0
+for name,old,new in M:
+    c=src.count(old)
+    if c!=1: print('SKIP(%d)'%c,name); skip+=1; continue
+    with tempfile.TemporaryDirectory() as d:
+        Path(d,v.name).write_text(src.replace(old,new),encoding='utf-8')
+        for f in files: shutil.copy2(SRC/f,d)
+        for e in extra: shutil.copy2(e,d)
+        r=subprocess.run([sys.executable,'-m','unittest']+[Path(f).stem for f in files]+extra_mods,cwd=d,capture_output=True,text=True,timeout=120)
+    if r.returncode: kill+=1; print('KILLED  ',name)
+    else: surv+=1; print('SURVIVED',name)
+print(f'my mutants: killed={kill} survived={surv} skipped={skip}')
+
+Three caveats about the script, all verified from the source:
+
+Hardcoded path. SRC is /home/claude/cs-nrrm/validator/v2.2. To use a different clone location, edit that one line in a copy of my_mutants.py.
+Kill criterion. A mutant counts as "killed" on any non-zero test exit, including a crash or timeout, not only an assertion failure. It cannot tell a meaningful failure from a trivial one. The X11 kill, for example, comes from the mutation breaking ordinary dates.
+Mutation target. It mutates only a temporary copy, never the repo.
+3. Exact reproduction commands
+
+Use these commands in a shell. Brace expansion fails in sh, so the copies are spelled out.
+
+bash
+# A. Get the repo (I tested 2c98d25f9cd0bab1aad48a5de011df1078c24d7b)
+cd /home/claude
+git clone https://github.com/changhunshin-csnrrm/cs-nrrm.git
+git -C cs-nrrm rev-parse HEAD
+
+# B. Put the two reviewer files in a separate working directory
+#    (save the two code blocks above as proposed_tests.py and my_mutants.py there)
+mkdir -p /tmp/rev2 && cd /tmp/rev2
+R=/home/claude/cs-nrrm/validator/v2.2
+cp $R/validate_csnrrm_v2_2.py $R/test_validate_csnrrm_v2_2.py .
+
+# C. Author's published claims (run inside the repo directory)
+cd $R
+python3 -m unittest -v test_validate_csnrrm_v2_2 test_v2_1_mutation_gaps audit_new_tests audit_bug_repro   # 39 OK
+python3 mutate_v2_2_with_gaps.py | tail -1                                                                   # 30/30
+python3 validate_csnrrm_v2_2.py representative_observation_sample.csv --expected-count 585 --output /tmp/out.json
+sha256sum validate_csnrrm_v2_2.py representative_observation_sample.csv
+python3 -m pip install coverage --break-system-packages -q
+python3 -m coverage run --branch --include=validate_csnrrm_v2_2.py -m unittest test_validate_csnrrm_v2_2 test_v2_1_mutation_gaps audit_new_tests audit_bug_repro
+python3 -m coverage report -m --include=validate_csnrrm_v2_2.py                                              # 85%; missing 40, 129, CLI lines
+
+# D. Reviewer tests and mutants (run in /tmp/rev2)
+cd /tmp/rev2
+python3 -m unittest proposed_tests                 # 16 tests OK on the unmodified validator
+python3 my_mutants.py | tail -1                    # published suite only: killed=10 survived=22
+python3 my_mutants.py proposed_tests.py | grep -E "SURVIVED|my mutants"   # killed=26 survived=6
+
+# E. Direct-run defects (F6 and the self-disclosed one above)
+cd $R && python3 audit_new_tests.py | tail -3      # "Ran 4 tests" instead of 13
+cd /tmp/rev2 && python3 proposed_tests.py | tail -3   # "Ran 14 tests" instead of 16
+
+Results re-run just now in a clean directory (verified):
+
+Command	Output
+python3 -m unittest proposed_tests	16 tests, OK
+python3 proposed_tests.py	14 tests, OK
+python3 my_mutants.py	killed=10, survived=22, skipped=0
+python3 my_mutants.py proposed_tests.py	killed=26, survived=6, skipped=0; survivors X08, X13, X14, X15, X20, X21
+
+The audit_new_tests.py direct-run result (4 of 13) is from my earlier session, not re-run in this turn.
+
+4. Verified findings versus hypotheses
+
+Verified (executed by me, Python 3.12.3 on Linux):
+
+The author's 39 tests pass, 30/30 mutants are killed, and both hashes match. A fresh run's JSON is identical to the published JSON apart from the runtime field.
+85% in-process coverage, with line 129 never executed.
+22 of my 32 mutants survive the author's suite, and 26 of 32 are killed with my tests added.
+The audit_new_tests.py direct-run defect, which means 4 of 13 tests run when the file is executed directly.
+The audit_bug_repro.py docstring says the test is "expected to FAIL on glibc/Linux", but it passes on Linux.
+A zero-width-space-only field and a NUL byte are both accepted.
+The O(n²) timing: 0.19 s at 2,000 rows, 0.64 s at 4,000, 2.72 s at 8,000.
+Deleting one row from a 6-row file produces 10 issues.
+
+Hypotheses, not executed:
+
+The 6 surviving mutants are equivalent or unreachable. This rests on code reading plus my check of years 1–9998 for line 40, not on a proof.
+NUL bytes produce csv_parse_error on Python below 3.11.
+Runtime at 100,000 rows would be about 7 minutes. That is extrapolated.
+Behavior on Python 3.9–3.11 and 3.13, and on Windows. I could not run any of them.
+
+Evidence I cannot hand over as files:
+
+Differential fuzz. The 4,000-case fuzz against the brute-force oracle ran from fuzz.py. I later edited it with a careless sed command, and the result is a messy file that runs on import. I'm not publishing it as-is. I could write a clean version, but that would be a new script, so the "0 mismatches" result is currently reproducible only in description.
+Inline probes. The NUL, zero-width-space, cascade and performance probes ran as inline snippets. Those were never saved as files. The commands above don't reproduce them, though the behavior is easy to re-check by hand.
+Not performed. I did not verify the author's Windows/certutil run or that Python 3.13.17 exists. The hashes I matched are file hashes computed on my Linux copy, not the author's execution.
