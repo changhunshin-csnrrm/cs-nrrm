@@ -1,0 +1,42 @@
+{
+  "purpose": "Controlled injected chronological inversion; not a source-data finding",
+  "source_file": "representative_observation_sample.csv",
+  "source_sha256": "745beb502ee5ed4641ce1b4226315b45973effec304ba965e9513ad7292dfa13",
+  "probe_file": "chronology_probe_v1.csv",
+  "probe_sha256": "816d9c7d709a5023d53683e22b712593adc0571961df2e506e7f38881959328c",
+  "record_count": 585,
+  "modified_fields": [
+    "observation_date",
+    "observation_time"
+  ],
+  "modified_row_count": 2,
+  "before": [
+    {
+      "row": 6,
+      "id": "CSNRRM-OBS-0005",
+      "date": "2013",
+      "time": "unknown"
+    },
+    {
+      "row": 7,
+      "id": "CSNRRM-OBS-0006",
+      "date": "2014",
+      "time": "unknown"
+    }
+  ],
+  "after": [
+    {
+      "row": 6,
+      "id": "CSNRRM-OBS-0005",
+      "date": "2014",
+      "time": "unknown"
+    },
+    {
+      "row": 7,
+      "id": "CSNRRM-OBS-0006",
+      "date": "2013",
+      "time": "unknown"
+    }
+  ],
+  "expected": "A definite adjacent chronological inversion detectable by Validator v2.2; limited CONTROL does not compare row chronology"
+}
