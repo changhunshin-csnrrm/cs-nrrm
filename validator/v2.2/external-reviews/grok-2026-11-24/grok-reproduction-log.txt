@@ -1,0 +1,168 @@
+Independent Reproduction Evidence — CS-NRRM™ Validator v2.2
+
+Date of execution: 2026-11-24
+
+Environment: Remote Linux sandbox (independent of the original Windows 3.13.17 developer environment)1. Python & System Environment텍스트Python 3.12.3
+3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]
+Linux-6.12.8+-x86_64-with-glibc2.39
+CPython
+x86_64
+/usr/local/bin/python
+Linux hds-ngey1455rqz4 6.12.8+ #1 SMP Tue Jul 21 13:56:45 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux2. SHA-256 Verification of Source Artifacts텍스트d5f79ffbbfc648e1c1b8f3e8eda95b88290e68600edc7ccf1604eb71364b2e5d  validate_csnrrm_v2_2.py
+61b2e4ef97b31133dfd5e0e3875b068819712d25cf906b53fc440784c06de5b3  test_validate_csnrrm_v2_2.py
+1e49fbd8039711c5e4d86be406cdddeec08f3f5aba5b8b1a24c4aea5fe4442d2  test_v2_1_mutation_gaps.py
+7540a607f86b876338312fdcb19fd5bf1cb264352e661b75949cabff3d941229  audit_new_tests.py
+148bf25d77b83c8c9d5cdaa0cced12a0f4e75eb1ddcfbd0632454ec82f536363  audit_bug_repro.py
+d61187260b0397fbea99d0df72bda8485a16683fb07b6df238851b6fe69abf5d  mutate_v2_2_with_gaps.py
+745beb502ee5ed4641ce1b4226315b45973effec304ba965e9513ad7292dfa13  sample.csv   (representative_observation_sample.csv)The validator SHA-256 matches the value published in the README and Final Technical Audit. The representative CSV SHA-256 also matches.3. Full Automated Test Execution Log (39 tests)Command:Bashpython -m unittest -v test_validate_csnrrm_v2_2 test_v2_1_mutation_gaps audit_new_tests audit_bug_reproComplete output:텍스트test_adjacent_inversion (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_adjacent_inversion) ... ok
+test_bad_dates (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_bad_dates) ... ok
+test_cli (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_cli) ... ok
+test_confidence (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_confidence) ... ok
+test_count (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_count) ... ok
+test_counts_unknown (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_counts_unknown) ... ok
+test_duplicate (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_duplicate) ... ok
+test_empty (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_empty) ... ok
+test_id_sequence (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_id_sequence) ... ok
+test_invalid_encoding (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_invalid_encoding) ... ok
+test_max_date (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_max_date) ... ok
+test_midnight_overlap_both_directions (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_midnight_overlap_both_directions) ... ok
+test_missing_field (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_missing_field) ... ok
+test_next_link (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_next_link) ... ok
+test_nonadjacent_inversion (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_nonadjacent_inversion) ... ok
+test_nonadjacent_witness_when_adjacent_is_peak (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_nonadjacent_witness_when_adjacent_is_peak) ... ok
+test_previous_link (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_previous_link) ... ok
+test_region_whitespace (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_region_whitespace) ... ok
+test_schema (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_schema) ... ok
+test_sequence_order (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_sequence_order) ... ok
+test_ties (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_ties) ... ok
+test_valid_and_hashes (test_validate_csnrrm_v2_2.ValidatorV21Tests.test_valid_and_hashes) ... ok
+test_equal_latest_start_keeps_first_witness (test_v2_1_mutation_gaps.MutationGapTests.test_equal_latest_start_keeps_first_witness) ... ok
+test_nonadjacent_equal_boundary_is_not_inversion (test_v2_1_mutation_gaps.MutationGapTests.test_nonadjacent_equal_boundary_is_not_inversion) ... ok
+test_unsupported_year_boundaries (test_v2_1_mutation_gaps.MutationGapTests.test_unsupported_year_boundaries) ... ok
+test_bom_input_accepted (audit_new_tests.GapClosers.test_bom_input_accepted) ... ok
+test_cli_argument_guards (audit_new_tests.GapClosers.test_cli_argument_guards) ... ok
+test_day_interval_does_not_reach_next_midnight (audit_new_tests.GapClosers.test_day_interval_does_not_reach_next_midnight) ... ok
+test_input_regex_strictness (audit_new_tests.GapClosers.test_input_regex_strictness) ... ok
+test_invalid_timestamp_reported_through_validate (audit_new_tests.GapClosers.test_invalid_timestamp_reported_through_validate) ... ok
+test_lowercase_unknown_region_counted (audit_new_tests.GapClosers.test_lowercase_unknown_region_counted) ... ok
+test_max_date_boundaries (audit_new_tests.GapClosers.test_max_date_boundaries) ... ok
+test_oversize_field_reports_csv_parse_error (audit_new_tests.GapClosers.test_oversize_field_reports_csv_parse_error) ... ok
+test_whitespace_only_field_is_missing (audit_new_tests.GapClosers.test_whitespace_only_field_is_missing) ... ok
+test_nonadjacent_exact_tie_counted_globally_only (audit_new_tests.TieSite2.test_nonadjacent_exact_tie_counted_globally_only) ... ok
+test_point_vs_containing_day_is_overlap_not_exact_tie (audit_new_tests.TieSite2.test_point_vs_containing_day_is_overlap_not_exact_tie) ... ok
+test_two_identical_imprecise_intervals_are_not_exact_ties (audit_new_tests.TieSite2.test_two_identical_imprecise_intervals_are_not_exact_ties) ... ok
+test_year_zero_and_9999_report_validator_message (audit_new_tests.YearBoundaryMessage.test_year_zero_and_9999_report_validator_message) ... ok
+test_documented_range_includes_0001_to_0999 (audit_bug_repro.YearBelow1000.test_documented_range_includes_0001_to_0999) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.251s
+
+OKResult: 39 tests, 0 failures, 0 errors.4. Full Mutation Testing Execution LogCommand:Bashpython mutate_v2_2_with_gaps.pyComplete output:텍스트Baseline: PASS
+KILLED   adjacent inversion > to >=
+KILLED   adjacent overlap inclusive to strict
+KILLED   nonadjacent > to >=
+KILLED   nonadjacent candidate > to >=
+KILLED   global overlap inclusive to strict
+KILLED   drop previous_link check
+KILLED   drop next_link check
+KILLED   drop sequence_order check
+KILLED   drop id_sequence check
+KILLED   drop duplicate_id check
+KILLED   drop schema check
+KILLED   drop max_date after check
+KILLED   drop max_date interval straddle
+KILLED   drop missing_or_extra_field
+KILLED   confidence set add unknown
+KILLED   year range 1..9998 to 0..9999
+KILLED   year-only requires unknown drop
+KILLED   unknown_region case insensitive to sensitive
+KILLED   tie both sites to starts equal
+KILLED   drop empty_dataset
+KILLED   drop expected_count
+KILLED   drop confidence tally
+KILLED   drop year_only tally
+KILLED   drop unknown_time tally
+KILLED   replace csv sha256
+KILLED   replace validator sha256
+KILLED   drop ambiguous append
+KILLED   drop exact ties count
+KILLED   drop whitespace region check
+KILLED   drop invalid encoding issue
+
+mutants=30 killed=30 survived=0 skipped=0 score=100%Result: 30/30 mutants killed.5. Representative Dataset ValidationCommand:Bashpython validate_csnrrm_v2_2.py sample.csv --expected-count 585 --output /tmp/validation_result_v2_2_repro.jsonConsole summary:텍스트{
+  "record_count": 585,
+  "counts": {
+    "confidence_high": 503,
+    "confidence_low": 34,
+    "confidence_medium": 48,
+    "identical_timestamp_adjacent_pairs": 2,
+    "identical_timestamp_all_record_pairs": 3,
+    "overlapping_all_record_pairs_including_ties": 432,
+    "temporally_ambiguous_adjacent_pairs": 34,
+    "unknown_region": 49,
+    "unknown_time": 36,
+    "year_only_date": 34
+  },
+  "issue_counts": {}
+}
+Saved: /tmp/validation_result_v2_2_repro.jsonExtracted key fields from the generated JSON:
+validator_version: 2.2.0
+record_count: 585
+issue_counts: {}
+sha256 (CSV): 745beb502ee5ed4641ce1b4226315b45973effec304ba965e9513ad7292dfa13
+validator_sha256: d5f79ffbbfc648e1c1b8f3e8eda95b88290e68600edc7ccf1604eb71364b2e5d
+runtime: {'python': '3.12.3', 'platform': 'Linux-6.12.8+-x86_64-with-glibc2.39'}
+Summary of Independent Reproduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ItemReported (Audit)Independently ReproducedMatchAutomated tests39 passed39 passed (0.251 s)YesMutation score30/30 killed (100%)30/30 killed (100%)YesSurviving / skipped mutants0 / 00 / 0YesRepresentative CSV issues00YesRecord counts & talliesAs publishedExact matchYesValidator SHA-256d5f79ffb…64b2e5dd5f79ffb…64b2e5dYesCSV SHA-256745beb50…2dfa13745beb50…2dfa13YesAll primary quantitative claims in the Final Technical Audit for v2.2 were successfully reproduced on an independent Linux + Python 3.12.3 environment.

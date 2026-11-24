@@ -1,0 +1,10 @@
+# SHA-256 values reported by Grok on 2026-11-24.
+# NOT independently recomputed here. These refer to the public project artifacts,
+# NOT to grok-review-original.txt or grok-reproduction-log.txt.
+d5f79ffbbfc648e1c1b8f3e8eda95b88290e68600edc7ccf1604eb71364b2e5d  validate_csnrrm_v2_2.py
+61b2e4ef97b31133dfd5e0e3875b068819712d25cf906b53fc440784c06de5b3  test_validate_csnrrm_v2_2.py
+1e49fbd8039711c5e4d86be406cdddeec08f3f5aba5b8b1a24c4aea5fe4442d2  test_v2_1_mutation_gaps.py
+7540a607f86b876338312fdcb19fd5bf1cb264352e661b75949cabff3d941229  audit_new_tests.py
+148bf25d77b83c8c9d5cdaa0cced12a0f4e75eb1ddcfbd0632454ec82f536363  audit_bug_repro.py
+d61187260b0397fbea99d0df72bda8485a16683fb07b6df238851b6fe69abf5d  mutate_v2_2_with_gaps.py
+745beb502ee5ed4641ce1b4226315b45973effec304ba965e9513ad7292dfa13  sample.csv

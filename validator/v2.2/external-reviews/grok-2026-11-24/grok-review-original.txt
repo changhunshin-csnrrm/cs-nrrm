@@ -1,0 +1,65 @@
+Independent software verification review of CS-NRRM™ Validator v2.2Scope and method. This is a structural software review only. I examined the public files under https://github.com/changhunshin-csnrrm/cs-nrrm/tree/main/validator/v2.2 (validator implementation, the four test modules, mutation script, README, and Final Technical Audit). I downloaded the sources, independently executed the full reported test command and the mutation script in a Linux/Python 3.12 environment, verified the published SHA-256 of validate_csnrrm_v2_2.py, downloaded and validated the representative CSV, and performed additional probing of chronological, continuity-link, uncertain-date, and temporal-ambiguity paths. Published results were not assumed correct; they were re-executed.Verified results (reproduced).
+Automated tests: 39 passed (exact command from the audit/README).
+Mutation testing: Baseline PASS; 30/30 killed, 0 survived, 0 skipped, score 100% (exact script).
+Representative CSV (representative_observation_sample.csv): 585 records, 0 issues, confidence/unknown/ambiguity/overlap counts match the audit (including 34 temporally ambiguous adjacent pairs and 432 overlapping pairs including ties).
+SHA-256 of validate_csnrrm_v2_2.py matches the published value d5f79ffbbfc648e1c1b8f3e8eda95b88290e68600edc7ccf1604eb71364b2e5d.
+Year-boundary behavior for 0001–0999 (full dates) and rejection of 0000/9999 (year-only) works as documented in the tests and audit.
+The audit claims about these specific executed results are therefore supported by independent re-execution on a different platform/Python version.1. Coverage of the 39 automated tests vs. implemented rulesVerified coverage (adequate for the core structural rules that are implemented).
+
+The tests (distributed across test_validate_csnrrm_v2_2.py, test_v2_1_mutation_gaps.py, audit_new_tests.py, audit_bug_repro.py) exercise:
+Schema / required fields / empty dataset / unexpected count / encoding (UTF-8/BOM).
+ID sequence format (CSNRRM-OBS-NNNN), sequence_order, previous/next continuity links.
+Duplicate IDs, missing/whitespace-only fields, non-canonical region whitespace, confidence levels.
+Timestamp parsing (year-only vs. YYYY-MM-DD, HH:MM:SS vs. unknown, invalid calendar dates/times, year range).
+Adjacent definite chronological inversion, adjacent temporal ambiguity/overlap, exact timestamp ties (adjacent and global).
+Non-adjacent chronological inversion (including “witness” selection and equal-boundary non-inversion).
+max_date cutoff (point after, interval straddle, same-day boundary cases).
+Count tallies (confidence, unknown time/region, year-only).
+CLI argument guards and exit codes.
+BOM acceptance, oversize field → csv_parse_error, point-vs-imprecise interval distinctions.
+These map directly onto the validation rules present in validate_csnrrm_v2_2.py (schema, ID/link/sequence integrity, interval construction, adjacent/non-adjacent ordering checks, global overlap counting, max-date rules, and descriptive counts).Limitations (hypotheses / residual risk, not proven defects).
+Combinatorial interactions (e.g., year-only + non-adjacent inversion + max_date + multiple overlapping imprecise intervals) are only partially exercised.
+No explicit tests for very large N (global overlap is O(n²); 585 is fine, but scaling behavior is untested).
+No tests for malformed rows that still parse as dicts with unexpected key types, or for CSV dialects that produce None values in more subtle ways.
+Continuity-link tests only mutate the expected adjacent values; they do not explore “correct format but pointing to a non-adjacent valid ID.”
+The single-witness policy for non-adjacent inversions (see below) is tested for selection of the earliest witness under equal starts, but not for exhaustive reporting of all possible inversions.
+Overall: the 39 tests provide solid coverage of the implemented rules and the mutation points that were chosen. They do not constitute exhaustive coverage of the input space.2. Mutation tests (30 selected)Verified. All 30 predefined string-replacement mutants were killed by the combined test suite. The mutations target the highest-risk structural paths: adjacent/non-adjacent comparison operators, link/sequence/ID/schema checks, max-date logic, confidence/unknown tallies, exact-tie detection, SHA-256 computation, whitespace/encoding handling, and a few range/strictness points.This supplies meaningful evidence that the current test suite detects those particular classes of change. Because the mutant set is manually curated and small, the 100% score is evidence of effectiveness within the chosen scope, not a general claim of defect-free code. The audit itself states this limitation; the statement is accurate.3. Chronological ordering, continuity links, uncertain dates, temporal ambiguityCore logic (verified by inspection + execution).
+Intervals are closed: year-only → [year-01-01, next-year-01-01 − 1 µs]; day+unknown → [day 00:00:00, next-day − 1 µs]; precise point → [t, t].
+Adjacent definite inversion: a[0] > b[1].
+Adjacent ambiguity/overlap: intervals intersect and are not both exact points.
+Exact tie: both intervals are degenerate and identical.
+Non-adjacent: tracks the maximum start time among records at least two positions earlier; reports at most one witness per later record when that max start > later end. Adjacent pairs are excluded (already checked). Equal start times preserve the earliest witness (tested).
+Continuity links are strictly local and sequential: previous must be the immediate prior ID (or “none”), next the immediate successor (or “none”). IDs must be exactly CSNRRM-OBS-NNNN matching 1-based position; sequence_order must be the matching string.
+No definite functional bugs found in the reviewed paths under the exercised inputs. Behavior for the published sample and the unit-test cases matches the stated rules. Year-only + unknown is enforced; mixing year-only with a concrete time raises. Day-end vs. next-midnight does not produce a spurious overlap (verified).Design observations / residual risks (hypotheses).
+Non-adjacent reporting is intentionally sparse (“at most one witness”). Multiple independent inversions for the same later record will under-report; only the latest-start witness is kept. This is consistent with the code comment but reduces diagnostic completeness.
+Global overlap count includes every pair (adjacent + non-adjacent) and treats any interval intersection as overlap; this is descriptive, not an error. Exact ties are a strict subset.
+The non-adjacent tracker updates from i-2 before checking i. This correctly excludes the adjacent pair and is covered by the equal-boundary and multi-candidate tests, but more complex interleavings of imprecise intervals could still surprise.
+4. Edge cases / malformed inputs the current tests may missVerified handling of several edges: empty dataset, wrong column set, BOM, whitespace-only fields, invalid calendar dates, year 0000/9999, non-canonical region whitespace, oversize fields (csv_parse_error), CLI argument errors.Additional cases that appear under-tested (hypotheses for new tests):
+Empty or whitespace-only rows that still produce a DictReader row (current empty-line handling drops them).
+Extra columns beyond the ten expected (schema check only compares the header list exactly).
+Links that are syntactically well-formed IDs but point to a non-adjacent record.
+Multiple consecutive year-only or unknown-time records combined with max_date straddles.
+Extremely large field values or pathological CSV (beyond the one oversize test).
+Non-UTF-8 encodings that partially decode, or mixed line endings that affect DictReader.
+sequence_order that is numerically equal but not the exact string "N".
+Observation IDs that collide after leading-zero normalization or case differences (current check is exact string).
+None of these produced a confirmed defect in the limited probes I ran; they remain coverage gaps.5. Support for technical-audit claimsThe quantitative claims (39 tests pass, 30/30 mutants killed, 585-record sample with 0 issues and the listed counts, SHA-256 values) are independently reproducible and therefore supported. The interpretive statements in the audit (scope limits, non-medical nature, “mutation score does not establish exhaustive correctness,” “developer-executed”) are accurate and appropriately cautious. No evidence of fabricated results was found.6. Recommended additional tests / counter-example candidatesThese are concrete, reproducible additions that would strengthen the suite (none currently fail; they close residual gaps):
+Non-adjacent multi-inversion reporting completeness
+
+Construct four records with times 12:00, 11:00, 10:00, 09:00. Confirm that both adjacent inversions and the non-adjacent witness(es) appear, and document that only one non-adjacent witness is emitted.
+Link that points to a valid but non-adjacent ID
+
+Keep sequential IDs and sequence_order correct, but set previous_observation_id of record 3 to the ID of record 1. Expect previous_link issue.
+Year-only + max_date + precise later record
+
+Year-only 2025 + max_date 2025-06-01 followed by a 2025-07-01 precise point; confirm both interval-exceeds and any ordering issues are reported independently.
+Empty-string vs. whitespace-only vs. missing key for every required field (already partially covered; extend to all ten columns).
+Global overlap count under a chain of identical imprecise intervals (should count every pair, not just adjacent).
+Performance smoke test (optional): 5 000 synthetic records with mixed precise/imprecise timestamps; assert completion and correct issue counts without timeout.
+Summary judgment
+The 39 tests adequately cover the implemented validation rules for the structural properties the validator claims to check.
+The 30 mutation tests supply meaningful, independently reproduced evidence of effectiveness for those chosen faults.
+No definite bugs were identified in chronological ordering, continuity-link enforcement, uncertain-date interval construction, or temporal-ambiguity detection under the exercised inputs and the published sample.
+Residual risks are primarily coverage completeness (combinatorial cases, diagnostic sparsity of non-adjacent reporting, untested pathological inputs) rather than demonstrated incorrect behavior.
+The technical audit’s factual claims about the executed results are supported; its stated limitations are appropriate.
+All findings above are either directly reproduced or clearly labeled as hypotheses. Further independent review on additional platforms or with larger synthetic suites would be valuable, but is outside the scope of the public artifacts examined here.
