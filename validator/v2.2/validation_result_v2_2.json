@@ -1,0 +1,190 @@
+{
+  "validator_version": "2.2.0",
+  "source_file": "representative_observation_sample.csv",
+  "sha256": "745beb502ee5ed4641ce1b4226315b45973effec304ba965e9513ad7292dfa13",
+  "validator_sha256": "d5f79ffbbfc648e1c1b8f3e8eda95b88290e68600edc7ccf1604eb71364b2e5d",
+  "runtime": {
+    "python": "3.13.17",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "validation_parameters": {
+    "expected_count": 585,
+    "max_date": null
+  },
+  "record_count": 585,
+  "columns": [
+    "observation_id",
+    "observation_date",
+    "observation_time",
+    "sequence_order",
+    "anatomical_region",
+    "previous_observation_id",
+    "next_observation_id",
+    "source_type",
+    "confidence_level",
+    "observation_scope_note"
+  ],
+  "counts": {
+    "confidence_high": 503,
+    "confidence_low": 34,
+    "confidence_medium": 48,
+    "identical_timestamp_adjacent_pairs": 2,
+    "identical_timestamp_all_record_pairs": 3,
+    "overlapping_all_record_pairs_including_ties": 432,
+    "temporally_ambiguous_adjacent_pairs": 34,
+    "unknown_region": 49,
+    "unknown_time": 36,
+    "year_only_date": 34
+  },
+  "temporally_ambiguous_adjacent_pairs": [
+    {
+      "previous_id": "CSNRRM-OBS-0001",
+      "current_id": "CSNRRM-OBS-0002"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0002",
+      "current_id": "CSNRRM-OBS-0003"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0003",
+      "current_id": "CSNRRM-OBS-0004"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0004",
+      "current_id": "CSNRRM-OBS-0005"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0006",
+      "current_id": "CSNRRM-OBS-0007"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0007",
+      "current_id": "CSNRRM-OBS-0008"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0008",
+      "current_id": "CSNRRM-OBS-0009"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0009",
+      "current_id": "CSNRRM-OBS-0010"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0010",
+      "current_id": "CSNRRM-OBS-0011"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0011",
+      "current_id": "CSNRRM-OBS-0012"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0012",
+      "current_id": "CSNRRM-OBS-0013"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0013",
+      "current_id": "CSNRRM-OBS-0014"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0014",
+      "current_id": "CSNRRM-OBS-0015"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0015",
+      "current_id": "CSNRRM-OBS-0016"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0016",
+      "current_id": "CSNRRM-OBS-0017"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0017",
+      "current_id": "CSNRRM-OBS-0018"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0018",
+      "current_id": "CSNRRM-OBS-0019"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0019",
+      "current_id": "CSNRRM-OBS-0020"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0020",
+      "current_id": "CSNRRM-OBS-0021"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0021",
+      "current_id": "CSNRRM-OBS-0022"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0022",
+      "current_id": "CSNRRM-OBS-0023"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0023",
+      "current_id": "CSNRRM-OBS-0024"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0024",
+      "current_id": "CSNRRM-OBS-0025"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0025",
+      "current_id": "CSNRRM-OBS-0026"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0026",
+      "current_id": "CSNRRM-OBS-0027"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0027",
+      "current_id": "CSNRRM-OBS-0028"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0028",
+      "current_id": "CSNRRM-OBS-0029"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0029",
+      "current_id": "CSNRRM-OBS-0030"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0030",
+      "current_id": "CSNRRM-OBS-0031"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0031",
+      "current_id": "CSNRRM-OBS-0032"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0032",
+      "current_id": "CSNRRM-OBS-0033"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0033",
+      "current_id": "CSNRRM-OBS-0034"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0549",
+      "current_id": "CSNRRM-OBS-0550"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0555",
+      "current_id": "CSNRRM-OBS-0556"
+    }
+  ],
+  "identical_timestamp_adjacent_pairs": [
+    {
+      "previous_id": "CSNRRM-OBS-0393",
+      "current_id": "CSNRRM-OBS-0394"
+    },
+    {
+      "previous_id": "CSNRRM-OBS-0394",
+      "current_id": "CSNRRM-OBS-0395"
+    }
+  ],
+  "issue_counts": {},
+  "issues": [],
+  "interpretation": "Structural checks on this public CSV only. Row-derived IDs and links do not prove continuity in the private archive. Interval overlap is not an ordering error. No private-original, clinical, or ground-truth verification."
+}
